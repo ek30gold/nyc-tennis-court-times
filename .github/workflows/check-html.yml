@@ -1,0 +1,22 @@
+name: check-html
+on:
+  push:
+    branches: [main]
+    paths: [web/index.html]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract inline script and syntax-check it
+        run: |
+          python3 - <<'PY'
+          import re, sys
+          h = open("web/index.html").read()
+          scripts = re.findall(r"<script>(.*?)</script>", h, re.S)
+          if not scripts: sys.exit("no inline <script> found in web/index.html")
+          open("/tmp/inline.js", "w").write(scripts[0])
+          PY
+          node --check /tmp/inline.js
+          echo "inline script parses"
