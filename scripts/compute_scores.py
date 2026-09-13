@@ -58,11 +58,18 @@ def main():
     # Tonight's booked density forecasts tomorrow's pressure; stale (>36h) or
     # unavailable data means no adjustment (graceful degradation).
     res_mod = {}
+    res_applies_to = None
+    res_captured_at = None
     try:
         res = json.load(open("data/reservation_density.json"))
         age_h = (datetime.datetime.now(datetime.timezone.utc) -
                  datetime.datetime.fromisoformat(res["captured_at"])).total_seconds() / 3600
         if res.get("status") == "ok" and age_h < 36:
+            from zoneinfo import ZoneInfo
+            cap = datetime.datetime.fromisoformat(res["captured_at"])
+            res_captured_at = res["captured_at"]
+            res_applies_to = (cap.astimezone(ZoneInfo("America/New_York")).date()
+                              + datetime.timedelta(days=1)).isoformat()
             for site in res["sites"].values():
                 if site.get("density") is not None:
                     for pid in site["park_ids"]:
@@ -115,6 +122,18 @@ def main():
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
             "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality),
             "band": band(s), "score": round(s, 2)})
+    # client-side recompute model for the date/time picker
+    model = {
+        "generated_at": now.isoformat(timespec="seconds"),
+        "default_prior": priors["default"],
+        "facilities": {p["park_id"]: {
+            "mult": priors["facilities"].get(p["park_id"], {}).get("mult", priors["default"]),
+            "curve": (bt.get(p["park_id"], {}).get("curves") or None)}
+            for feat in courts["features"] for p in [feat["properties"]]
+            if p["park_id"] not in closed},
+        "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
+                        "modifiers": res_mod}}
+    json.dump(model, open("web/model.json", "w"))
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
         "closures": removed,
