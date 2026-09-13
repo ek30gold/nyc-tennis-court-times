@@ -1,9 +1,16 @@
 {
- "generated_at": "2026-09-13T11:30:14",
+ "generated_at": "2026-09-13T11:48:23",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
  },
+ "closures": [
+  {
+   "park_id": "B028",
+   "name": "Dyker Beach Park",
+   "reason": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction"
+  }
+ ],
  "scores": [
   {
    "park_id": "Q012",
@@ -11,6 +18,12 @@
    "lat": 40.772191,
    "lon": -73.768797,
    "court_count": 10,
+   "popup_lines": [
+    "Asphalt",
+    "Pickleball courts on site too",
+    "Restroom ~53 m: Crocheron Park Zone 1",
+    "Water ~45 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -20,15 +33,11 @@
    "lat": 40.612418,
    "lon": -74.036865,
    "court_count": 4,
-   "band": "30-60 min",
-   "score": 0.8
-  },
-  {
-   "park_id": "B028",
-   "name": "Dyker Beach Park",
-   "lat": 40.606052,
-   "lon": -74.016899,
-   "court_count": 9,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~109 m: Shore Road Park Zone 4",
+    "Water ~121 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -38,6 +47,11 @@
    "lat": 40.683967,
    "lon": -73.887592,
    "court_count": 18,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Restroom ~151 m: Lower Highland Playground",
+    "Water ~36 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -47,6 +61,11 @@
    "lat": 40.793014,
    "lon": -73.918944,
    "court_count": 20,
+   "popup_lines": [
+    "Clay, Rubber - lit for night play",
+    "Restroom ~5 m: Sunken Meadow",
+    "Water ~18 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -56,6 +75,11 @@
    "lat": 40.690543,
    "lon": -73.975484,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~199 m: Fort Greene Park Zone 3",
+    "Water ~17 m"
+   ],
    "band": "1h+",
    "score": 1.13
   },
@@ -65,6 +89,11 @@
    "lat": 40.839962,
    "lon": -73.894746,
    "court_count": 20,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Restroom ~47 m: Crotona Tennis House & Courts",
+    "Water ~34 m"
+   ],
    "band": "short",
    "score": 0.5
   },
@@ -74,6 +103,11 @@
    "lat": 40.661742,
    "lon": -73.744462,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Restroom ~197 m: Brookville Park Playground",
+    "Water ~179 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -83,6 +117,11 @@
    "lat": 40.747842,
    "lon": -73.809653,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt, Hard Top",
+    "Restroom ~514 m: Playground",
+    "Water ~44 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -92,6 +131,11 @@
    "lat": 40.775625,
    "lon": -73.924376,
    "court_count": 14,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~77 m: Astoria Park Zone 1",
+    "Water ~28 m"
+   ],
    "band": "30-60 min",
    "score": 0.7
   },
@@ -101,6 +145,11 @@
    "lat": 40.84817,
    "lon": -73.946296,
    "court_count": 10,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~107 m: Fort Washington Park Zone 2A",
+    "Water ~48 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -110,6 +159,11 @@
    "lat": 40.519435,
    "lon": -74.186713,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~348 m: E.M.T. Christopher J. Prescott Playground",
+    "Water ~23 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -119,6 +173,11 @@
    "lat": 40.739224,
    "lon": -73.736399,
    "court_count": 16,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~49 m: Alley Pond Indoor Tennis",
+    "Water ~42 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -128,6 +187,11 @@
    "lat": 40.854358,
    "lon": -73.816078,
    "court_count": 13,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~782 m: Pelham South Park Headquarters",
+    "Water ~485 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -137,6 +201,11 @@
    "lat": 40.578399,
    "lon": -73.994376,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~88 m: Kaiser Park Zone 1",
+    "Water ~54 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -146,6 +215,12 @@
    "lat": 40.651267,
    "lon": -73.970141,
    "court_count": 11,
+   "popup_lines": [
+    "Asphalt, Clay",
+    "Season: 11 courts; 8 open to Parks permit holders in the outdoor season. Bubble season Oct 23 - May 6: paid indoor rental.",
+    "Restroom ~10 m: Prospect Park Indoor Tennis",
+    "Water ~11 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -155,6 +230,11 @@
    "lat": 40.577567,
    "lon": -73.939682,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~379 m: Manhattan Beach Zone 2",
+    "Water ~34 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -164,6 +244,12 @@
    "lat": 40.789896,
    "lon": -73.962165,
    "court_count": 23,
+   "popup_lines": [
+    "Asphalt, Clay",
+    "Season: Outdoor permit/sign-up play ~April-November; bubble (paid indoor) play in winter - no walk-ons then.",
+    "Restroom ~55 m: Reservoir (Northwest)",
+    "Water ~57 m"
+   ],
    "band": "1h+",
    "score": 1.25
   },
@@ -173,6 +259,11 @@
    "lat": 40.608554,
    "lon": -73.935543,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~174 m: Marine Park Zone 1",
+    "Water ~37 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -182,6 +273,11 @@
    "lat": 40.869947,
    "lon": -73.921804,
    "court_count": 9,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~52 m: Inwood Hill Park Zone 1",
+    "Water ~14 m"
+   ],
    "band": "short",
    "score": 0.4
   },
@@ -191,6 +287,11 @@
    "lat": 40.666803,
    "lon": -73.925222,
    "court_count": 11,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Restroom ~206 m: Lincoln Terrace Park / Arthur S. Somers Playground",
+    "Water ~24 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -200,6 +301,11 @@
    "lat": 40.893364,
    "lon": -73.886131,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~346 m: Major Deegan So. Gas Station",
+    "Water ~290 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -209,6 +315,11 @@
    "lat": 40.697416,
    "lon": -73.856606,
    "court_count": 14,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~129 m: Tennis Courts - Forest Parkway",
+    "Water ~4 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -218,6 +329,11 @@
    "lat": 40.729807,
    "lon": -73.77276,
    "court_count": 19,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Restroom ~46 m: Cunningham Park Indoor Tennis",
+    "Water ~30 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -227,6 +343,11 @@
    "lat": 40.812032,
    "lon": -73.913305,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~92 m: St Mary's Playground West",
+    "Water ~71 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -236,6 +357,11 @@
    "lat": 40.612065,
    "lon": -74.031036,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~304 m: John J Carty Park",
+    "Water ~59 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -245,6 +371,11 @@
    "lat": 40.727431,
    "lon": -73.904019,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~33 m: Virginia Principe Playground",
+    "Water ~28 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -254,6 +385,12 @@
    "lat": 40.703655,
    "lon": -73.785019,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Planned work: Detective Keith L. Williams Park Track and Field, Tennis Courts and Playground Reconstruction",
+    "Restroom ~37 m: Detective Keith L Williams Park",
+    "Water ~34 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -263,6 +400,11 @@
    "lat": 40.627881,
    "lon": -74.099371,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~54 m: Silver Lake Park Playground",
+    "Water ~26 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -272,6 +414,11 @@
    "lat": 40.675211,
    "lon": -73.787719,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~64 m: Baisley Pond Park Zone 4",
+    "Water ~115 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -281,6 +428,11 @@
    "lat": 40.658416,
    "lon": -73.886871,
    "court_count": 5,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~56 m: Linden Park",
+    "Water ~22 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -290,6 +442,11 @@
    "lat": 40.598457,
    "lon": -73.783253,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~593 m: Arverne Library, QPL",
+    "Water ~318 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -299,6 +456,10 @@
    "lat": 40.592056,
    "lon": -74.140016,
    "court_count": 2,
+   "popup_lines": [
+    "Hard Top",
+    "Water ~72 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -308,6 +469,11 @@
    "lat": 40.720366,
    "lon": -73.876757,
    "court_count": 10,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~64 m: Juniper North Playground Tennis",
+    "Water ~50 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -317,6 +483,11 @@
    "lat": 40.685891,
    "lon": -73.76982,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~144 m: Nautilus Playground",
+    "Water ~21 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -326,6 +497,11 @@
    "lat": 40.744797,
    "lon": -73.787194,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~27 m: Ella Fitzgerald Playground",
+    "Water ~18 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -335,6 +511,11 @@
    "lat": 40.659854,
    "lon": -73.762418,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~109 m: Springfield Park",
+    "Water ~22 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -344,6 +525,11 @@
    "lat": 40.71537,
    "lon": -73.975468,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~239 m: Baruch Playground",
+    "Water ~46 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -353,6 +539,11 @@
    "lat": 40.72173,
    "lon": -73.954594,
    "court_count": 7,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~9 m: Mccarren Park Indoor Tennis",
+    "Water ~32 m"
+   ],
    "band": "short",
    "score": 0.45
   },
@@ -362,6 +553,11 @@
    "lat": 40.823394,
    "lon": -73.931663,
    "court_count": 16,
+   "popup_lines": [
+    "Concrete",
+    "Restroom ~16 m: Mill Pond Indoor Tennis",
+    "Water ~80 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -371,6 +567,11 @@
    "lat": 40.804424,
    "lon": -73.971165,
    "court_count": 20,
+   "popup_lines": [
+    "Asphalt, Clay",
+    "Restroom ~214 m: Hudson Beach Volleyball Courts & Caf\u00e9",
+    "Water ~20 m"
+   ],
    "band": "1h+",
    "score": 1.29
   },
@@ -380,6 +581,11 @@
    "lat": 40.76528,
    "lon": -73.958903,
    "court_count": 3,
+   "popup_lines": [
+    "Surface unknown",
+    "Restroom ~26 m: St. Catherine's Park",
+    "Water ~12 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -389,6 +595,11 @@
    "lat": 40.765151,
    "lon": -73.870677,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~73 m: Helen Marshall Playground",
+    "Water ~82 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -398,6 +609,12 @@
    "lat": 40.885442,
    "lon": -73.916732,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Planned work: Seton Park Tennis Courts Reconstruction and Pickleball Court Construction",
+    "Restroom ~87 m: Seton Park Playground",
+    "Water ~24 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -407,6 +624,11 @@
    "lat": 40.619999,
    "lon": -73.898661,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~158 m: McGuire Fields",
+    "Water ~31 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -416,6 +638,11 @@
    "lat": 40.674404,
    "lon": -73.773822,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~58 m: Rochdale Park",
+    "Water ~16 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -425,6 +652,11 @@
    "lat": 40.68028,
    "lon": -73.928023,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~61 m: Jackie Robinson Park Playground",
+    "Water ~32 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -434,6 +666,11 @@
    "lat": 40.598666,
    "lon": -73.768038,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~47 m: Bayswater Playground",
+    "Water ~29 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -443,6 +680,12 @@
    "lat": 40.625776,
    "lon": -74.017514,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Planned work: McKinley Park Tennis Pavement Reconstruction",
+    "Restroom ~112 m: McKinley Park Playground",
+    "Water ~35 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -452,6 +695,10 @@
    "lat": 40.77303,
    "lon": -73.897457,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Water ~36 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -461,6 +708,11 @@
    "lat": 40.770241,
    "lon": -73.82732,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~125 m: Mitchell-Linden Library, QPL",
+    "Water ~31 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -470,6 +722,11 @@
    "lat": 40.689834,
    "lon": -73.999989,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~38 m: Van Voorhees Playground",
+    "Water ~24 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -479,6 +736,11 @@
    "lat": 40.720244,
    "lon": -73.948015,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~185 m: McCarren Park Zone 1",
+    "Water ~37 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -488,6 +750,11 @@
    "lat": 40.813618,
    "lon": -73.938435,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~48 m: Howard Bennett Playground",
+    "Water ~18 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -497,6 +764,11 @@
    "lat": 40.814318,
    "lon": -73.905125,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~335 m: Abigail Playground",
+    "Water ~71 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -506,6 +778,11 @@
    "lat": 40.719813,
    "lon": -73.976796,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~288 m: Baruch Playground",
+    "Water ~44 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -515,6 +792,11 @@
    "lat": 40.774769,
    "lon": -73.8166,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~143 m: Leonardo Ingravallo Playground",
+    "Water ~44 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -524,6 +806,11 @@
    "lat": 40.656481,
    "lon": -73.954369,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~37 m: Winthrop Playground",
+    "Water ~15 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -533,6 +820,11 @@
    "lat": 40.760329,
    "lon": -73.911773,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~87 m: Astoria Heights Playground",
+    "Water ~26 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -542,6 +834,12 @@
    "lat": 40.604634,
    "lon": -73.957747,
    "court_count": 7,
+   "popup_lines": [
+    "Asphalt",
+    "Planned work: Kelly Park Playground Tennis Courts Reconstruction",
+    "Restroom ~739 m: Kings Highway Library, BPL",
+    "Water ~23 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -551,6 +849,11 @@
    "lat": 40.865324,
    "lon": -73.897505,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~85 m: St. James Park",
+    "Water ~75 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -560,6 +863,11 @@
    "lat": 40.824785,
    "lon": -73.935557,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt, Mondo",
+    "Restroom ~65 m: Frederick Johnson Playground",
+    "Water ~3 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -569,6 +877,11 @@
    "lat": 40.809348,
    "lon": -73.938534,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~68 m: Moore Playground",
+    "Water ~17 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -578,6 +891,11 @@
    "lat": 40.761076,
    "lon": -73.941663,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~46 m: Spirit Playground",
+    "Water ~23 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -587,6 +905,11 @@
    "lat": 40.810626,
    "lon": -73.955127,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~97 m: Playground 123",
+    "Water ~27 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -596,6 +919,11 @@
    "lat": 40.643172,
    "lon": -74.108732,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~62 m: Walker Park",
+    "Water ~40 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -605,6 +933,10 @@
    "lat": 40.715984,
    "lon": -73.936385,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Water ~21 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -614,6 +946,11 @@
    "lat": 40.595221,
    "lon": -74.001621,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~22 m: Bensonhurst Indoor Tennis",
+    "Water ~34 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -623,6 +960,11 @@
    "lat": 40.683642,
    "lon": -73.972258,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~346 m: Dean Playground",
+    "Water ~41 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -632,6 +974,11 @@
    "lat": 40.600762,
    "lon": -73.819628,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~36 m: Broad Channel Library, QPL",
+    "Water ~10 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -641,6 +988,11 @@
    "lat": 40.600115,
    "lon": -73.971931,
    "court_count": 7,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~118 m: McDonald Playground",
+    "Water ~43 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -650,6 +1002,11 @@
    "lat": 40.674796,
    "lon": -73.865727,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~68 m: Robert E. Venable Park",
+    "Water ~20 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -659,6 +1016,11 @@
    "lat": 40.693855,
    "lon": -73.780125,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~179 m: 174 St Playground",
+    "Water ~27 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -668,6 +1030,11 @@
    "lat": 40.695326,
    "lon": -73.951979,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~348 m: Stockton Playground",
+    "Water ~17 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -677,6 +1044,11 @@
    "lat": 40.676669,
    "lon": -73.884645,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~111 m: Sperandeo Brothers Playground",
+    "Water ~27 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -686,6 +1058,11 @@
    "lat": 40.576316,
    "lon": -74.09968,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~202 m: Midland Playground",
+    "Water ~34 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -695,6 +1072,11 @@
    "lat": 40.723796,
    "lon": -73.851328,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~29 m: Russell Sage Playground",
+    "Water ~34 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -704,6 +1086,11 @@
    "lat": 40.756794,
    "lon": -73.933388,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~106 m: Dutch Kills Playground",
+    "Water ~83 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -713,6 +1100,11 @@
    "lat": 40.75396,
    "lon": -73.759829,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~727 m: Horatio Playground",
+    "Water ~20 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -722,6 +1114,10 @@
    "lat": 40.6672,
    "lon": -73.807194,
    "court_count": 4,
+   "popup_lines": [
+    "Asphalt",
+    "Water ~30 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -731,6 +1127,11 @@
    "lat": 40.702791,
    "lon": -73.949277,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~360 m: Bartlett Playground",
+    "Water ~15 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -740,6 +1141,12 @@
    "lat": 40.873903,
    "lon": -73.840165,
    "court_count": 6,
+   "popup_lines": [
+    "Asphalt - lit for night play",
+    "Planned work: Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
+    "Restroom ~83 m: Haffen Park Playground",
+    "Water ~46 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -749,6 +1156,11 @@
    "lat": 40.885374,
    "lon": -73.839921,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~64 m: Stars & Stripes Playground",
+    "Water ~25 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -758,6 +1170,11 @@
    "lat": 40.878009,
    "lon": -73.87795,
    "court_count": 8,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~159 m: Williamsbridge Oval",
+    "Water ~35 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -767,6 +1184,11 @@
    "lat": 40.736135,
    "lon": -73.981489,
    "court_count": 3,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~75 m: Augustus St. Gaudens Playground",
+    "Water ~35 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -776,6 +1198,11 @@
    "lat": 40.717143,
    "lon": -74.012205,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~71 m: Washington Market Park",
+    "Water ~10 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -785,6 +1212,11 @@
    "lat": 40.681414,
    "lon": -73.936284,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~217 m: Macon Library, BPL",
+    "Water ~10 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -794,6 +1226,11 @@
    "lat": 40.618373,
    "lon": -73.972319,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~43 m: Friends Field",
+    "Water ~26 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -803,6 +1240,11 @@
    "lat": 40.761826,
    "lon": -73.734972,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~37 m: Louis Pasteur Park",
+    "Water ~35 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -812,6 +1254,11 @@
    "lat": 40.783441,
    "lon": -73.80791,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~105 m: Clintonville Playground",
+    "Water ~56 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -821,6 +1268,11 @@
    "lat": 40.647428,
    "lon": -73.931178,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~56 m: Tilden Playground",
+    "Water ~40 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -830,6 +1282,10 @@
    "lat": 40.531482,
    "lon": -74.231693,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~63 m: Charleston Library, NYPL"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -839,6 +1295,11 @@
    "lat": 40.751731,
    "lon": -73.8421,
    "court_count": 12,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~101 m: Passerelle",
+    "Water ~73 m"
+   ],
    "band": "walk-on",
    "score": 0.3
   },
@@ -848,6 +1309,11 @@
    "lat": 40.737498,
    "lon": -73.845978,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~39 m: World's Fair Playground",
+    "Water ~47 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -857,6 +1323,11 @@
    "lat": 40.780654,
    "lon": -73.98825,
    "court_count": 1,
+   "popup_lines": [
+    "Natural",
+    "Restroom ~376 m: Classic Playground",
+    "Water ~44 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -866,6 +1337,11 @@
    "lat": 40.769071,
    "lon": -73.949624,
    "court_count": 1,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~44 m: John Jay Park",
+    "Water ~22 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -875,6 +1351,11 @@
    "lat": 40.754001,
    "lon": -73.888291,
    "court_count": 2,
+   "popup_lines": [
+    "Asphalt",
+    "Restroom ~110 m: Travers Park",
+    "Water ~26 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   },
@@ -884,6 +1365,12 @@
    "lat": 40.727243,
    "lon": -74.0113,
    "court_count": 3,
+   "popup_lines": [
+    "Hard - lit for night play",
+    "Free, no permit, first-come-first-served, 6:00 AM-1:00 AM. 2 doubles + 1 singles court.",
+    "Restroom ~176 m: Hudson River Park Pier 40 - Courtyard Tunnel, Second Floor",
+    "Water ~483 m"
+   ],
    "band": "short",
    "score": 0.4
   },
@@ -893,6 +1380,13 @@
    "lat": 40.759,
    "lon": -73.9595,
    "court_count": 8,
+   "popup_lines": [
+    "Clay - lit for night play",
+    "Sutton East Tennis concession. 6 of 8 courts available to Parks permit holders Apr 14 - Sep 14.",
+    "Season: Parks permit play Apr 14 - Sep 14 (6 of 8 clay courts). Rest of year: Sutton East indoor booking, paid.",
+    "Restroom ~52 m: Queensboro Oval Indoor Tennis",
+    "Water ~74 m"
+   ],
    "band": "30-60 min",
    "score": 0.8
   }
