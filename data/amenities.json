@@ -1,0 +1,977 @@
+{
+ "Q012": {
+  "restroom": {
+   "name": "Crocheron Park Zone 1",
+   "dist_m": 53
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 45
+  }
+ },
+ "B082": {
+  "restroom": {
+   "name": "Shore Road Park Zone 4",
+   "dist_m": 109
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 121
+  }
+ },
+ "B028": {
+  "restroom": {
+   "name": "Dyker Beach Park Zone 1",
+   "dist_m": 86
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 35
+  }
+ },
+ "B047": {
+  "restroom": {
+   "name": "Lower Highland Playground",
+   "dist_m": 151
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 36
+  }
+ },
+ "M104": {
+  "restroom": {
+   "name": "Sunken Meadow",
+   "dist_m": 5
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 18
+  }
+ },
+ "B032": {
+  "restroom": {
+   "name": "Fort Greene Park Zone 3",
+   "dist_m": 199
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 17
+  }
+ },
+ "X010": {
+  "restroom": {
+   "name": "Crotona Tennis House & Courts",
+   "dist_m": 47
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "Q008": {
+  "restroom": {
+   "name": "Brookville Park Playground",
+   "dist_m": 197
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 179
+  }
+ },
+ "Q024": {
+  "restroom": {
+   "name": "Playground",
+   "dist_m": 514
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 44
+  }
+ },
+ "Q004": {
+  "restroom": {
+   "name": "Astoria Park Zone 1",
+   "dist_m": 77
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 28
+  }
+ },
+ "M028": {
+  "restroom": {
+   "name": "Fort Washington Park Zone 2A",
+   "dist_m": 107
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 48
+  }
+ },
+ "R031": {
+  "restroom": {
+   "name": "E.M.T. Christopher J. Prescott Playground",
+   "dist_m": 348
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 23
+  }
+ },
+ "Q001A": {
+  "restroom": {
+   "name": "Alley Pond Indoor Tennis",
+   "dist_m": 49
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 42
+  }
+ },
+ "X039": {
+  "restroom": {
+   "name": "Pelham South Park Headquarters",
+   "dist_m": 782
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 485
+  }
+ },
+ "B129": {
+  "restroom": {
+   "name": "Kaiser Park Zone 1",
+   "dist_m": 88
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 54
+  }
+ },
+ "B068": {
+  "restroom": {
+   "name": "Prospect Park Indoor Tennis",
+   "dist_m": 10
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 11
+  }
+ },
+ "B251": {
+  "restroom": {
+   "name": "Manhattan Beach Zone 2",
+   "dist_m": 379
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "M010": {
+  "restroom": {
+   "name": "Reservoir (Northwest)",
+   "dist_m": 55
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 57
+  }
+ },
+ "B057": {
+  "restroom": {
+   "name": "Marine Park Zone 1",
+   "dist_m": 174
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 37
+  }
+ },
+ "M042": {
+  "restroom": {
+   "name": "Inwood Hill Park Zone 1",
+   "dist_m": 52
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 14
+  }
+ },
+ "B054": {
+  "restroom": {
+   "name": "Lincoln Terrace Park / Arthur S. Somers Playground",
+   "dist_m": 206
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 24
+  }
+ },
+ "X092": {
+  "restroom": {
+   "name": "Major Deegan So. Gas Station",
+   "dist_m": 346
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 290
+  }
+ },
+ "Q015": {
+  "restroom": {
+   "name": "Tennis Courts - Forest Parkway",
+   "dist_m": 129
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 4
+  }
+ },
+ "Q021": {
+  "restroom": {
+   "name": "Cunningham Park Indoor Tennis",
+   "dist_m": 46
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 30
+  }
+ },
+ "X045": {
+  "restroom": {
+   "name": "St Mary's Playground West",
+   "dist_m": 92
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 71
+  }
+ },
+ "B210W": {
+  "restroom": {
+   "name": "John J Carty Park",
+   "dist_m": 304
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 59
+  }
+ },
+ "Q131": {
+  "restroom": {
+   "name": "Virginia Principe Playground",
+   "dist_m": 33
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 28
+  }
+ },
+ "Q121": {
+  "restroom": {
+   "name": "Detective Keith L Williams Park",
+   "dist_m": 37
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "R022": {
+  "restroom": {
+   "name": "Silver Lake Park Playground",
+   "dist_m": 54
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 26
+  }
+ },
+ "Q005": {
+  "restroom": {
+   "name": "Baisley Pond Park Zone 4",
+   "dist_m": 64
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 115
+  }
+ },
+ "B214": {
+  "restroom": {
+   "name": "Linden Park",
+   "dist_m": 56
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 22
+  }
+ },
+ "Q371": {
+  "restroom": {
+   "name": "Arverne Library, QPL",
+   "dist_m": 593
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 318
+  }
+ },
+ "R129": {
+  "restroom": null,
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 72
+  }
+ },
+ "Q102": {
+  "restroom": {
+   "name": "Juniper North Playground Tennis",
+   "dist_m": 64
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 50
+  }
+ },
+ "Q448": {
+  "restroom": {
+   "name": "Nautilus Playground",
+   "dist_m": 144
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 21
+  }
+ },
+ "Q300A": {
+  "restroom": {
+   "name": "Ella Fitzgerald Playground",
+   "dist_m": 27
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 18
+  }
+ },
+ "Q107": {
+  "restroom": {
+   "name": "Springfield Park",
+   "dist_m": 109
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 22
+  }
+ },
+ "M144": {
+  "restroom": {
+   "name": "Baruch Playground",
+   "dist_m": 239
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 46
+  }
+ },
+ "B058": {
+  "restroom": {
+   "name": "Mccarren Park Indoor Tennis",
+   "dist_m": 9
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 32
+  }
+ },
+ "X344": {
+  "restroom": {
+   "name": "Mill Pond Indoor Tennis",
+   "dist_m": 16
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 80
+  }
+ },
+ "M071": {
+  "restroom": {
+   "name": "Hudson Beach Volleyball Courts & Caf\u00e9",
+   "dist_m": 214
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 20
+  }
+ },
+ "M079": {
+  "restroom": {
+   "name": "St. Catherine's Park",
+   "dist_m": 26
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 12
+  }
+ },
+ "Q373": {
+  "restroom": {
+   "name": "Helen Marshall Playground",
+   "dist_m": 73
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 82
+  }
+ },
+ "X201": {
+  "restroom": {
+   "name": "Seton Park Playground",
+   "dist_m": 87
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 24
+  }
+ },
+ "B166D": {
+  "restroom": {
+   "name": "McGuire Fields",
+   "dist_m": 158
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 31
+  }
+ },
+ "Q413": {
+  "restroom": {
+   "name": "Rochdale Park",
+   "dist_m": 58
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 16
+  }
+ },
+ "B294": {
+  "restroom": {
+   "name": "Jackie Robinson Park Playground",
+   "dist_m": 61
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 32
+  }
+ },
+ "Q007": {
+  "restroom": {
+   "name": "Bayswater Playground",
+   "dist_m": 47
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 29
+  }
+ },
+ "B060": {
+  "restroom": {
+   "name": "McKinley Park Playground",
+   "dist_m": 112
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 35
+  }
+ },
+ "Q298": {
+  "restroom": null,
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 36
+  }
+ },
+ "Q347": {
+  "restroom": {
+   "name": "Mitchell-Linden Library, QPL",
+   "dist_m": 125
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 31
+  }
+ },
+ "B050": {
+  "restroom": {
+   "name": "Van Voorhees Playground",
+   "dist_m": 38
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 24
+  }
+ },
+ "B346": {
+  "restroom": {
+   "name": "McCarren Park Zone 1",
+   "dist_m": 185
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 37
+  }
+ },
+ "M217": {
+  "restroom": {
+   "name": "Howard Bennett Playground",
+   "dist_m": 48
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 18
+  }
+ },
+ "X233": {
+  "restroom": {
+   "name": "Abigail Playground",
+   "dist_m": 335
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 71
+  }
+ },
+ "M201": {
+  "restroom": {
+   "name": "Baruch Playground",
+   "dist_m": 288
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 44
+  }
+ },
+ "Q086": {
+  "restroom": {
+   "name": "Leonardo Ingravallo Playground",
+   "dist_m": 143
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 44
+  }
+ },
+ "B267": {
+  "restroom": {
+   "name": "Winthrop Playground",
+   "dist_m": 37
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 15
+  }
+ },
+ "Q014": {
+  "restroom": {
+   "name": "Astoria Heights Playground",
+   "dist_m": 87
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 26
+  }
+ },
+ "B051": {
+  "restroom": {
+   "name": "Kings Highway Library, BPL",
+   "dist_m": 739
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 23
+  }
+ },
+ "X044": {
+  "restroom": {
+   "name": "St. James Park",
+   "dist_m": 85
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 75
+  }
+ },
+ "M159": {
+  "restroom": {
+   "name": "Frederick Johnson Playground",
+   "dist_m": 65
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 3
+  }
+ },
+ "M204": {
+  "restroom": {
+   "name": "Moore Playground",
+   "dist_m": 68
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 17
+  }
+ },
+ "Q429": {
+  "restroom": {
+   "name": "Spirit Playground",
+   "dist_m": 46
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 23
+  }
+ },
+ "M205": {
+  "restroom": {
+   "name": "Playground 123",
+   "dist_m": 97
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 27
+  }
+ },
+ "R015": {
+  "restroom": {
+   "name": "Walker Park",
+   "dist_m": 62
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 40
+  }
+ },
+ "B025": {
+  "restroom": null,
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 21
+  }
+ },
+ "B007": {
+  "restroom": {
+   "name": "Bensonhurst Indoor Tennis",
+   "dist_m": 22
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "B407": {
+  "restroom": {
+   "name": "Dean Playground",
+   "dist_m": 346
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 41
+  }
+ },
+ "Q460": {
+  "restroom": {
+   "name": "Broad Channel Library, QPL",
+   "dist_m": 36
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 10
+  }
+ },
+ "B244": {
+  "restroom": {
+   "name": "McDonald Playground",
+   "dist_m": 118
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 43
+  }
+ },
+ "B380": {
+  "restroom": {
+   "name": "Robert E. Venable Park",
+   "dist_m": 68
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 20
+  }
+ },
+ "Q051": {
+  "restroom": {
+   "name": "174 St Playground",
+   "dist_m": 179
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 27
+  }
+ },
+ "B217": {
+  "restroom": {
+   "name": "Stockton Playground",
+   "dist_m": 348
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 17
+  }
+ },
+ "B163": {
+  "restroom": {
+   "name": "Sperandeo Brothers Playground",
+   "dist_m": 111
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 27
+  }
+ },
+ "R038A": {
+  "restroom": {
+   "name": "Midland Playground",
+   "dist_m": 202
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "Q335": {
+  "restroom": {
+   "name": "Russell Sage Playground",
+   "dist_m": 29
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 34
+  }
+ },
+ "Q218": {
+  "restroom": {
+   "name": "Dutch Kills Playground",
+   "dist_m": 106
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 83
+  }
+ },
+ "Q400": {
+  "restroom": {
+   "name": "Horatio Playground",
+   "dist_m": 727
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 20
+  }
+ },
+ "Q092": {
+  "restroom": null,
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 30
+  }
+ },
+ "B358": {
+  "restroom": {
+   "name": "Bartlett Playground",
+   "dist_m": 360
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 15
+  }
+ },
+ "X196": {
+  "restroom": {
+   "name": "Haffen Park Playground",
+   "dist_m": 83
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 46
+  }
+ },
+ "X193": {
+  "restroom": {
+   "name": "Stars & Stripes Playground",
+   "dist_m": 64
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 25
+  }
+ },
+ "X104": {
+  "restroom": {
+   "name": "Williamsbridge Oval",
+   "dist_m": 159
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 35
+  }
+ },
+ "M227": {
+  "restroom": {
+   "name": "Augustus St. Gaudens Playground",
+   "dist_m": 75
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 35
+  }
+ },
+ "M308": {
+  "restroom": {
+   "name": "Washington Market Park",
+   "dist_m": 71
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 10
+  }
+ },
+ "B215": {
+  "restroom": {
+   "name": "Macon Library, BPL",
+   "dist_m": 217
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 10
+  }
+ },
+ "B372": {
+  "restroom": {
+   "name": "Friends Field",
+   "dist_m": 43
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 26
+  }
+ },
+ "Q369": {
+  "restroom": {
+   "name": "Louis Pasteur Park",
+   "dist_m": 37
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 35
+  }
+ },
+ "Q390": {
+  "restroom": {
+   "name": "Clintonville Playground",
+   "dist_m": 105
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 56
+  }
+ },
+ "B234": {
+  "restroom": {
+   "name": "Tilden Playground",
+   "dist_m": 56
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 40
+  }
+ },
+ "R153": {
+  "restroom": {
+   "name": "Charleston Library, NYPL",
+   "dist_m": 63
+  },
+  "fountain": null
+ },
+ "Q099": {
+  "restroom": {
+   "name": "Passerelle",
+   "dist_m": 101
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 73
+  }
+ },
+ "Q084A": {
+  "restroom": {
+   "name": "World's Fair Playground",
+   "dist_m": 39
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 47
+  }
+ },
+ "M353": {
+  "restroom": {
+   "name": "Classic Playground",
+   "dist_m": 376
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 44
+  }
+ },
+ "M045": {
+  "restroom": {
+   "name": "John Jay Park",
+   "dist_m": 44
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 22
+  }
+ },
+ "Q502": {
+  "restroom": {
+   "name": "Travers Park",
+   "dist_m": 110
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 26
+  }
+ },
+ "SUPP-HRP": {
+  "restroom": {
+   "name": "Hudson River Park Pier 40 - Courtyard Tunnel, Second Floor",
+   "dist_m": 176
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 483
+  }
+ },
+ "SUPP-QO": {
+  "restroom": {
+   "name": "Queensboro Oval Indoor Tennis",
+   "dist_m": 52
+  },
+  "fountain": {
+   "name": "Drinking fountain",
+   "dist_m": 74
+  }
+ }
+}
