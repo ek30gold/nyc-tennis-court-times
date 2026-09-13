@@ -10,7 +10,7 @@ import json, urllib.request
 
 BASE = "https://data.cityofnewyork.us/resource/qnem-b8re.json"
 WHERE = "tennis=true AND featurestatus='Active'"
-FIELDS = "gispropnum,borough,surface_type,field_lighted,dimensions,zipcode,multipolygon"
+FIELDS = "gispropnum,borough,surface_type,field_lighted,dimensions,zipcode,pickleball,multipolygon"
 LIMIT = 5000
 
 def centroid(coords):
@@ -35,10 +35,11 @@ def main():
         park = row.get("gispropnum", "UNKNOWN")
         f = facilities.setdefault(park, {
             "borough": row.get("borough"), "courts": 0, "surfaces": set(),
-            "lighted": False, "coords": []})
+            "lighted": False, "pickleball": False, "coords": []})
         f["courts"] += 1
         if row.get("surface_type"): f["surfaces"].add(row["surface_type"])
         f["lighted"] = f["lighted"] or row.get("field_lighted", False)
+        if row.get("pickleball") in (True, "true", "True", "yes", 1): f["pickleball"] = True
         mp = row.get("multipolygon", {}).get("coordinates")
         if mp: f["coords"].append(centroid(mp))
     features = []
@@ -50,7 +51,7 @@ def main():
             "geometry": {"type": "Point", "coordinates": [round(lon,6), round(lat,6)]},
             "properties": {"park_id": park, "name": names.get(park, park), "borough": f["borough"],
                 "court_count": f["courts"], "surfaces": sorted(f["surfaces"]),
-                "lighted": f["lighted"]}})
+                "lighted": f["lighted"], "pickleball": f["pickleball"]}})
     # merge manually verified concession-run facilities the dataset misses
     try:
         supp = json.load(open("data/supplement.geojson"))
