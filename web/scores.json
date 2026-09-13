@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T17:20:44",
+ "generated_at": "2026-09-13T18:05:37",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -58,7 +58,7 @@
     "Subway ~512 m: Cleveland St"
    ],
    "band": "30-60 min",
-   "score": 1.0
+   "score": 0.85
   },
   {
    "park_id": "M104",
@@ -105,7 +105,7 @@
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 0.8
+   "score": 0.75
   },
   {
    "park_id": "Q008",
@@ -135,8 +135,8 @@
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)",
     "League play today 16:00-20:00 (up to 1 of 12 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.76
+   "band": "short",
+   "score": 0.6
   },
   {
    "park_id": "Q004",
@@ -159,7 +159,7 @@
    "park_id": "M028",
    "name": "Fort Washington Park",
    "lat": 40.84817,
-   "lon": -73.946296,
+   "lon": -73.946297,
    "court_count": 10,
    "popup_lines": [
     "Asphalt",
@@ -168,8 +168,8 @@
     "Subway ~561 m: 175 St",
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.5
+   "band": "30-60 min",
+   "score": 0.7
   },
   {
    "park_id": "R031",
@@ -260,8 +260,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.6
+   "band": "30-60 min",
+   "score": 0.7
   },
   {
    "park_id": "M010",
@@ -278,7 +278,7 @@
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 1.0
+   "score": 0.75
   },
   {
    "park_id": "B057",
@@ -293,7 +293,7 @@
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 0.8
+   "score": 0.7
   },
   {
    "park_id": "M042",
@@ -309,7 +309,7 @@
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 0.7
+   "score": 0.75
   },
   {
    "park_id": "B054",
@@ -602,8 +602,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.72
+   "band": "short",
+   "score": 0.63
   },
   {
    "park_id": "X344",
@@ -704,7 +704,7 @@
    "park_id": "Q413",
    "name": "Rochdale Park",
    "lat": 40.674404,
-   "lon": -73.773822,
+   "lon": -73.773823,
    "court_count": 6,
    "popup_lines": [
     "Asphalt",
@@ -735,7 +735,7 @@
    "park_id": "Q007",
    "name": "Bayswater Park",
    "lat": 40.598666,
-   "lon": -73.768038,
+   "lon": -73.768039,
    "court_count": 6,
    "popup_lines": [
     "Asphalt",
@@ -751,7 +751,7 @@
    "park_id": "B060",
    "name": "McKinley Park",
    "lat": 40.625776,
-   "lon": -74.017514,
+   "lon": -74.017515,
    "court_count": 8,
    "popup_lines": [
     "Asphalt",
@@ -1269,7 +1269,7 @@
   {
    "park_id": "X196",
    "name": "Haffen Park",
-   "lat": 40.873903,
+   "lat": 40.873904,
    "lon": -73.840165,
    "court_count": 6,
    "popup_lines": [
@@ -1277,7 +1277,7 @@
     "Planned work: Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
     "Restroom ~83 m: Haffen Park Playground",
     "Water ~46 m",
-    "Subway ~546 m: Baychester Av",
+    "Subway ~545 m: Baychester Av",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
@@ -1451,8 +1451,8 @@
     "Subway ~438 m: Mets-Willets Point",
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.35
+   "band": "walk-on",
+   "score": 0.3
   },
   {
    "park_id": "Q084A",
@@ -1529,8 +1529,8 @@
     "Water ~483 m",
     "Subway ~512 m: Houston St"
    ],
-   "band": "30-60 min",
-   "score": 0.65
+   "band": "short",
+   "score": 0.55
   },
   {
    "park_id": "SUPP-QO",
