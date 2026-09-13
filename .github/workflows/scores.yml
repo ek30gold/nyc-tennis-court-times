@@ -15,12 +15,14 @@ jobs:
       - run: python scripts/fetch_courts.py
       - run: python scripts/fetch_closures.py
       - run: python scripts/fetch_amenities.py
+      - run: python scripts/fetch_transit.py
+      - run: python scripts/fetch_quality.py
       - run: python scripts/compute_scores.py
       - name: commit scores
         run: |
           git config user.name "tennis-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/courts.geojson data/closures.json data/amenities.json web/scores.json
+          git add data/courts.geojson data/closures.json data/amenities.json data/transit.json data/quality.json web/scores.json web/model.json
           git diff --cached --quiet || git commit -m "scores $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase
           git push
