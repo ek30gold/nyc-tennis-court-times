@@ -1,66 +1,24 @@
 {
- "captured_at": "2026-09-13T10:40:09+00:00",
- "status": "ok",
+ "captured_at": "2026-09-13T10:44:10+00:00",
+ "status": "unavailable",
  "sites": {
   "central_park": {
-   "park_ids": [
-    "M010"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   },
   "riverside_119": {
-   "park_ids": [
-    "M071"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   },
   "riverside_96": {
-   "park_ids": [
-    "M071"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   },
   "mill_pond": {
-   "park_ids": [
-    "X344"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   },
   "alley_pond": {
-   "park_ids": [
-    "Q001A"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   },
   "mccarren": {
-   "park_ids": [
-    "B058"
-   ],
-   "grid_date": null,
-   "booked": 0,
-   "reservable": 0,
-   "not_available": 0,
-   "density": null
+   "error": "Page.wait_for_selector: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"table.calendar\") to be visible\n"
   }
  }
 }
