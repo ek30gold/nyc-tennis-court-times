@@ -9,7 +9,7 @@ Output: web/scores.json consumed by the static map.
 import json, math, urllib.request, datetime
 
 OPEN_METEO = ("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97"
-              "&current=precipitation,temperature_2m"
+              "&current=precipitation,temperature_2m&daily=sunset&timezone=America%2FNew_York"
               "&past_hours=6&hourly=precipitation")
 
 def baseline(hour, weekday):
@@ -124,6 +124,10 @@ def main():
     except FileNotFoundError: quality = {}
     wx = json.load(urllib.request.urlopen(OPEN_METEO))
     current_precip = wx["current"]["precipitation"] or 0
+    sunset_h = None
+    try:
+        sunset_h = int(wx["daily"]["sunset"][0].split("T")[1][:2])
+    except (KeyError, IndexError): pass
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
     now = datetime.datetime.now()
     wmod = weather_modifier(current_precip, recent_mm)
@@ -153,6 +157,8 @@ def main():
         s *= supply_mod(permits, p["park_id"], p["court_count"],
                         now.strftime("%Y-%m-%d"), now.hour)
         b = band(s)
+        if sunset_h is not None and now.hour >= sunset_h and not p.get("lighted"):
+            b = "closed"
         win = (seasons.get(p["park_id"]) or {}).get("indoor_window")
         if win and in_window(now, win): b = "indoor"
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
@@ -165,9 +171,11 @@ def main():
         "default_prior": priors["default"],
         "facilities": {p["park_id"]: {
             "mult": priors["facilities"].get(p["park_id"], {}).get("mult", priors["default"]),
-            "curve": (bt.get(p["park_id"], {}).get("curves") or None)}
+            "curve": (bt.get(p["park_id"], {}).get("curves") or None),
+            "lighted": bool(p.get("lighted"))}
             for feat in courts["features"] for p in [feat["properties"]]
             if p["park_id"] not in closed},
+        "sunset_today": sunset_h,
         "season_windows": {pid: v["indoor_window"] for pid, v in seasons.items()
                            if isinstance(v, dict) and v.get("indoor_window")},
         "permits": {"days": permits.get("days", {}), "fetched_at": permits.get("fetched_at")},
