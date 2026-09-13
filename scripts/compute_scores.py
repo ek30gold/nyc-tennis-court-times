@@ -45,6 +45,13 @@ def popup_lines(p, planned, seasons, amenities, transit, quality):
     if qu: lines.append(f"Park upkeep: {qu['label']} ({qu['pct_acceptable']}% of {qu['inspections']} inspections passed, 2024+)")
     return lines
 
+def supply_mod(permits, park_id, court_count, day, hour):
+    """League-permit blocked courts shrink walk-up supply: up to 1.75x demand."""
+    blocks = ((permits.get("days") or {}).get(day) or {}).get(str(hour)) or {}
+    n = blocks.get(park_id, 0)
+    if not n or not court_count: return 1.0
+    return 1.0 + min(n / court_count, 0.75)
+
 def in_window(dt, win):
     md = dt.strftime("%m-%d")
     s, e = win["start"], win["end"]
@@ -83,6 +90,9 @@ def main():
     except FileNotFoundError:
         pass
     closed, planned, amenities, seasons = {}, {}, {}, {}
+    permits = {}
+    try: permits = json.load(open("data/permits.json"))
+    except FileNotFoundError: pass
     try:
         cl = json.load(open("data/closures.json"))
         closed, planned = cl.get("closed_park_ids", {}), cl.get("planned_park_ids", {})
@@ -123,6 +133,8 @@ def main():
             prior = priors["facilities"].get(p["park_id"], {}).get("mult", priors["default"])
             s = base * prior * wmod
         s *= res_mod.get(p["park_id"], 1.0)
+        s *= supply_mod(permits, p["park_id"], p["court_count"],
+                        now.strftime("%Y-%m-%d"), now.hour)
         b = band(s)
         win = (seasons.get(p["park_id"]) or {}).get("indoor_window")
         if win and in_window(now, win): b = "indoor"
@@ -141,6 +153,7 @@ def main():
             if p["park_id"] not in closed},
         "season_windows": {pid: v["indoor_window"] for pid, v in seasons.items()
                            if isinstance(v, dict) and v.get("indoor_window")},
+        "permits": {"days": permits.get("days", {}), "fetched_at": permits.get("fetched_at")},
         "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
                         "modifiers": res_mod}}
     json.dump(model, open("web/model.json", "w"))
