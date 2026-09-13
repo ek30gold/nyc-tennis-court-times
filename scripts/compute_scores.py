@@ -26,6 +26,21 @@ def weather_modifier(current_precip, recent_precip_mm):
     if recent_precip_mm > 1.0: return 1.5      # post-rain reopen surge
     return 1.0
 
+def popup_lines(p, planned, seasons, amenities):
+    lines = []
+    surf = ", ".join(p.get("surfaces", [])) or "Surface unknown"
+    lines.append(surf + (" - lit for night play" if p.get("lighted") else ""))
+    if p.get("pickleball"): lines.append("Pickleball courts on site too")
+    if p.get("note"): lines.append(p["note"])
+    if p["park_id"] in planned:
+        lines.append("Planned work: " + planned[p["park_id"]][0]["title"])
+    sn = (seasons.get(p["park_id"]) or {}).get("season_note")
+    if sn: lines.append("Season: " + sn)
+    am = amenities.get(p["park_id"], {})
+    if am.get("restroom"): lines.append(f"Restroom ~{am['restroom']['dist_m']} m: {am['restroom']['name']}")
+    if am.get("fountain"): lines.append(f"Water ~{am['fountain']['dist_m']} m")
+    return lines
+
 def band(score):
     if score < 0.35: return "walk-on"
     if score < 0.65: return "short"
@@ -51,6 +66,15 @@ def main():
             print(f"reservation modifier on {sorted(res_mod)} (captured {age_h:.1f}h ago)")
     except FileNotFoundError:
         pass
+    closed, planned, amenities, seasons = {}, {}, {}, {}
+    try:
+        cl = json.load(open("data/closures.json"))
+        closed, planned = cl.get("closed_park_ids", {}), cl.get("planned_park_ids", {})
+    except FileNotFoundError: pass
+    try: amenities = json.load(open("data/amenities.json"))
+    except FileNotFoundError: pass
+    try: seasons = json.load(open("data/seasons.json"))
+    except FileNotFoundError: pass
     wx = json.load(urllib.request.urlopen(OPEN_METEO))
     current_precip = wx["current"]["precipitation"] or 0
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
@@ -59,8 +83,13 @@ def main():
     base = baseline(now.hour, now.weekday())
     bt = priors.get("besttime_curves", {})
     scores = []
+    removed = []
     for feat in courts["features"]:
         p = feat["properties"]
+        if p["park_id"] in closed:
+            removed.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]),
+                            "reason": closed[p["park_id"]][0]["title"]})
+            continue
         btcurve = bt.get(p["park_id"], {}).get("curves", {})
         dayc = btcurve.get(str(now.weekday())) or btcurve.get(now.weekday())
         if dayc:
@@ -76,12 +105,13 @@ def main():
         s *= res_mod.get(p["park_id"], 1.0)
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
-            "surfaces": p.get("surfaces", []), "lighted": p.get("lighted", False),
+            "popup_lines": popup_lines(p, planned, seasons, amenities),
             "band": band(s), "score": round(s, 2)})
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
+        "closures": removed,
         "scores": scores}, open("web/scores.json", "w"), indent=1)
-    print(f"scored {len(scores)} facilities (weather modifier {wmod})")
+    print(f"scored {len(scores)} facilities (weather modifier {wmod}, removed {len(removed)} closed)")
 
 if __name__ == "__main__":
     main()
