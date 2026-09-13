@@ -10,6 +10,7 @@ A private map of NYC public tennis courts with predicted wait times. No crowdsou
 - Season flip: Central Park, Prospect Park Tennis Center and Queensboro Oval turn gray "indoor (paid)" inside their curated bubble windows
 - Popups: court count, wait band, surface, night lights, pickleball note, planned-work notes, season info, nearest restroom + drinking fountain + subway stop, park upkeep grade (Parks inspection ratings 2024+), Google/Apple Maps links, "Report actual wait" feedback link (prefilled GitHub issue)
 - Capital Project Tracker removes courts under active construction and notes planned work (hourly refresh)
+- League permit blocks shrink walk-up supply (up to 1.75x demand): nightly agent-side capture of the Parks unavailable-fields API for tonight + tomorrow, applied per hour
 - Phase 2: nightly reservation-grid capture feeds a next-day demand modifier on the 6 reservable sites. The Parks WAF blocks GitHub Actions IPs, so the capture runs agent-side through a cloud browser nightly at 9pm ET; CI keeps a manual-dispatch copy. Graceful skip when capture fails
 
 ## Verified data sources (checked hands-on 2026-09-13)
