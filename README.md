@@ -2,6 +2,13 @@
 
 A private map of NYC public tennis courts with predicted wait times. No crowdsourcing, no cameras: a prediction model over public data, calibrated over time by a personal wait log.
 
+## What's live
+
+- 99 facilities (97 from NYC Open Data + 2 manually verified concession sites: Hudson River Park, Queensboro Oval)
+- Hourly score refresh (Actions cron) + auto-deploy to Pages
+- Popups: court count, Google/Apple Maps links
+- Phase 2: nightly reservation-grid capture feeds a next-day demand modifier on the 6 reservable sites (graceful: skips when the WAF blocks capture)
+
 ## Verified data sources (checked hands-on 2026-09-13)
 
 | Source | What it gives | Access | URL |
