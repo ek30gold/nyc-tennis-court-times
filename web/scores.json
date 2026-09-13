@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T10:16:15",
+ "generated_at": "2026-09-13T11:30:14",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -12,7 +12,7 @@
    "lon": -73.768797,
    "court_count": 10,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B082",
@@ -21,7 +21,7 @@
    "lon": -74.036865,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B028",
@@ -30,7 +30,7 @@
    "lon": -74.016899,
    "court_count": 9,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B047",
@@ -39,7 +39,7 @@
    "lon": -73.887592,
    "court_count": 18,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M104",
@@ -48,7 +48,7 @@
    "lon": -73.918944,
    "court_count": 20,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B032",
@@ -57,7 +57,7 @@
    "lon": -73.975484,
    "court_count": 6,
    "band": "1h+",
-   "score": 1.26
+   "score": 1.13
   },
   {
    "park_id": "X010",
@@ -66,7 +66,7 @@
    "lon": -73.894746,
    "court_count": 20,
    "band": "short",
-   "score": 0.6
+   "score": 0.5
   },
   {
    "park_id": "Q008",
@@ -75,7 +75,7 @@
    "lon": -73.744462,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q024",
@@ -84,7 +84,7 @@
    "lon": -73.809653,
    "court_count": 12,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q004",
@@ -99,10 +99,10 @@
    "park_id": "M028",
    "name": "Fort Washington Park",
    "lat": 40.84817,
-   "lon": -73.946297,
+   "lon": -73.946296,
    "court_count": 10,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R031",
@@ -111,7 +111,7 @@
    "lon": -74.186713,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q001A",
@@ -120,7 +120,7 @@
    "lon": -73.736399,
    "court_count": 16,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X039",
@@ -129,7 +129,7 @@
    "lon": -73.816078,
    "court_count": 13,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B129",
@@ -138,7 +138,7 @@
    "lon": -73.994376,
    "court_count": 12,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B068",
@@ -147,7 +147,7 @@
    "lon": -73.970141,
    "court_count": 11,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B251",
@@ -156,7 +156,7 @@
    "lon": -73.939682,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M010",
@@ -165,7 +165,7 @@
    "lon": -73.962165,
    "court_count": 23,
    "band": "1h+",
-   "score": 1.12
+   "score": 1.25
   },
   {
    "park_id": "B057",
@@ -174,7 +174,7 @@
    "lon": -73.935543,
    "court_count": 12,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M042",
@@ -183,7 +183,7 @@
    "lon": -73.921804,
    "court_count": 9,
    "band": "short",
-   "score": 0.35
+   "score": 0.4
   },
   {
    "park_id": "B054",
@@ -192,7 +192,7 @@
    "lon": -73.925222,
    "court_count": 11,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X092",
@@ -201,7 +201,7 @@
    "lon": -73.886131,
    "court_count": 12,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q015",
@@ -210,7 +210,7 @@
    "lon": -73.856606,
    "court_count": 14,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q021",
@@ -219,7 +219,7 @@
    "lon": -73.77276,
    "court_count": 19,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X045",
@@ -228,7 +228,7 @@
    "lon": -73.913305,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B210W",
@@ -237,7 +237,7 @@
    "lon": -74.031036,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q131",
@@ -246,7 +246,7 @@
    "lon": -73.904019,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q121",
@@ -255,7 +255,7 @@
    "lon": -73.785019,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R022",
@@ -264,7 +264,7 @@
    "lon": -74.099371,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q005",
@@ -273,7 +273,7 @@
    "lon": -73.787719,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B214",
@@ -282,7 +282,7 @@
    "lon": -73.886871,
    "court_count": 5,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q371",
@@ -291,7 +291,7 @@
    "lon": -73.783253,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R129",
@@ -300,7 +300,7 @@
    "lon": -74.140016,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q102",
@@ -309,7 +309,7 @@
    "lon": -73.876757,
    "court_count": 10,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q448",
@@ -318,7 +318,7 @@
    "lon": -73.76982,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q300A",
@@ -327,7 +327,7 @@
    "lon": -73.787194,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q107",
@@ -336,7 +336,7 @@
    "lon": -73.762418,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M144",
@@ -345,7 +345,7 @@
    "lon": -73.975468,
    "court_count": 12,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B058",
@@ -353,8 +353,8 @@
    "lat": 40.72173,
    "lon": -73.954594,
    "court_count": 7,
-   "band": "30-60 min",
-   "score": 0.72
+   "band": "short",
+   "score": 0.45
   },
   {
    "park_id": "X344",
@@ -363,7 +363,7 @@
    "lon": -73.931663,
    "court_count": 16,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M071",
@@ -372,7 +372,7 @@
    "lon": -73.971165,
    "court_count": 20,
    "band": "1h+",
-   "score": 1.44
+   "score": 1.29
   },
   {
    "park_id": "M079",
@@ -381,7 +381,7 @@
    "lon": -73.958903,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q373",
@@ -390,7 +390,7 @@
    "lon": -73.870677,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X201",
@@ -399,7 +399,7 @@
    "lon": -73.916732,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B166D",
@@ -408,16 +408,16 @@
    "lon": -73.898661,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q413",
    "name": "Rochdale Park",
    "lat": 40.674404,
-   "lon": -73.773823,
+   "lon": -73.773822,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B294",
@@ -426,25 +426,25 @@
    "lon": -73.928023,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q007",
    "name": "Bayswater Park",
    "lat": 40.598666,
-   "lon": -73.768039,
+   "lon": -73.768038,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B060",
    "name": "McKinley Park",
    "lat": 40.625776,
-   "lon": -74.017515,
+   "lon": -74.017514,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q298",
@@ -453,7 +453,7 @@
    "lon": -73.897457,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q347",
@@ -462,7 +462,7 @@
    "lon": -73.82732,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B050",
@@ -471,7 +471,7 @@
    "lon": -73.999989,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B346",
@@ -480,7 +480,7 @@
    "lon": -73.948015,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M217",
@@ -489,7 +489,7 @@
    "lon": -73.938435,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X233",
@@ -498,7 +498,7 @@
    "lon": -73.905125,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M201",
@@ -507,7 +507,7 @@
    "lon": -73.976796,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q086",
@@ -516,7 +516,7 @@
    "lon": -73.8166,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B267",
@@ -525,7 +525,7 @@
    "lon": -73.954369,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q014",
@@ -534,7 +534,7 @@
    "lon": -73.911773,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B051",
@@ -543,7 +543,7 @@
    "lon": -73.957747,
    "court_count": 7,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X044",
@@ -552,7 +552,7 @@
    "lon": -73.897505,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M159",
@@ -561,7 +561,7 @@
    "lon": -73.935557,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M204",
@@ -570,7 +570,7 @@
    "lon": -73.938534,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q429",
@@ -579,7 +579,7 @@
    "lon": -73.941663,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M205",
@@ -588,7 +588,7 @@
    "lon": -73.955127,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R015",
@@ -597,7 +597,7 @@
    "lon": -74.108732,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B025",
@@ -606,7 +606,7 @@
    "lon": -73.936385,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B007",
@@ -615,7 +615,7 @@
    "lon": -74.001621,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B407",
@@ -624,7 +624,7 @@
    "lon": -73.972258,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q460",
@@ -633,7 +633,7 @@
    "lon": -73.819628,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B244",
@@ -642,7 +642,7 @@
    "lon": -73.971931,
    "court_count": 7,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B380",
@@ -651,7 +651,7 @@
    "lon": -73.865727,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q051",
@@ -660,7 +660,7 @@
    "lon": -73.780125,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B217",
@@ -669,7 +669,7 @@
    "lon": -73.951979,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B163",
@@ -678,7 +678,7 @@
    "lon": -73.884645,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R038A",
@@ -687,7 +687,7 @@
    "lon": -74.09968,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q335",
@@ -696,7 +696,7 @@
    "lon": -73.851328,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q218",
@@ -705,7 +705,7 @@
    "lon": -73.933388,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q400",
@@ -714,7 +714,7 @@
    "lon": -73.759829,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q092",
@@ -723,7 +723,7 @@
    "lon": -73.807194,
    "court_count": 4,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B358",
@@ -732,16 +732,16 @@
    "lon": -73.949277,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X196",
    "name": "Haffen Park",
-   "lat": 40.873904,
+   "lat": 40.873903,
    "lon": -73.840165,
    "court_count": 6,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X193",
@@ -750,7 +750,7 @@
    "lon": -73.839921,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "X104",
@@ -759,7 +759,7 @@
    "lon": -73.87795,
    "court_count": 8,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M227",
@@ -768,7 +768,7 @@
    "lon": -73.981489,
    "court_count": 3,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M308",
@@ -777,7 +777,7 @@
    "lon": -74.012205,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B215",
@@ -786,7 +786,7 @@
    "lon": -73.936284,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B372",
@@ -795,7 +795,7 @@
    "lon": -73.972319,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q369",
@@ -804,7 +804,7 @@
    "lon": -73.734972,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q390",
@@ -813,7 +813,7 @@
    "lon": -73.80791,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "B234",
@@ -822,7 +822,7 @@
    "lon": -73.931178,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "R153",
@@ -831,7 +831,7 @@
    "lon": -74.231693,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q099",
@@ -849,7 +849,7 @@
    "lon": -73.845978,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M353",
@@ -858,7 +858,7 @@
    "lon": -73.98825,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "M045",
@@ -867,7 +867,7 @@
    "lon": -73.949624,
    "court_count": 1,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
   },
   {
    "park_id": "Q502",
@@ -876,7 +876,25 @@
    "lon": -73.888291,
    "court_count": 2,
    "band": "30-60 min",
-   "score": 0.9
+   "score": 0.8
+  },
+  {
+   "park_id": "SUPP-HRP",
+   "name": "Hudson River Park Tennis Courts",
+   "lat": 40.727243,
+   "lon": -74.0113,
+   "court_count": 3,
+   "band": "short",
+   "score": 0.4
+  },
+  {
+   "park_id": "SUPP-QO",
+   "name": "Queensboro Oval (Sutton Tennis)",
+   "lat": 40.759,
+   "lon": -73.9595,
+   "court_count": 8,
+   "band": "30-60 min",
+   "score": 0.8
   }
  ]
 }
