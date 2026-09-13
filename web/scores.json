@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T10:28:35",
+ "generated_at": "2026-09-13T10:16:15",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -99,7 +99,7 @@
    "park_id": "M028",
    "name": "Fort Washington Park",
    "lat": 40.84817,
-   "lon": -73.946296,
+   "lon": -73.946297,
    "court_count": 10,
    "band": "30-60 min",
    "score": 0.9
@@ -414,7 +414,7 @@
    "park_id": "Q413",
    "name": "Rochdale Park",
    "lat": 40.674404,
-   "lon": -73.773822,
+   "lon": -73.773823,
    "court_count": 6,
    "band": "30-60 min",
    "score": 0.9
@@ -432,7 +432,7 @@
    "park_id": "Q007",
    "name": "Bayswater Park",
    "lat": 40.598666,
-   "lon": -73.768038,
+   "lon": -73.768039,
    "court_count": 6,
    "band": "30-60 min",
    "score": 0.9
@@ -441,7 +441,7 @@
    "park_id": "B060",
    "name": "McKinley Park",
    "lat": 40.625776,
-   "lon": -74.017514,
+   "lon": -74.017515,
    "court_count": 8,
    "band": "30-60 min",
    "score": 0.9
@@ -737,7 +737,7 @@
   {
    "park_id": "X196",
    "name": "Haffen Park",
-   "lat": 40.873903,
+   "lat": 40.873904,
    "lon": -73.840165,
    "court_count": 6,
    "band": "30-60 min",
