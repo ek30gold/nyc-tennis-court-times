@@ -45,6 +45,11 @@ def popup_lines(p, planned, seasons, amenities, transit, quality):
     if qu: lines.append(f"Park upkeep: {qu['label']} ({qu['pct_acceptable']}% of {qu['inspections']} inspections passed, 2024+)")
     return lines
 
+def in_window(dt, win):
+    md = dt.strftime("%m-%d")
+    s, e = win["start"], win["end"]
+    return (md >= s or md <= e) if s > e else (s <= md <= e)
+
 def band(score):
     if score < 0.35: return "walk-on"
     if score < 0.65: return "short"
@@ -118,10 +123,13 @@ def main():
             prior = priors["facilities"].get(p["park_id"], {}).get("mult", priors["default"])
             s = base * prior * wmod
         s *= res_mod.get(p["park_id"], 1.0)
+        b = band(s)
+        win = (seasons.get(p["park_id"]) or {}).get("indoor_window")
+        if win and in_window(now, win): b = "indoor"
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
             "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality),
-            "band": band(s), "score": round(s, 2)})
+            "band": b, "score": round(s, 2)})
     # client-side recompute model for the date/time picker
     model = {
         "generated_at": now.isoformat(timespec="seconds"),
@@ -131,6 +139,8 @@ def main():
             "curve": (bt.get(p["park_id"], {}).get("curves") or None)}
             for feat in courts["features"] for p in [feat["properties"]]
             if p["park_id"] not in closed},
+        "season_windows": {pid: v["indoor_window"] for pid, v in seasons.items()
+                           if isinstance(v, dict) and v.get("indoor_window")},
         "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
                         "modifiers": res_mod}}
     json.dump(model, open("web/model.json", "w"))
