@@ -28,6 +28,19 @@ function baseline(hour, dow){
   const ep=Math.exp(-(((hour-18)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
   return Math.min(0.25+(dow<5?0.55*ep:0.65*mp),1.0);}
 function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
+function nycToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"America/New_York"});}
+function blockWindows(hoursMap){
+  const hs=Object.keys(hoursMap||{}).filter(h=>hoursMap[h]>0).map(Number).sort((a,b)=>a-b);
+  const wins=[];
+  for(const x of hs){
+    if(wins.length&&x===wins[wins.length-1][1]) wins[wins.length-1][1]=x+1;
+    else wins.push([x,x+1,0]);}
+  for(const w of wins){let mx=0;for(let x=w[0];x<w[1];x++)mx=Math.max(mx,hoursMap[String(x)]||0);w[2]=mx;}
+  return wins;}
+function leagueLines(day, parkId, courtCount){
+  const days=(MODEL&&MODEL.permits&&MODEL.permits.days)||{};
+  const pm={}; Object.entries(days[day]||{}).forEach(([hh,pm2])=>{pm[hh]=pm2[parkId]||0;});
+  return blockWindows(pm).map(w=>"League play "+String(w[0]).padStart(2,"0")+":00-"+String(w[1]).padStart(2,"0")+":00 (up to "+w[2]+" of "+courtCount+" courts)");}
 function inWindow(day, win){
   const md=day.slice(5);
   return win.start>win.end ? (md>=win.start||md<=win.end) : (win.start<=md&&md<=win.end);}
@@ -54,6 +67,9 @@ map.on("load", async () => {
     let lines=p.popup_lines||[];
     if(typeof lines==="string"){try{lines=JSON.parse(lines);}catch(_){lines=lines?[lines]:[];}}
     if(!Array.isArray(lines)) lines=[];
+    if(window.__selDay && window.__selDay!==nycToday()){
+      lines=lines.filter(l=>l.indexOf("League play")!==0)
+        .concat(leagueLines(window.__selDay,p.park_id,p.court_count));}
     new maplibregl.Popup().setLngLat(e.lngLat)
       .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a> &middot; <a href="https://github.com/ek30gold/nyc-tennis-court-times/issues/new?title=${encodeURIComponent("Wait report: "+p.name)}&body=${encodeURIComponent("Park: "+p.name+" ("+p.park_id+")\nWhen: \nPredicted: "+p.band+"\nActual wait: \n")}" target="_blank" rel="noopener">Report actual wait</a>`)
       .addTo(map);});
@@ -73,6 +89,7 @@ async function ensureWx(){
 function recompute(v){
   // v = "YYYY-MM-DDTHH:MM" interpreted as NYC time
   const day=v.slice(0,10), hour=+v.slice(11,13);
+  window.__selDay=day;
   const dow=new Date(day+"T12:00:00").getDay(); // weekday of that calendar date
   const hk=day+"T"+String(hour).padStart(2,"0")+":00";
   const hasWx=hk in WXP;
@@ -110,6 +127,7 @@ document.getElementById("when").addEventListener("change", async e=>{
   catch(err){ document.getElementById("pnote").textContent="Forecast error: "+err.message; }});
 document.getElementById("now").addEventListener("click", ()=>{
   document.getElementById("when").value="";
+  window.__selDay=null;
   map.getSource("courts").setData(toGeoJSON(DATA.scores));
   document.getElementById("pnote").textContent="Showing current conditions. Pick a date + time (NYC time) to forecast.";});
 </script></body></html>
