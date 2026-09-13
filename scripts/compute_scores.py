@@ -87,6 +87,7 @@ def main():
     # Tonight's booked density forecasts tomorrow's pressure; stale (>36h) or
     # unavailable data means no adjustment (graceful degradation).
     res_mod = {}
+    res_forecast = {}
     res_applies_to = None
     res_captured_at = None
     try:
@@ -99,6 +100,13 @@ def main():
             res_captured_at = res["captured_at"]
             res_applies_to = (cap.astimezone(ZoneInfo("America/New_York")).date()
                               + datetime.timedelta(days=1)).isoformat()
+            for site in res["sites"].values():
+                for day, dd in (site.get("daily") or {}).items():
+                    if dd.get("density") is not None:
+                        mod = 0.7 + 0.6 * dd["density"]
+                        for pid in site["park_ids"]:
+                            slot = res_forecast.setdefault(day, {})
+                            slot[pid] = max(slot.get(pid, 0), round(mod, 3))
             for site in res["sites"].values():
                 if site.get("density") is not None:
                     for pid in site["park_ids"]:
@@ -180,7 +188,7 @@ def main():
                            if isinstance(v, dict) and v.get("indoor_window")},
         "permits": {"days": permits.get("days", {}), "fetched_at": permits.get("fetched_at")},
         "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
-                        "modifiers": res_mod}}
+                        "modifiers": res_mod, "forecast": res_forecast}}
     json.dump(model, open("web/model.json", "w"))
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
