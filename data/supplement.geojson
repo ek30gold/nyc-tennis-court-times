@@ -1,0 +1,16 @@
+{
+ "type": "FeatureCollection",
+ "_note": "Manually verified 2026-09-13: concession-run courts missing from the Athletic Facilities dataset (qnem-b8re). Prospect Park Tennis Center is already in the dataset as 'Parade Ground' (B068, 11 courts). Hudson River Park coords from its BestTime/Google listing address (92 Hudson River Greenway = Pier 40 area); Queensboro Oval coords from York Ave & E 59-60 St.",
+ "features": [
+  {"type": "Feature",
+   "geometry": {"type": "Point", "coordinates": [-74.0113, 40.727243]},
+   "properties": {"park_id": "SUPP-HRP", "name": "Hudson River Park Tennis Courts",
+     "borough": "M", "court_count": 3, "surfaces": ["Hard"], "lighted": true,
+     "note": "Free, no permit, first-come-first-served, 6:00 AM-1:00 AM. 2 doubles + 1 singles court."}},
+  {"type": "Feature",
+   "geometry": {"type": "Point", "coordinates": [-73.9595, 40.759]},
+   "properties": {"park_id": "SUPP-QO", "name": "Queensboro Oval (Sutton Tennis)",
+     "borough": "M", "court_count": 8, "surfaces": ["Clay"], "lighted": true,
+     "note": "Sutton East Tennis concession. 6 of 8 courts available to Parks permit holders Apr 14 - Sep 14."}}
+ ]
+}
