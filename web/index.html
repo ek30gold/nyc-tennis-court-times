@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Tennis Wait Times</title>
+<link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet">
+<style>body{margin:0;font-family:system-ui}#map{height:100vh}.legend{position:fixed;bottom:12px;left:12px;background:#fff;padding:8px 10px;border-radius:6px;font-size:12px;box-shadow:0 1px 4px #0003}</style>
+</head><body>
+<div id="map"></div>
+<div class="legend">
+<b>Expected wait</b><br>
+<span style="color:#2ca02c">&#9679;</span> walk-on &nbsp;
+<span style="color:#ffd400">&#9679;</span> short &nbsp;
+<span style="color:#ff7f0e">&#9679;</span> 30-60 min &nbsp;
+<span style="color:#d62728">&#9679;</span> 1h+
+<div id="updated"></div>
+</div>
+<script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
+<script>
+const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728"};
+const map = new maplibregl.Map({container:"map",
+  style:"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+  center:[-73.95,40.73], zoom:10.5});
+map.on("load", async () => {
+  const data = await (await fetch("scores.json")).json();
+  document.getElementById("updated").textContent =
+    "Updated " + data.generated_at.replace("T"," ") +
+    (data.weather.precip_now>0 ? " - raining, courts closed" : "");
+  map.addSource("courts",{type:"geojson",data:{type:"FeatureCollection",
+    features:data.scores.map(s=>({type:"Feature",
+      geometry:{type:"Point",coordinates:[s.lon,s.lat]},
+      properties:s}))}});
+  map.addLayer({id:"courts",type:"circle",source:"courts",paint:{
+    "circle-radius":["interpolate",["linear"],["zoom"],10,5,13,8],
+    "circle-color":["match",["get","band"],"walk-on",COLORS["walk-on"],
+      "short",COLORS["short"],"30-60 min",COLORS["30-60 min"],COLORS["1h+"]],
+    "circle-stroke-width":1,"circle-stroke-color":"#333"}});
+  map.on("click","courts",e=>{const p=e.features[0].properties;
+    new maplibregl.Popup().setLngLat(e.lngLat)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b>`)
+      .addTo(map);});
+  map.on("mouseenter","courts",()=>map.getCanvas().style.cursor="pointer");
+  map.on("mouseleave","courts",()=>map.getCanvas().style.cursor="");
+});
+</script></body></html>
