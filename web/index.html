@@ -24,7 +24,7 @@ window.addEventListener("error",e=>{const u=document.getElementById("updated");i
 const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728"};
 function band(s){return s<0.35?"walk-on":s<0.65?"short":s<1.1?"30-60 min":"1h+";}
 function baseline(hour, dow){
-  const ep=Math.exp(-((hour-18)/2.5)**2), mp=Math.exp(-((hour-10)/2.5)**2);
+  const ep=Math.exp(-(((hour-18)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
   return Math.min(0.25+(dow<5?0.55*ep:0.65*mp),1.0);}
 function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
 const map = new maplibregl.Map({container:"map",
