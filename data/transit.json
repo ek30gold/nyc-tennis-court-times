@@ -1,0 +1,234 @@
+{
+ "B082": {
+  "station": "Bay Ridge-95 St",
+  "dist_m": 689
+ },
+ "B047": {
+  "station": "Cleveland St",
+  "dist_m": 512
+ },
+ "B032": {
+  "station": "Nevins St",
+  "dist_m": 493
+ },
+ "X010": {
+  "station": "174 St",
+  "dist_m": 661
+ },
+ "Q004": {
+  "station": "Astoria Blvd",
+  "dist_m": 812
+ },
+ "M028": {
+  "station": "175 St",
+  "dist_m": 561
+ },
+ "B068": {
+  "station": "Parkside Av",
+  "dist_m": 856
+ },
+ "M010": {
+  "station": "103 St",
+  "dist_m": 692
+ },
+ "M042": {
+  "station": "Inwood-207 St",
+  "dist_m": 263
+ },
+ "B054": {
+  "station": "Sutter Av-Rutland Rd",
+  "dist_m": 320
+ },
+ "Q015": {
+  "station": "Woodhaven Blvd",
+  "dist_m": 578
+ },
+ "X045": {
+  "station": "3 Av-149 St",
+  "dist_m": 588
+ },
+ "B210W": {
+  "station": "Bay Ridge-95 St",
+  "dist_m": 507
+ },
+ "B214": {
+  "station": "Pennsylvania Av",
+  "dist_m": 968
+ },
+ "Q371": {
+  "station": "Beach 60 St",
+  "dist_m": 810
+ },
+ "B058": {
+  "station": "Nassau Av",
+  "dist_m": 427
+ },
+ "X344": {
+  "station": "Harlem-148 St",
+  "dist_m": 408
+ },
+ "M071": {
+  "station": "116 St-Columbia University",
+  "dist_m": 698
+ },
+ "M079": {
+  "station": "72 St",
+  "dist_m": 393
+ },
+ "B294": {
+  "station": "Utica Av",
+  "dist_m": 250
+ },
+ "Q007": {
+  "station": "Beach 36 St",
+  "dist_m": 364
+ },
+ "B060": {
+  "station": "77 St",
+  "dist_m": 806
+ },
+ "B050": {
+  "station": "Court St",
+  "dist_m": 839
+ },
+ "B346": {
+  "station": "Nassau Av",
+  "dist_m": 560
+ },
+ "M217": {
+  "station": "138 St-Grand Concourse",
+  "dist_m": 724
+ },
+ "X233": {
+  "station": "E 149 St",
+  "dist_m": 259
+ },
+ "M201": {
+  "station": "Delancey St-Essex St",
+  "dist_m": 912
+ },
+ "B267": {
+  "station": "Winthrop St",
+  "dist_m": 352
+ },
+ "Q014": {
+  "station": "46 St",
+  "dist_m": 466
+ },
+ "X044": {
+  "station": "Kingsbridge Rd",
+  "dist_m": 383
+ },
+ "M159": {
+  "station": "Harlem-148 St",
+  "dist_m": 127
+ },
+ "M204": {
+  "station": "138 St-Grand Concourse",
+  "dist_m": 849
+ },
+ "Q429": {
+  "station": "21 St-Queensbridge",
+  "dist_m": 771
+ },
+ "M205": {
+  "station": "125 St",
+  "dist_m": 240
+ },
+ "B025": {
+  "station": "Grand St",
+  "dist_m": 578
+ },
+ "B407": {
+  "station": "Lafayette Av",
+  "dist_m": 309
+ },
+ "Q460": {
+  "station": "Broad Channel",
+  "dist_m": 903
+ },
+ "B244": {
+  "station": "Avenue U",
+  "dist_m": 676
+ },
+ "B380": {
+  "station": "Grant Av",
+  "dist_m": 256
+ },
+ "B217": {
+  "station": "Myrtle-Willoughby Avs",
+  "dist_m": 261
+ },
+ "B163": {
+  "station": "Cleveland St",
+  "dist_m": 364
+ },
+ "R038A": {
+  "station": "Jefferson Av",
+  "dist_m": 866
+ },
+ "Q335": {
+  "station": "67 Av",
+  "dist_m": 325
+ },
+ "Q218": {
+  "station": "36 Av",
+  "dist_m": 321
+ },
+ "B358": {
+  "station": "Lorimer St",
+  "dist_m": 198
+ },
+ "X196": {
+  "station": "Baychester Av",
+  "dist_m": 546
+ },
+ "X193": {
+  "station": "Baychester Av",
+  "dist_m": 755
+ },
+ "X104": {
+  "station": "Norwood-205 St",
+  "dist_m": 364
+ },
+ "M227": {
+  "station": "3 Av",
+  "dist_m": 535
+ },
+ "M308": {
+  "station": "Franklin St",
+  "dist_m": 509
+ },
+ "B215": {
+  "station": "Kingston-Throop Avs",
+  "dist_m": 420
+ },
+ "B372": {
+  "station": "Avenue N",
+  "dist_m": 393
+ },
+ "Q099": {
+  "station": "Mets-Willets Point",
+  "dist_m": 438
+ },
+ "M353": {
+  "station": "66 St-Lincoln Center",
+  "dist_m": 950
+ },
+ "M045": {
+  "station": "72 St",
+  "dist_m": 742
+ },
+ "Q502": {
+  "station": "82 St-Jackson Hts",
+  "dist_m": 804
+ },
+ "SUPP-HRP": {
+  "station": "Houston St",
+  "dist_m": 512
+ },
+ "SUPP-QO": {
+  "station": "Roosevelt Island",
+  "dist_m": 526
+ }
+}
