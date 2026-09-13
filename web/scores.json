@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T14:54:15",
+ "generated_at": "2026-09-13T16:21:49",
  "weather": {
-  "precip_now": 0,
+  "precip_now": 0.2,
   "precip_last_6h_mm": 0
  },
  "closures": [
@@ -26,7 +26,7 @@
     "Park upkeep: mixed (87% of 23 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B082",
@@ -42,7 +42,7 @@
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B047",
@@ -57,7 +57,7 @@
     "Subway ~512 m: Cleveland St"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M104",
@@ -72,7 +72,7 @@
     "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B032",
@@ -87,8 +87,8 @@
     "Subway ~493 m: Nevins St",
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.42
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X010",
@@ -103,8 +103,8 @@
     "Subway ~661 m: 174 St",
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.45
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q008",
@@ -119,7 +119,7 @@
     "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q024",
@@ -134,7 +134,7 @@
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q004",
@@ -149,14 +149,14 @@
     "Subway ~812 m: Astoria Blvd",
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.6
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M028",
    "name": "Fort Washington Park",
    "lat": 40.84817,
-   "lon": -73.946297,
+   "lon": -73.946296,
    "court_count": 10,
    "popup_lines": [
     "Asphalt",
@@ -166,7 +166,7 @@
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R031",
@@ -181,7 +181,7 @@
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q001A",
@@ -196,7 +196,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X039",
@@ -211,7 +211,7 @@
     "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B129",
@@ -226,7 +226,7 @@
     "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B068",
@@ -243,7 +243,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B251",
@@ -258,7 +258,7 @@
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M010",
@@ -274,8 +274,8 @@
     "Subway ~692 m: 103 St",
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 2.0
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B057",
@@ -290,7 +290,7 @@
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M042",
@@ -305,8 +305,8 @@
     "Subway ~263 m: Inwood-207 St",
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.6
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B054",
@@ -322,7 +322,7 @@
     "Park upkeep: mixed (84% of 25 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X092",
@@ -337,7 +337,7 @@
     "Park upkeep: strong (94% of 163 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q015",
@@ -353,7 +353,7 @@
     "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q021",
@@ -368,7 +368,7 @@
     "Park upkeep: mixed (84% of 57 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X045",
@@ -384,7 +384,7 @@
     "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B210W",
@@ -400,7 +400,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q131",
@@ -415,7 +415,7 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q121",
@@ -431,7 +431,7 @@
     "Park upkeep: mixed (83% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R022",
@@ -446,7 +446,7 @@
     "Park upkeep: mixed (86% of 29 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q005",
@@ -461,7 +461,7 @@
     "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B214",
@@ -477,7 +477,7 @@
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q371",
@@ -493,7 +493,7 @@
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R129",
@@ -507,7 +507,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q102",
@@ -522,7 +522,7 @@
     "Park upkeep: mixed (86% of 35 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q448",
@@ -537,7 +537,7 @@
     "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q300A",
@@ -552,7 +552,7 @@
     "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q107",
@@ -567,7 +567,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M144",
@@ -582,7 +582,7 @@
     "Park upkeep: strong (94% of 16 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B058",
@@ -597,8 +597,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.63
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X344",
@@ -614,7 +614,7 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M071",
@@ -629,8 +629,8 @@
     "Subway ~698 m: 116 St-Columbia University",
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.48
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M079",
@@ -646,7 +646,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q373",
@@ -661,7 +661,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X201",
@@ -677,7 +677,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B166D",
@@ -692,13 +692,13 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q413",
    "name": "Rochdale Park",
    "lat": 40.674404,
-   "lon": -73.773823,
+   "lon": -73.773822,
    "court_count": 6,
    "popup_lines": [
     "Asphalt",
@@ -707,7 +707,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B294",
@@ -723,13 +723,13 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q007",
    "name": "Bayswater Park",
    "lat": 40.598666,
-   "lon": -73.768039,
+   "lon": -73.768038,
    "court_count": 6,
    "popup_lines": [
     "Asphalt",
@@ -739,13 +739,13 @@
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B060",
    "name": "McKinley Park",
    "lat": 40.625776,
-   "lon": -74.017515,
+   "lon": -74.017514,
    "court_count": 8,
    "popup_lines": [
     "Asphalt",
@@ -756,7 +756,7 @@
     "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q298",
@@ -770,7 +770,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q347",
@@ -785,7 +785,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B050",
@@ -801,7 +801,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B346",
@@ -817,7 +817,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M217",
@@ -833,7 +833,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X233",
@@ -849,7 +849,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M201",
@@ -865,7 +865,7 @@
     "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q086",
@@ -880,7 +880,7 @@
     "Park upkeep: mixed (73% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B267",
@@ -896,7 +896,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q014",
@@ -912,7 +912,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B051",
@@ -928,7 +928,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X044",
@@ -944,7 +944,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M159",
@@ -960,7 +960,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M204",
@@ -976,7 +976,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q429",
@@ -992,7 +992,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M205",
@@ -1008,7 +1008,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R015",
@@ -1023,7 +1023,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B025",
@@ -1038,7 +1038,7 @@
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B007",
@@ -1053,7 +1053,7 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B407",
@@ -1069,7 +1069,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q460",
@@ -1085,7 +1085,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B244",
@@ -1101,7 +1101,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B380",
@@ -1117,7 +1117,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q051",
@@ -1132,7 +1132,7 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B217",
@@ -1148,7 +1148,7 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B163",
@@ -1164,7 +1164,7 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R038A",
@@ -1180,7 +1180,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q335",
@@ -1196,7 +1196,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q218",
@@ -1212,7 +1212,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q400",
@@ -1227,7 +1227,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q092",
@@ -1241,7 +1241,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B358",
@@ -1257,12 +1257,12 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X196",
    "name": "Haffen Park",
-   "lat": 40.873904,
+   "lat": 40.873903,
    "lon": -73.840165,
    "court_count": 6,
    "popup_lines": [
@@ -1270,11 +1270,11 @@
     "Planned work: Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
     "Restroom ~83 m: Haffen Park Playground",
     "Water ~46 m",
-    "Subway ~545 m: Baychester Av",
+    "Subway ~546 m: Baychester Av",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X193",
@@ -1290,7 +1290,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "X104",
@@ -1306,7 +1306,7 @@
     "Park upkeep: strong (94% of 18 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M227",
@@ -1322,7 +1322,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M308",
@@ -1338,7 +1338,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B215",
@@ -1354,7 +1354,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B372",
@@ -1370,7 +1370,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q369",
@@ -1385,7 +1385,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q390",
@@ -1400,7 +1400,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "B234",
@@ -1415,7 +1415,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "R153",
@@ -1429,7 +1429,7 @@
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q099",
@@ -1444,8 +1444,8 @@
     "Subway ~438 m: Mets-Willets Point",
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.4
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q084A",
@@ -1459,7 +1459,7 @@
     "Water ~47 m"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M353",
@@ -1475,7 +1475,7 @@
     "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "M045",
@@ -1491,7 +1491,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q502",
@@ -1507,7 +1507,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "SUPP-HRP",
@@ -1522,8 +1522,8 @@
     "Water ~483 m",
     "Subway ~512 m: Houston St"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "SUPP-QO",
@@ -1540,7 +1540,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   }
  ]
 }
