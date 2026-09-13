@@ -20,6 +20,7 @@
 </div>
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
 <script>
+window.addEventListener("error",e=>{const u=document.getElementById("updated");if(u)u.textContent="JS error: "+e.message;});
 const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728"};
 function band(s){return s<0.35?"walk-on":s<0.65?"short":s<1.1?"30-60 min":"1h+";}
 function baseline(hour, dow){
