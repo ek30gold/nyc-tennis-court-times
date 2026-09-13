@@ -26,7 +26,7 @@ def weather_modifier(current_precip, recent_precip_mm):
     if recent_precip_mm > 1.0: return 1.5      # post-rain reopen surge
     return 1.0
 
-def popup_lines(p, planned, seasons, amenities, transit, quality):
+def popup_lines(p, planned, seasons, amenities, transit, quality, permits, today):
     lines = []
     surf = ", ".join(p.get("surfaces", [])) or "Surface unknown"
     lines.append(surf + (" - lit for night play" if p.get("lighted") else ""))
@@ -43,7 +43,24 @@ def popup_lines(p, planned, seasons, amenities, transit, quality):
     if tr: lines.append(f"Subway ~{tr['dist_m']} m: {tr['station']}")
     qu = quality.get(p["park_id"])
     if qu: lines.append(f"Park upkeep: {qu['label']} ({qu['pct_acceptable']}% of {qu['inspections']} inspections passed, 2024+)")
+    today_blocks = ((permits.get("days") or {}).get(today) or {})
+    park_hours = {h: c.get(p["park_id"], 0) for h, c in today_blocks.items()}
+    for ws, we, mx in block_windows(park_hours):
+        lines.append(f"League play today {ws:02d}:00-{we:02d}:00 (up to {mx} of {p['court_count']} courts)")
     return lines
+
+def block_windows(blocks_by_hour):
+    """{hour: count} -> [(start_hour, end_hour_exclusive, max_courts)] over consecutive hours."""
+    hours = sorted(int(h) for h, c in blocks_by_hour.items() if c)
+    wins = []
+    for h in hours:
+        if wins and h == wins[-1][1]:
+            wins[-1][1] = h + 1
+        else:
+            wins.append([h, h + 1, 0])
+    for w in wins:
+        w[2] = max(blocks_by_hour.get(str(h), 0) for h in range(w[0], w[1]))
+    return wins
 
 def supply_mod(permits, park_id, court_count, day, hour):
     """League-permit blocked courts shrink walk-up supply: up to 1.75x demand."""
@@ -140,7 +157,7 @@ def main():
         if win and in_window(now, win): b = "indoor"
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
-            "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality),
+            "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality, permits, now.strftime("%Y-%m-%d")),
             "band": b, "score": round(s, 2)})
     # client-side recompute model for the date/time picker
     model = {
