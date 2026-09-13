@@ -15,18 +15,22 @@
 <span style="color:#2ca02c">&#9679;</span> walk-on &nbsp;
 <span style="color:#ffd400">&#9679;</span> short &nbsp;
 <span style="color:#ff7f0e">&#9679;</span> 30-60 min &nbsp;
-<span style="color:#d62728">&#9679;</span> 1h+
+<span style="color:#d62728">&#9679;</span> 1h+ &nbsp;
+<span style="color:#7f7f7f">&#9679;</span> indoor
 <div id="updated"></div>
 </div>
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
 <script>
 window.addEventListener("error",e=>console.warn("page error:",e.message));
-const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728"};
+const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728","indoor":"#7f7f7f"};
 function band(s){return s<0.35?"walk-on":s<0.65?"short":s<1.1?"30-60 min":"1h+";}
 function baseline(hour, dow){
   const ep=Math.exp(-(((hour-18)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
   return Math.min(0.25+(dow<5?0.55*ep:0.65*mp),1.0);}
 function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
+function inWindow(day, win){
+  const md=day.slice(5);
+  return win.start>win.end ? (md>=win.start||md<=win.end) : (win.start<=md&&md<=win.end);}
 const map = new maplibregl.Map({container:"map",
   style:"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
   center:[-73.95,40.73], zoom:10.5});
@@ -43,14 +47,15 @@ map.on("load", async () => {
   map.addLayer({id:"courts",type:"circle",source:"courts",paint:{
     "circle-radius":["interpolate",["linear"],["zoom"],10,5,13,8],
     "circle-color":["match",["get","band"],"walk-on",COLORS["walk-on"],
-      "short",COLORS["short"],"30-60 min",COLORS["30-60 min"],COLORS["1h+"]],
+      "short",COLORS["short"],"30-60 min",COLORS["30-60 min"],
+      "indoor",COLORS["indoor"],COLORS["1h+"]],
     "circle-stroke-width":1,"circle-stroke-color":"#333"}});
   map.on("click","courts",e=>{const p=e.features[0].properties;
     let lines=p.popup_lines||[];
     if(typeof lines==="string"){try{lines=JSON.parse(lines);}catch(_){lines=lines?[lines]:[];}}
     if(!Array.isArray(lines)) lines=[];
     new maplibregl.Popup().setLngLat(e.lngLat)
-      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a>`)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a> &middot; <a href="https://github.com/ek30gold/nyc-tennis-court-times/issues/new?title=${encodeURIComponent("Wait report: "+p.name)}&body=${encodeURIComponent("Park: "+p.name+" ("+p.park_id+")\nWhen: \nPredicted: "+p.band+"\nActual wait: \n")}" target="_blank" rel="noopener">Report actual wait</a>`)
       .addTo(map);});
   map.on("mouseenter","courts",()=>map.getCanvas().style.cursor="pointer");
   map.on("mouseleave","courts",()=>map.getCanvas().style.cursor="");
@@ -85,7 +90,9 @@ function recompute(v){
     else{sc=baseline(hour,dow)*f.mult;}
     sc*=wm;
     if(useRes&&r.modifiers[s.park_id]) sc*=r.modifiers[s.park_id];
-    return {...s,band:band(sc),score:+sc.toFixed(2)};});
+    const win=(MODEL.season_windows||{})[s.park_id];
+    const bd=(win&&inWindow(day,win))?"indoor":band(sc);
+    return {...s,band:bd,score:+sc.toFixed(2)};});
   map.getSource("courts").setData(toGeoJSON(scores));
   const note=document.getElementById("pnote");
   let bits=[`Forecast for ${day} ${String(hour).padStart(2,"0")}:00 NYC time.`];
