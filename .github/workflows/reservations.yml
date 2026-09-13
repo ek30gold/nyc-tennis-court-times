@@ -1,7 +1,9 @@
 name: fetch-reservations
 on:
-  schedule:
-    - cron: "30 23 * * *"   # 7:30pm ET - tonight's grids forecast tomorrow
+  # CI runner IPs are WAF-walled (grid never renders there). Manual-dispatch only;
+  # the nightly refresh runs agent-side through the cloud browser instead.
+  # schedule:
+  #   - cron: "30 23 * * *"   # 7:30pm ET - tonight's grids forecast tomorrow
   workflow_dispatch:
 permissions:
   contents: write
