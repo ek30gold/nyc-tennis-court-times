@@ -13,7 +13,10 @@ Verified 2026-09-13 (live API, agent-operated free account):
 - Found but NOT forecastable (insufficient visitor volume): Riverside Park
   Tennis (2 name variants), Fort Greene, Prospect Park Tennis Center,
   Sportime Randall's Island, Sutton East, Alley Pond, Mill Pond, Cunningham,
-  East River, Van Cortlandt.
+  East River, Van Cortlandt, Crocheron, Shore Park, Alley Athletic, Pelham
+  Bay, Kaiser, Brookville. Lincoln Terrace: venue not found.
+- Second pass 2026-09-13 added: Highland Park, Kissena Park, Fort Washington
+  Park, Manhattan Beach, Marine Park (5 hits / 12 attempts, free credits).
 - day_raw is 24 hourly busyness percentages relative to the venue's weekly
   peak; index 0 = 6:00 AM local (validated against venue open hours).
 """
@@ -27,6 +30,11 @@ SLUG_TO_PARK = {
     "usta_ntc": "Q099",
     "hudson_river_park_tennis": "SUPP-HRP",  # concession-run; added via data/supplement.geojson
     "inwood_hill_tennis": "M042",
+    "highland_park_tennis": "B047",
+    "kissena_park_tennis": "Q024",
+    "fort_washington_tennis": "M028",
+    "manhattan_beach_tennis": "B251",
+    "marine_park_tennis": "B057",
 }
 
 def curve_from(path):
