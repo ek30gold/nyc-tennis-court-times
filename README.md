@@ -4,10 +4,13 @@ A private map of NYC public tennis courts with predicted wait times. No crowdsou
 
 ## What's live
 
-- 99 facilities (97 from NYC Open Data + 2 manually verified concession sites: Hudson River Park, Queensboro Oval)
+- 98 facilities (97 from NYC Open Data + 2 manually verified concession sites: Hudson River Park, Queensboro Oval; minus Dyker Beach, removed for active construction via the Capital Project Tracker)
 - Hourly score refresh (Actions cron) + auto-deploy to Pages
-- Popups: court count, Google/Apple Maps links
-- Phase 2: nightly reservation-grid capture feeds a next-day demand modifier on the 6 reservable sites (graceful: skips when the WAF blocks capture)
+- Date/time picker: forecast any future moment client-side (priors + BestTime curves + Open-Meteo 16-day forecast; labeled when beyond the weather horizon; reservation signal applies to tomorrow only)
+- Season flip: Central Park, Prospect Park Tennis Center and Queensboro Oval turn gray "indoor (paid)" inside their curated bubble windows
+- Popups: court count, wait band, surface, night lights, pickleball note, planned-work notes, season info, nearest restroom + drinking fountain + subway stop, park upkeep grade (Parks inspection ratings 2024+), Google/Apple Maps links, "Report actual wait" feedback link (prefilled GitHub issue)
+- Capital Project Tracker removes courts under active construction and notes planned work (hourly refresh)
+- Phase 2: nightly reservation-grid capture feeds a next-day demand modifier on the 6 reservable sites. The Parks WAF blocks GitHub Actions IPs, so the capture runs agent-side through a cloud browser nightly at 9pm ET; CI keeps a manual-dispatch copy. Graceful skip when capture fails
 
 ## Verified data sources (checked hands-on 2026-09-13)
 
@@ -35,7 +38,7 @@ score = baseline_prior(hour, weekday, season, per-court lore)
       + weather modifier (current rain, rain in last 6h, first-dry-hour surge)
 ```
 
-v1.5 adds a one-tap personal wait log that Bayesian-updates the priors for the courts actually visited.
+v1.5 begins with the "Report actual wait" popup link (prefilled GitHub issues); reports feed manual multiplier updates in priors.json.
 
 ## Phases
 
