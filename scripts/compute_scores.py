@@ -76,6 +76,7 @@ def main():
         s *= res_mod.get(p["park_id"], 1.0)
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
+            "surfaces": p.get("surfaces", []), "lighted": p.get("lighted", False),
             "band": band(s), "score": round(s, 2)})
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
