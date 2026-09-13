@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T11:48:23",
+ "generated_at": "2026-09-13T12:02:30",
  "weather": {
-  "precip_now": 0,
+  "precip_now": 0.1,
   "precip_last_6h_mm": 0
  },
  "closures": [
@@ -22,10 +22,11 @@
     "Asphalt",
     "Pickleball courts on site too",
     "Restroom ~53 m: Crocheron Park Zone 1",
-    "Water ~45 m"
+    "Water ~45 m",
+    "Park upkeep: mixed (87% of 23 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B082",
@@ -36,10 +37,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~109 m: Shore Road Park Zone 4",
-    "Water ~121 m"
+    "Water ~121 m",
+    "Subway ~689 m: Bay Ridge-95 St",
+    "Park upkeep: mixed (85% of 48 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B047",
@@ -50,10 +53,11 @@
    "popup_lines": [
     "Asphalt - lit for night play",
     "Restroom ~151 m: Lower Highland Playground",
-    "Water ~36 m"
+    "Water ~36 m",
+    "Subway ~512 m: Cleveland St"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M104",
@@ -64,10 +68,11 @@
    "popup_lines": [
     "Clay, Rubber - lit for night play",
     "Restroom ~5 m: Sunken Meadow",
-    "Water ~18 m"
+    "Water ~18 m",
+    "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B032",
@@ -78,10 +83,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~199 m: Fort Greene Park Zone 3",
-    "Water ~17 m"
+    "Water ~17 m",
+    "Subway ~493 m: Nevins St",
+    "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 1.13
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X010",
@@ -92,10 +99,12 @@
    "popup_lines": [
     "Asphalt - lit for night play",
     "Restroom ~47 m: Crotona Tennis House & Courts",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Subway ~661 m: 174 St",
+    "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.5
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q008",
@@ -106,10 +115,11 @@
    "popup_lines": [
     "Asphalt - lit for night play",
     "Restroom ~197 m: Brookville Park Playground",
-    "Water ~179 m"
+    "Water ~179 m",
+    "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q024",
@@ -120,10 +130,11 @@
    "popup_lines": [
     "Asphalt, Hard Top",
     "Restroom ~514 m: Playground",
-    "Water ~44 m"
+    "Water ~44 m",
+    "Park upkeep: mixed (81% of 59 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q004",
@@ -134,10 +145,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~77 m: Astoria Park Zone 1",
-    "Water ~28 m"
+    "Water ~28 m",
+    "Subway ~812 m: Astoria Blvd",
+    "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.7
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M028",
@@ -148,10 +161,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~107 m: Fort Washington Park Zone 2A",
-    "Water ~48 m"
+    "Water ~48 m",
+    "Subway ~561 m: 175 St",
+    "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R031",
@@ -162,10 +177,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~348 m: E.M.T. Christopher J. Prescott Playground",
-    "Water ~23 m"
+    "Water ~23 m",
+    "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q001A",
@@ -176,10 +192,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~49 m: Alley Pond Indoor Tennis",
-    "Water ~42 m"
+    "Water ~42 m",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X039",
@@ -190,10 +207,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~782 m: Pelham South Park Headquarters",
-    "Water ~485 m"
+    "Water ~485 m",
+    "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B129",
@@ -204,10 +222,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~88 m: Kaiser Park Zone 1",
-    "Water ~54 m"
+    "Water ~54 m",
+    "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B068",
@@ -219,10 +238,12 @@
     "Asphalt, Clay",
     "Season: 11 courts; 8 open to Parks permit holders in the outdoor season. Bubble season Oct 23 - May 6: paid indoor rental.",
     "Restroom ~10 m: Prospect Park Indoor Tennis",
-    "Water ~11 m"
+    "Water ~11 m",
+    "Subway ~856 m: Parkside Av",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B251",
@@ -233,10 +254,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~379 m: Manhattan Beach Zone 2",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M010",
@@ -248,10 +270,12 @@
     "Asphalt, Clay",
     "Season: Outdoor permit/sign-up play ~April-November; bubble (paid indoor) play in winter - no walk-ons then.",
     "Restroom ~55 m: Reservoir (Northwest)",
-    "Water ~57 m"
+    "Water ~57 m",
+    "Subway ~692 m: 103 St",
+    "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 1.25
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B057",
@@ -262,10 +286,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~174 m: Marine Park Zone 1",
-    "Water ~37 m"
+    "Water ~37 m",
+    "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M042",
@@ -276,10 +301,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~52 m: Inwood Hill Park Zone 1",
-    "Water ~14 m"
+    "Water ~14 m",
+    "Subway ~263 m: Inwood-207 St",
+    "Park upkeep: mixed (77% of 64 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.4
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B054",
@@ -290,10 +317,12 @@
    "popup_lines": [
     "Asphalt - lit for night play",
     "Restroom ~206 m: Lincoln Terrace Park / Arthur S. Somers Playground",
-    "Water ~24 m"
+    "Water ~24 m",
+    "Subway ~320 m: Sutter Av-Rutland Rd",
+    "Park upkeep: mixed (84% of 25 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X092",
@@ -304,10 +333,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~346 m: Major Deegan So. Gas Station",
-    "Water ~290 m"
+    "Water ~290 m",
+    "Park upkeep: strong (94% of 163 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q015",
@@ -318,10 +348,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~129 m: Tennis Courts - Forest Parkway",
-    "Water ~4 m"
+    "Water ~4 m",
+    "Subway ~578 m: Woodhaven Blvd",
+    "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q021",
@@ -332,10 +364,11 @@
    "popup_lines": [
     "Asphalt - lit for night play",
     "Restroom ~46 m: Cunningham Park Indoor Tennis",
-    "Water ~30 m"
+    "Water ~30 m",
+    "Park upkeep: mixed (84% of 57 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X045",
@@ -346,10 +379,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~92 m: St Mary's Playground West",
-    "Water ~71 m"
+    "Water ~71 m",
+    "Subway ~588 m: 3 Av-149 St",
+    "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B210W",
@@ -360,10 +395,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~304 m: John J Carty Park",
-    "Water ~59 m"
+    "Water ~59 m",
+    "Subway ~507 m: Bay Ridge-95 St",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q131",
@@ -374,10 +411,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~33 m: Virginia Principe Playground",
-    "Water ~28 m"
+    "Water ~28 m",
+    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q121",
@@ -389,10 +427,11 @@
     "Asphalt",
     "Planned work: Detective Keith L. Williams Park Track and Field, Tennis Courts and Playground Reconstruction",
     "Restroom ~37 m: Detective Keith L Williams Park",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Park upkeep: mixed (83% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R022",
@@ -403,10 +442,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~54 m: Silver Lake Park Playground",
-    "Water ~26 m"
+    "Water ~26 m",
+    "Park upkeep: mixed (86% of 29 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q005",
@@ -417,10 +457,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~64 m: Baisley Pond Park Zone 4",
-    "Water ~115 m"
+    "Water ~115 m",
+    "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B214",
@@ -431,10 +472,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~56 m: Linden Park",
-    "Water ~22 m"
+    "Water ~22 m",
+    "Subway ~968 m: Pennsylvania Av",
+    "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q371",
@@ -445,10 +488,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~593 m: Arverne Library, QPL",
-    "Water ~318 m"
+    "Water ~318 m",
+    "Subway ~810 m: Beach 60 St",
+    "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R129",
@@ -458,10 +503,11 @@
    "court_count": 2,
    "popup_lines": [
     "Hard Top",
-    "Water ~72 m"
+    "Water ~72 m",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q102",
@@ -472,10 +518,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~64 m: Juniper North Playground Tennis",
-    "Water ~50 m"
+    "Water ~50 m",
+    "Park upkeep: mixed (86% of 35 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q448",
@@ -486,10 +533,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~144 m: Nautilus Playground",
-    "Water ~21 m"
+    "Water ~21 m",
+    "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q300A",
@@ -500,10 +548,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~27 m: Ella Fitzgerald Playground",
-    "Water ~18 m"
+    "Water ~18 m",
+    "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q107",
@@ -514,10 +563,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~109 m: Springfield Park",
-    "Water ~22 m"
+    "Water ~22 m",
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M144",
@@ -528,10 +578,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~239 m: Baruch Playground",
-    "Water ~46 m"
+    "Water ~46 m",
+    "Park upkeep: strong (94% of 16 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B058",
@@ -542,10 +593,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~9 m: Mccarren Park Indoor Tennis",
-    "Water ~32 m"
+    "Water ~32 m",
+    "Subway ~427 m: Nassau Av",
+    "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.45
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X344",
@@ -556,10 +609,12 @@
    "popup_lines": [
     "Concrete",
     "Restroom ~16 m: Mill Pond Indoor Tennis",
-    "Water ~80 m"
+    "Water ~80 m",
+    "Subway ~408 m: Harlem-148 St",
+    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M071",
@@ -570,10 +625,12 @@
    "popup_lines": [
     "Asphalt, Clay",
     "Restroom ~214 m: Hudson Beach Volleyball Courts & Caf\u00e9",
-    "Water ~20 m"
+    "Water ~20 m",
+    "Subway ~698 m: 116 St-Columbia University",
+    "Park upkeep: strong (90% of 206 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 1.29
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M079",
@@ -584,10 +641,12 @@
    "popup_lines": [
     "Surface unknown",
     "Restroom ~26 m: St. Catherine's Park",
-    "Water ~12 m"
+    "Water ~12 m",
+    "Subway ~393 m: 72 St",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q373",
@@ -598,10 +657,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~73 m: Helen Marshall Playground",
-    "Water ~82 m"
+    "Water ~82 m",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X201",
@@ -613,10 +673,11 @@
     "Asphalt",
     "Planned work: Seton Park Tennis Courts Reconstruction and Pickleball Court Construction",
     "Restroom ~87 m: Seton Park Playground",
-    "Water ~24 m"
+    "Water ~24 m",
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B166D",
@@ -627,10 +688,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~158 m: McGuire Fields",
-    "Water ~31 m"
+    "Water ~31 m",
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q413",
@@ -641,10 +703,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~58 m: Rochdale Park",
-    "Water ~16 m"
+    "Water ~16 m",
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B294",
@@ -655,10 +718,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~61 m: Jackie Robinson Park Playground",
-    "Water ~32 m"
+    "Water ~32 m",
+    "Subway ~250 m: Utica Av",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q007",
@@ -669,10 +734,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~47 m: Bayswater Playground",
-    "Water ~29 m"
+    "Water ~29 m",
+    "Subway ~364 m: Beach 36 St",
+    "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B060",
@@ -684,10 +751,12 @@
     "Asphalt",
     "Planned work: McKinley Park Tennis Pavement Reconstruction",
     "Restroom ~112 m: McKinley Park Playground",
-    "Water ~35 m"
+    "Water ~35 m",
+    "Subway ~806 m: 77 St",
+    "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q298",
@@ -697,10 +766,11 @@
    "court_count": 1,
    "popup_lines": [
     "Asphalt",
-    "Water ~36 m"
+    "Water ~36 m",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q347",
@@ -711,10 +781,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~125 m: Mitchell-Linden Library, QPL",
-    "Water ~31 m"
+    "Water ~31 m",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B050",
@@ -725,10 +796,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~38 m: Van Voorhees Playground",
-    "Water ~24 m"
+    "Water ~24 m",
+    "Subway ~839 m: Court St",
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B346",
@@ -739,10 +812,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~185 m: McCarren Park Zone 1",
-    "Water ~37 m"
+    "Water ~37 m",
+    "Subway ~560 m: Nassau Av",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M217",
@@ -753,10 +828,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~48 m: Howard Bennett Playground",
-    "Water ~18 m"
+    "Water ~18 m",
+    "Subway ~724 m: 138 St-Grand Concourse",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X233",
@@ -767,10 +844,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~335 m: Abigail Playground",
-    "Water ~71 m"
+    "Water ~71 m",
+    "Subway ~259 m: E 149 St",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M201",
@@ -781,10 +860,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~288 m: Baruch Playground",
-    "Water ~44 m"
+    "Water ~44 m",
+    "Subway ~912 m: Delancey St-Essex St",
+    "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q086",
@@ -795,10 +876,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~143 m: Leonardo Ingravallo Playground",
-    "Water ~44 m"
+    "Water ~44 m",
+    "Park upkeep: mixed (73% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B267",
@@ -809,10 +891,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~37 m: Winthrop Playground",
-    "Water ~15 m"
+    "Water ~15 m",
+    "Subway ~352 m: Winthrop St",
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q014",
@@ -823,10 +907,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~87 m: Astoria Heights Playground",
-    "Water ~26 m"
+    "Water ~26 m",
+    "Subway ~466 m: 46 St",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B051",
@@ -838,10 +924,11 @@
     "Asphalt",
     "Planned work: Kelly Park Playground Tennis Courts Reconstruction",
     "Restroom ~739 m: Kings Highway Library, BPL",
-    "Water ~23 m"
+    "Water ~23 m",
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X044",
@@ -852,10 +939,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~85 m: St. James Park",
-    "Water ~75 m"
+    "Water ~75 m",
+    "Subway ~383 m: Kingsbridge Rd",
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M159",
@@ -866,10 +955,12 @@
    "popup_lines": [
     "Asphalt, Mondo",
     "Restroom ~65 m: Frederick Johnson Playground",
-    "Water ~3 m"
+    "Water ~3 m",
+    "Subway ~127 m: Harlem-148 St",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M204",
@@ -880,10 +971,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~68 m: Moore Playground",
-    "Water ~17 m"
+    "Water ~17 m",
+    "Subway ~849 m: 138 St-Grand Concourse",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q429",
@@ -894,10 +987,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~46 m: Spirit Playground",
-    "Water ~23 m"
+    "Water ~23 m",
+    "Subway ~771 m: 21 St-Queensbridge",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M205",
@@ -908,10 +1003,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~97 m: Playground 123",
-    "Water ~27 m"
+    "Water ~27 m",
+    "Subway ~240 m: 125 St",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R015",
@@ -922,10 +1019,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~62 m: Walker Park",
-    "Water ~40 m"
+    "Water ~40 m",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B025",
@@ -935,10 +1033,12 @@
    "court_count": 2,
    "popup_lines": [
     "Asphalt",
-    "Water ~21 m"
+    "Water ~21 m",
+    "Subway ~578 m: Grand St",
+    "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B007",
@@ -949,10 +1049,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~22 m: Bensonhurst Indoor Tennis",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B407",
@@ -963,10 +1064,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~346 m: Dean Playground",
-    "Water ~41 m"
+    "Water ~41 m",
+    "Subway ~309 m: Lafayette Av",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q460",
@@ -977,10 +1080,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~36 m: Broad Channel Library, QPL",
-    "Water ~10 m"
+    "Water ~10 m",
+    "Subway ~903 m: Broad Channel",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B244",
@@ -991,10 +1096,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~118 m: McDonald Playground",
-    "Water ~43 m"
+    "Water ~43 m",
+    "Subway ~676 m: Avenue U",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B380",
@@ -1005,10 +1112,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~68 m: Robert E. Venable Park",
-    "Water ~20 m"
+    "Water ~20 m",
+    "Subway ~256 m: Grant Av",
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q051",
@@ -1019,10 +1128,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~179 m: 174 St Playground",
-    "Water ~27 m"
+    "Water ~27 m",
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B217",
@@ -1033,10 +1143,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~348 m: Stockton Playground",
-    "Water ~17 m"
+    "Water ~17 m",
+    "Subway ~261 m: Myrtle-Willoughby Avs",
+    "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B163",
@@ -1047,10 +1159,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~111 m: Sperandeo Brothers Playground",
-    "Water ~27 m"
+    "Water ~27 m",
+    "Subway ~364 m: Cleveland St",
+    "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R038A",
@@ -1061,10 +1175,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~202 m: Midland Playground",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Subway ~866 m: Jefferson Av",
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q335",
@@ -1075,10 +1191,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~29 m: Russell Sage Playground",
-    "Water ~34 m"
+    "Water ~34 m",
+    "Subway ~325 m: 67 Av",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q218",
@@ -1089,10 +1207,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~106 m: Dutch Kills Playground",
-    "Water ~83 m"
+    "Water ~83 m",
+    "Subway ~321 m: 36 Av",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q400",
@@ -1103,10 +1223,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~727 m: Horatio Playground",
-    "Water ~20 m"
+    "Water ~20 m",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q092",
@@ -1116,10 +1237,11 @@
    "court_count": 4,
    "popup_lines": [
     "Asphalt",
-    "Water ~30 m"
+    "Water ~30 m",
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B358",
@@ -1130,10 +1252,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~360 m: Bartlett Playground",
-    "Water ~15 m"
+    "Water ~15 m",
+    "Subway ~198 m: Lorimer St",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X196",
@@ -1145,10 +1269,12 @@
     "Asphalt - lit for night play",
     "Planned work: Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
     "Restroom ~83 m: Haffen Park Playground",
-    "Water ~46 m"
+    "Water ~46 m",
+    "Subway ~546 m: Baychester Av",
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X193",
@@ -1159,10 +1285,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~64 m: Stars & Stripes Playground",
-    "Water ~25 m"
+    "Water ~25 m",
+    "Subway ~755 m: Baychester Av",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X104",
@@ -1173,10 +1301,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~159 m: Williamsbridge Oval",
-    "Water ~35 m"
+    "Water ~35 m",
+    "Subway ~364 m: Norwood-205 St",
+    "Park upkeep: strong (94% of 18 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M227",
@@ -1187,10 +1317,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~75 m: Augustus St. Gaudens Playground",
-    "Water ~35 m"
+    "Water ~35 m",
+    "Subway ~535 m: 3 Av",
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M308",
@@ -1201,10 +1333,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~71 m: Washington Market Park",
-    "Water ~10 m"
+    "Water ~10 m",
+    "Subway ~509 m: Franklin St",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B215",
@@ -1215,10 +1349,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~217 m: Macon Library, BPL",
-    "Water ~10 m"
+    "Water ~10 m",
+    "Subway ~420 m: Kingston-Throop Avs",
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B372",
@@ -1229,10 +1365,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~43 m: Friends Field",
-    "Water ~26 m"
+    "Water ~26 m",
+    "Subway ~393 m: Avenue N",
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q369",
@@ -1243,10 +1381,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~37 m: Louis Pasteur Park",
-    "Water ~35 m"
+    "Water ~35 m",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q390",
@@ -1257,10 +1396,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~105 m: Clintonville Playground",
-    "Water ~56 m"
+    "Water ~56 m",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B234",
@@ -1271,10 +1411,11 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~56 m: Tilden Playground",
-    "Water ~40 m"
+    "Water ~40 m",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "R153",
@@ -1284,10 +1425,11 @@
    "court_count": 2,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~63 m: Charleston Library, NYPL"
+    "Restroom ~63 m: Charleston Library, NYPL",
+    "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q099",
@@ -1298,10 +1440,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~101 m: Passerelle",
-    "Water ~73 m"
+    "Water ~73 m",
+    "Subway ~438 m: Mets-Willets Point",
+    "Park upkeep: mixed (84% of 190 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.0
   },
   {
    "park_id": "Q084A",
@@ -1314,8 +1458,8 @@
     "Restroom ~39 m: World's Fair Playground",
     "Water ~47 m"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M353",
@@ -1326,10 +1470,12 @@
    "popup_lines": [
     "Natural",
     "Restroom ~376 m: Classic Playground",
-    "Water ~44 m"
+    "Water ~44 m",
+    "Subway ~950 m: 66 St-Lincoln Center",
+    "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M045",
@@ -1340,10 +1486,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~44 m: John Jay Park",
-    "Water ~22 m"
+    "Water ~22 m",
+    "Subway ~742 m: 72 St",
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q502",
@@ -1354,10 +1502,12 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~110 m: Travers Park",
-    "Water ~26 m"
+    "Water ~26 m",
+    "Subway ~804 m: 82 St-Jackson Hts",
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "SUPP-HRP",
@@ -1369,10 +1519,11 @@
     "Hard - lit for night play",
     "Free, no permit, first-come-first-served, 6:00 AM-1:00 AM. 2 doubles + 1 singles court.",
     "Restroom ~176 m: Hudson River Park Pier 40 - Courtyard Tunnel, Second Floor",
-    "Water ~483 m"
+    "Water ~483 m",
+    "Subway ~512 m: Houston St"
    ],
-   "band": "short",
-   "score": 0.4
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "SUPP-QO",
@@ -1385,10 +1536,11 @@
     "Sutton East Tennis concession. 6 of 8 courts available to Parks permit holders Apr 14 - Sep 14.",
     "Season: Parks permit play Apr 14 - Sep 14 (6 of 8 clay courts). Rest of year: Sutton East indoor booking, paid.",
     "Restroom ~52 m: Queensboro Oval Indoor Tennis",
-    "Water ~74 m"
+    "Water ~74 m",
+    "Subway ~526 m: Roosevelt Island"
    ],
-   "band": "30-60 min",
-   "score": 0.8
+   "band": "walk-on",
+   "score": 0.0
   }
  ]
 }
