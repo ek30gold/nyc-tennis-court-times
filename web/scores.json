@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T16:42:44",
+ "generated_at": "2026-09-13T17:08:49",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -57,8 +57,8 @@
     "Water ~36 m",
     "Subway ~512 m: Cleveland St"
    ],
-   "band": "walk-on",
-   "score": 0.25
+   "band": "30-60 min",
+   "score": 1.0
   },
   {
    "park_id": "M104",
@@ -105,7 +105,7 @@
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 0.7
+   "score": 0.8
   },
   {
    "park_id": "Q008",
@@ -135,8 +135,8 @@
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)",
     "League play today 16:00-20:00 (up to 1 of 12 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.27
+   "band": "30-60 min",
+   "score": 0.76
   },
   {
    "park_id": "Q004",
@@ -168,8 +168,8 @@
     "Subway ~561 m: 175 St",
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.25
+   "band": "short",
+   "score": 0.5
   },
   {
    "park_id": "R031",
@@ -260,8 +260,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.25
+   "band": "short",
+   "score": 0.6
   },
   {
    "park_id": "M010",
@@ -277,8 +277,8 @@
     "Subway ~692 m: 103 St",
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 1.5
+   "band": "30-60 min",
+   "score": 1.0
   },
   {
    "park_id": "B057",
@@ -292,8 +292,8 @@
     "Water ~37 m",
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.25
+   "band": "30-60 min",
+   "score": 0.8
   },
   {
    "park_id": "M042",
@@ -1452,7 +1452,7 @@
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.4
+   "score": 0.35
   },
   {
    "park_id": "Q084A",
@@ -1530,7 +1530,7 @@
     "Subway ~512 m: Houston St"
    ],
    "band": "30-60 min",
-   "score": 0.7
+   "score": 0.65
   },
   {
    "park_id": "SUPP-QO",
@@ -1550,4 +1550,4 @@
    "score": 0.25
   }
  ]
-  }
+}
