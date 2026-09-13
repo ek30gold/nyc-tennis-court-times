@@ -1,0 +1,6 @@
+{
+ "_note": "Manually curated 2026-09-13 from Parks tennis pages/rules. Sites whose play model flips in the indoor season.",
+ "M010": {"name": "Central Park Tennis Center", "season_note": "Outdoor permit/sign-up play ~April-November; bubble (paid indoor) play in winter - no walk-ons then."},
+ "B068": {"name": "Prospect Park Tennis Center (Parade Ground)", "season_note": "11 courts; 8 open to Parks permit holders in the outdoor season. Bubble season Oct 23 - May 6: paid indoor rental."},
+ "SUPP-QO": {"name": "Queensboro Oval (Sutton Tennis)", "season_note": "Parks permit play Apr 14 - Sep 14 (6 of 8 clay courts). Rest of year: Sutton East indoor booking, paid."}
+}
