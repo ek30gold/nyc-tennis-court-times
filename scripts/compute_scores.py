@@ -2,7 +2,8 @@
 """Compute per-facility expected-wait scores.
 
 v1 signals: baseline demand curve x per-facility lore prior x weather modifier.
-Phase 2 adds: booked-slot density from reservation grids, permit-blocked supply.
+Phase 2 adds: booked-slot density from reservation grids (tonight's grid for
+tomorrow -> next-day demand modifier on the 6 reservable sites).
 Output: web/scores.json consumed by the static map.
 """
 import json, math, urllib.request, datetime
@@ -34,6 +35,22 @@ def band(score):
 def main():
     courts = json.load(open("data/courts.geojson"))
     priors = json.load(open("data/priors.json"))
+    # Phase 2: reservation-grid density -> per-park demand modifier.
+    # Tonight's booked density forecasts tomorrow's pressure; stale (>36h) or
+    # unavailable data means no adjustment (graceful degradation).
+    res_mod = {}
+    try:
+        res = json.load(open("data/reservation_density.json"))
+        age_h = (datetime.datetime.now(datetime.timezone.utc) -
+                 datetime.datetime.fromisoformat(res["captured_at"])).total_seconds() / 3600
+        if res.get("status") == "ok" and age_h < 36:
+            for site in res["sites"].values():
+                if site.get("density") is not None:
+                    for pid in site["park_ids"]:
+                        res_mod[pid] = max(res_mod.get(pid, 0), 0.7 + 0.6 * site["density"])
+            print(f"reservation modifier on {sorted(res_mod)} (captured {age_h:.1f}h ago)")
+    except FileNotFoundError:
+        pass
     wx = json.load(urllib.request.urlopen(OPEN_METEO))
     current_precip = wx["current"]["precipitation"] or 0
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
@@ -56,6 +73,7 @@ def main():
         else:
             prior = priors["facilities"].get(p["park_id"], {}).get("mult", priors["default"])
             s = base * prior * wmod
+        s *= res_mod.get(p["park_id"], 1.0)
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
             "band": band(s), "score": round(s, 2)})
