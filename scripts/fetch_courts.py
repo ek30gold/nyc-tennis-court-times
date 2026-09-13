@@ -51,6 +51,17 @@ def main():
             "properties": {"park_id": park, "name": names.get(park, park), "borough": f["borough"],
                 "court_count": f["courts"], "surfaces": sorted(f["surfaces"]),
                 "lighted": f["lighted"]}})
+    # merge manually verified concession-run facilities the dataset misses
+    try:
+        supp = json.load(open("data/supplement.geojson"))
+        existing = {f["properties"]["park_id"] for f in features}
+        added = 0
+        for feat in supp["features"]:
+            if feat["properties"]["park_id"] not in existing:
+                features.append(feat); added += 1
+        if added: print(f"merged {added} supplement facilities")
+    except FileNotFoundError:
+        pass
     out = {"type": "FeatureCollection", "features": features}
     with open("data/courts.geojson", "w") as fh:
         json.dump(out, fh)
