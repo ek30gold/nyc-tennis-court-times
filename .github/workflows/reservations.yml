@@ -20,4 +20,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/reservation_density.json
           git diff --cached --quiet || git commit -m "reservations $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
           git push
