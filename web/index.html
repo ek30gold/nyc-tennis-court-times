@@ -118,6 +118,7 @@ function recompute(v){
     recent+=WXP[k]||0;}
   const wm=hasWx?wmod(WXP[hk]||0,recent):1.0;
   const r=MODEL.reservation, useRes=(day===r.applies_to);
+  const dayMods=(r.forecast||{})[day]||{};
   const scores=DATA.scores.map(s=>{
     const f=MODEL.facilities[s.park_id]||{mult:MODEL.default_prior};
     let sc;
@@ -125,6 +126,7 @@ function recompute(v){
     else{sc=baseline(hour,dow)*f.mult;}
     sc*=wm;
     if(useRes&&r.modifiers[s.park_id]) sc*=r.modifiers[s.park_id];
+    else if(dayMods[s.park_id]) sc*=dayMods[s.park_id];
     const pb=((((MODEL.permits||{}).days)||{})[day]||{})[String(hour)]||{};
     const blocked=pb[s.park_id]||0;
     if(blocked&&s.court_count) sc*=1+Math.min(blocked/s.court_count,0.75);
@@ -138,7 +140,8 @@ function recompute(v){
   let bits=[`Forecast for ${day} ${String(hour).padStart(2,"0")}:00 NYC time.`];
   bits.push(hasWx?"Weather forecast applied.":"No weather data this far out - priors only.");
   if(useRes&&Object.keys(r.modifiers).length) bits.push("Includes tonight's reservation bookings for this date.");
-  else bits.push("Reservation bookings only apply to tomorrow.");
+  else if(Object.keys(dayMods).length) bits.push("Includes reservations booked so far for this date - more will book as it approaches, so treat busy-ness as a floor.");
+  else bits.push("Reservation bookings only cover the next ~29 days at reservable sites.");
   note.textContent=bits.join(" ");}
 document.getElementById("when").addEventListener("change", async e=>{
   if(!e.target.value) return;
