@@ -90,6 +90,9 @@ function recompute(v){
     else{sc=baseline(hour,dow)*f.mult;}
     sc*=wm;
     if(useRes&&r.modifiers[s.park_id]) sc*=r.modifiers[s.park_id];
+    const pb=((((MODEL.permits||{}).days)||{})[day]||{})[String(hour)]||{};
+    const blocked=pb[s.park_id]||0;
+    if(blocked&&s.court_count) sc*=1+Math.min(blocked/s.court_count,0.75);
     const win=(MODEL.season_windows||{})[s.park_id];
     const bd=(win&&inWindow(day,win))?"indoor":band(sc);
     return {...s,band:bd,score:+sc.toFixed(2)};});
