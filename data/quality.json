@@ -1,0 +1,477 @@
+{
+ "Q347": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "M010": {
+  "label": "strong",
+  "pct_acceptable": 97,
+  "inspections": 347
+ },
+ "Q004": {
+  "label": "strong",
+  "pct_acceptable": 91,
+  "inspections": 22
+ },
+ "Q298": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "B032": {
+  "label": "strong",
+  "pct_acceptable": 94,
+  "inspections": 32
+ },
+ "Q005": {
+  "label": "mixed",
+  "pct_acceptable": 86,
+  "inspections": 57
+ },
+ "Q012": {
+  "label": "mixed",
+  "pct_acceptable": 87,
+  "inspections": 23
+ },
+ "M144": {
+  "label": "strong",
+  "pct_acceptable": 94,
+  "inspections": 16
+ },
+ "B244": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "R022": {
+  "label": "mixed",
+  "pct_acceptable": 86,
+  "inspections": 29
+ },
+ "M104": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 23
+ },
+ "M028": {
+  "label": "mixed",
+  "pct_acceptable": 74,
+  "inspections": 34
+ },
+ "B058": {
+  "label": "mixed",
+  "pct_acceptable": 80,
+  "inspections": 41
+ },
+ "Q024": {
+  "label": "mixed",
+  "pct_acceptable": 81,
+  "inspections": 59
+ },
+ "B057": {
+  "label": "mixed",
+  "pct_acceptable": 75,
+  "inspections": 84
+ },
+ "X092": {
+  "label": "strong",
+  "pct_acceptable": 94,
+  "inspections": 163
+ },
+ "X010": {
+  "label": "strong",
+  "pct_acceptable": 98,
+  "inspections": 113
+ },
+ "B251": {
+  "label": "mixed",
+  "pct_acceptable": 89,
+  "inspections": 28
+ },
+ "Q051": {
+  "label": "strong",
+  "pct_acceptable": 92,
+  "inspections": 12
+ },
+ "Q102": {
+  "label": "mixed",
+  "pct_acceptable": 86,
+  "inspections": 35
+ },
+ "R031": {
+  "label": "strong",
+  "pct_acceptable": 94,
+  "inspections": 32
+ },
+ "B028": {
+  "label": "poor",
+  "pct_acceptable": 63,
+  "inspections": 30
+ },
+ "B166D": {
+  "label": "strong",
+  "pct_acceptable": 92,
+  "inspections": 12
+ },
+ "Q300A": {
+  "label": "mixed",
+  "pct_acceptable": 87,
+  "inspections": 30
+ },
+ "Q021": {
+  "label": "mixed",
+  "pct_acceptable": 84,
+  "inspections": 57
+ },
+ "M042": {
+  "label": "mixed",
+  "pct_acceptable": 77,
+  "inspections": 64
+ },
+ "B054": {
+  "label": "mixed",
+  "pct_acceptable": 84,
+  "inspections": 25
+ },
+ "M071": {
+  "label": "strong",
+  "pct_acceptable": 90,
+  "inspections": 206
+ },
+ "Q099": {
+  "label": "mixed",
+  "pct_acceptable": 84,
+  "inspections": 190
+ },
+ "B215": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "Q448": {
+  "label": "strong",
+  "pct_acceptable": 97,
+  "inspections": 37
+ },
+ "B372": {
+  "label": "poor",
+  "pct_acceptable": 60,
+  "inspections": 5
+ },
+ "X039": {
+  "label": "strong",
+  "pct_acceptable": 93,
+  "inspections": 180
+ },
+ "M353": {
+  "label": "strong",
+  "pct_acceptable": 97,
+  "inspections": 35
+ },
+ "Q369": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q015": {
+  "label": "mixed",
+  "pct_acceptable": 85,
+  "inspections": 141
+ },
+ "B294": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "X104": {
+  "label": "strong",
+  "pct_acceptable": 94,
+  "inspections": 18
+ },
+ "X045": {
+  "label": "mixed",
+  "pct_acceptable": 89,
+  "inspections": 35
+ },
+ "X201": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 12
+ },
+ "B346": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "Q373": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "B060": {
+  "label": "mixed",
+  "pct_acceptable": 80,
+  "inspections": 10
+ },
+ "Q371": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 12
+ },
+ "Q008": {
+  "label": "mixed",
+  "pct_acceptable": 86,
+  "inspections": 22
+ },
+ "Q007": {
+  "label": "mixed",
+  "pct_acceptable": 70,
+  "inspections": 10
+ },
+ "M159": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q335": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "B007": {
+  "label": "mixed",
+  "pct_acceptable": 82,
+  "inspections": 11
+ },
+ "Q460": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "B129": {
+  "label": "mixed",
+  "pct_acceptable": 89,
+  "inspections": 19
+ },
+ "B050": {
+  "label": "poor",
+  "pct_acceptable": 60,
+  "inspections": 5
+ },
+ "Q413": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 12
+ },
+ "B082": {
+  "label": "mixed",
+  "pct_acceptable": 85,
+  "inspections": 48
+ },
+ "B210W": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "Q131": {
+  "label": "mixed",
+  "pct_acceptable": 82,
+  "inspections": 11
+ },
+ "B163": {
+  "label": "poor",
+  "pct_acceptable": 17,
+  "inspections": 6
+ },
+ "M204": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "Q014": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "Q400": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "R129": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "X044": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 12
+ },
+ "X196": {
+  "label": "strong",
+  "pct_acceptable": 92,
+  "inspections": 12
+ },
+ "Q390": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "B380": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "Q092": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "B025": {
+  "label": "mixed",
+  "pct_acceptable": 75,
+  "inspections": 12
+ },
+ "Q502": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "M201": {
+  "label": "mixed",
+  "pct_acceptable": 80,
+  "inspections": 5
+ },
+ "M227": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "B068": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "X193": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q086": {
+  "label": "mixed",
+  "pct_acceptable": 73,
+  "inspections": 11
+ },
+ "B407": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "M045": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q107": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 12
+ },
+ "B051": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "R153": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 7
+ },
+ "R015": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "M079": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "Q218": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "Q121": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 12
+ },
+ "X344": {
+  "label": "mixed",
+  "pct_acceptable": 82,
+  "inspections": 11
+ },
+ "M205": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "B214": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 12
+ },
+ "B217": {
+  "label": "poor",
+  "pct_acceptable": 17,
+  "inspections": 6
+ },
+ "B267": {
+  "label": "poor",
+  "pct_acceptable": 60,
+  "inspections": 5
+ },
+ "Q001A": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "B234": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "X233": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "R038A": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "B358": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "M308": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q429": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "M217": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ }
+}
