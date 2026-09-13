@@ -20,7 +20,7 @@
 </div>
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
 <script>
-window.addEventListener("error",e=>{const u=document.getElementById("updated");if(u)u.textContent="JS error: "+e.message;});
+window.addEventListener("error",e=>console.warn("page error:",e.message));
 const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728"};
 function band(s){return s<0.35?"walk-on":s<0.65?"short":s<1.1?"30-60 min":"1h+";}
 function baseline(hour, dow){
@@ -34,7 +34,8 @@ window.__t={map};
 let DATA=null, MODEL=null, WXP={};
 map.on("load", async () => {
   DATA = await (await fetch("scores.json")).json();
-  MODEL = await (await fetch("model.json")).json();
+  try{ MODEL = await (await fetch("model.json")).json(); }
+  catch(e){ console.warn("model.json unavailable - forecast picker disabled"); }
   document.getElementById("updated").textContent =
     "Updated " + DATA.generated_at.replace("T"," ") +
     (DATA.weather.precip_now>0 ? " - raining, courts closed" : "");
@@ -45,8 +46,11 @@ map.on("load", async () => {
       "short",COLORS["short"],"30-60 min",COLORS["30-60 min"],COLORS["1h+"]],
     "circle-stroke-width":1,"circle-stroke-color":"#333"}});
   map.on("click","courts",e=>{const p=e.features[0].properties;
+    let lines=p.popup_lines||[];
+    if(typeof lines==="string"){try{lines=JSON.parse(lines);}catch(_){lines=lines?[lines]:[];}}
+    if(!Array.isArray(lines)) lines=[];
     new maplibregl.Popup().setLngLat(e.lngLat)
-      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${(p.popup_lines||[]).join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a>`)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a>`)
       .addTo(map);});
   map.on("mouseenter","courts",()=>map.getCanvas().style.cursor="pointer");
   map.on("mouseleave","courts",()=>map.getCanvas().style.cursor="");
@@ -91,6 +95,7 @@ function recompute(v){
   note.textContent=bits.join(" ");}
 document.getElementById("when").addEventListener("change", async e=>{
   if(!e.target.value) return;
+  if(!MODEL){ document.getElementById("pnote").textContent="Forecast model unavailable - showing current conditions."; return; }
   try{ await ensureWx(); recompute(e.target.value); }
   catch(err){ document.getElementById("pnote").textContent="Forecast error: "+err.message; }});
 document.getElementById("now").addEventListener("click", ()=>{
