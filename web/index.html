@@ -2,13 +2,17 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NYC Tennis Wait Times</title>
 <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet">
-<style>body{margin:0;font-family:system-ui}#map{height:100vh}.legend{position:fixed;bottom:12px;left:12px;background:#fff;padding:8px 10px;border-radius:6px;font-size:12px;box-shadow:0 1px 4px #0003;max-width:280px}.picker{position:fixed;top:12px;left:12px;background:#fff;padding:8px 10px;border-radius:6px;font-size:13px;box-shadow:0 1px 4px #0003}.picker input{font-size:13px}.picker .note{color:#777;font-size:11px;max-width:230px}</style>
+<style>body{margin:0;font-family:system-ui}#map{height:100vh}.legend{position:fixed;bottom:12px;left:12px;background:#fff;padding:8px 10px;border-radius:6px;font-size:12px;box-shadow:0 1px 4px #0003;max-width:280px}.picker{position:fixed;top:12px;left:12px;background:#fff;padding:8px 10px;border-radius:6px;font-size:13px;box-shadow:0 1px 4px #0003}.picker input{font-size:13px}.picker .note{color:#777;font-size:11px;max-width:230px}
+#nearlist{font-size:12px;margin-top:4px}
+#nearlist .row{padding:3px 0;border-top:1px solid #eee;cursor:pointer}
+#nearlist .dot{display:inline-block;width:9px;height:9px;border-radius:5px;margin-right:5px}</style>
 </head><body>
 <div id="map"></div>
 <div class="picker">
 <b>Forecast wait for:</b><br>
-<input type="datetime-local" id="when"> <button id="now">Now</button>
+<input type="datetime-local" id="when"> <button id="now">Now</button> <button id="nearme">Near me</button>
 <div class="note" id="pnote">Showing current conditions. Pick a date + time (NYC time) to forecast.</div>
+<div id="nearlist"></div>
 </div>
 <div class="legend">
 <b>Expected wait</b><br>
@@ -16,13 +20,14 @@
 <span style="color:#ffd400">&#9679;</span> short &nbsp;
 <span style="color:#ff7f0e">&#9679;</span> 30-60 min &nbsp;
 <span style="color:#d62728">&#9679;</span> 1h+ &nbsp;
-<span style="color:#7f7f7f">&#9679;</span> indoor
+<span style="color:#7f7f7f">&#9679;</span> indoor &nbsp;
+<span style="color:#4a4a4a">&#9679;</span> closed/dark
 <div id="updated"></div>
 </div>
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
 <script>
 window.addEventListener("error",e=>console.warn("page error:",e.message));
-const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728","indoor":"#7f7f7f"};
+const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728","indoor":"#7f7f7f","closed":"#4a4a4a"};
 function band(s){return s<0.35?"walk-on":s<0.65?"short":s<1.1?"30-60 min":"1h+";}
 function baseline(hour, dow){
   const ep=Math.exp(-(((hour-18)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
@@ -48,7 +53,18 @@ const map = new maplibregl.Map({container:"map",
   style:"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
   center:[-73.95,40.73], zoom:10.5});
 window.__t={map};
-let DATA=null, MODEL=null, WXP={};
+let DATA=null, MODEL=null, WXP={}, WXSUN={};
+function sunsetApprox(day){
+  // NOAA approximation, good to ~5 min; fallback when beyond the forecast window
+  const dt=new Date(day+"T12:00:00"), N=Math.floor((dt-new Date(dt.getFullYear(),0,0))/864e5);
+  const decl=-23.44*Math.cos(2*Math.PI*(N+10)/365.25)*Math.PI/180, lat=40.78*Math.PI/180;
+  const cosH=-Math.tan(lat)*Math.tan(decl);
+  const dayH=2*Math.acos(Math.min(1,Math.max(-1,cosH)))*180/Math.PI/15;
+  let h=12+(dayH/2)+(-73.97/15)-(-5); // solar noon offset, rough ET (no DST split)
+  const jan1=new Date(dt.getFullYear(),0,1), mar=new Date(dt.getFullYear(),2,8), nov=new Date(dt.getFullYear(),10,1);
+  if(dt>mar&&dt<nov) h+=1; // EDT
+  return Math.round(h);}
+function sunsetHour(day){return WXSUN[day]??sunsetApprox(day);}
 map.on("load", async () => {
   DATA = await (await fetch("scores.json")).json();
   try{ MODEL = await (await fetch("model.json")).json(); }
@@ -58,10 +74,10 @@ map.on("load", async () => {
     (DATA.weather.precip_now>0 ? " - raining, courts closed" : "");
   map.addSource("courts",{type:"geojson",data:toGeoJSON(DATA.scores)});
   map.addLayer({id:"courts",type:"circle",source:"courts",paint:{
-    "circle-radius":["interpolate",["linear"],["zoom"],10,5,13,8],
+    "circle-radius":["interpolate",["linear"],["zoom"],10,7,13,10],
     "circle-color":["match",["get","band"],"walk-on",COLORS["walk-on"],
       "short",COLORS["short"],"30-60 min",COLORS["30-60 min"],
-      "indoor",COLORS["indoor"],COLORS["1h+"]],
+      "indoor",COLORS["indoor"],"closed",COLORS["closed"],COLORS["1h+"]],
     "circle-stroke-width":1,"circle-stroke-color":"#333"}});
   map.on("click","courts",e=>{const p=e.features[0].properties;
     let lines=p.popup_lines||[];
@@ -70,8 +86,9 @@ map.on("load", async () => {
     if(window.__selDay && window.__selDay!==nycToday()){
       lines=lines.filter(l=>l.indexOf("League play")!==0)
         .concat(leagueLines(window.__selDay,p.park_id,p.court_count));}
+    const bandLabel=p.band==="closed"?"closed (dark)":p.band;
     new maplibregl.Popup().setLngLat(e.lngLat)
-      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a> &middot; <a href="https://github.com/ek30gold/nyc-tennis-court-times/issues/new?title=${encodeURIComponent("Wait report: "+p.name)}&body=${encodeURIComponent("Park: "+p.name+" ("+p.park_id+")\nWhen: \nPredicted: "+p.band+"\nActual wait: \n")}" target="_blank" rel="noopener">Report actual wait</a>`)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${bandLabel}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a> &middot; <a href="https://github.com/ek30gold/nyc-tennis-court-times/issues/new?title=${encodeURIComponent("Wait report: "+p.name)}&body=${encodeURIComponent("Park: "+p.name+" ("+p.park_id+")\nWhen: \nPredicted: "+p.band+"\nActual wait: \n")}" target="_blank" rel="noopener">Report actual wait</a>`)
       .addTo(map);});
   map.on("mouseenter","courts",()=>map.getCanvas().style.cursor="pointer");
   map.on("mouseleave","courts",()=>map.getCanvas().style.cursor="");
@@ -82,8 +99,9 @@ function toGeoJSON(scores){return {type:"FeatureCollection",
 async function ensureWx(){
   if (Object.keys(WXP).length) return;
   try{
-    const wx = await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation&timezone=America%2FNew_York&forecast_days=16")).json();
+    const wx = await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation&daily=sunset&timezone=America%2FNew_York&forecast_days=16")).json();
     wx.hourly.time.forEach((t,i)=>WXP[t]=wx.hourly.precipitation[i]||0);
+    (wx.daily.time||[]).forEach((d,i)=>WXSUN[d]=+(wx.daily.sunset[i].split("T")[1].slice(0,2)));
   }catch(e){}
 }
 function recompute(v){
@@ -111,7 +129,9 @@ function recompute(v){
     const blocked=pb[s.park_id]||0;
     if(blocked&&s.court_count) sc*=1+Math.min(blocked/s.court_count,0.75);
     const win=(MODEL.season_windows||{})[s.park_id];
-    const bd=(win&&inWindow(day,win))?"indoor":band(sc);
+    const lit=(MODEL.facilities[s.park_id]||{}).lighted;
+    let bd=(win&&inWindow(day,win))?"indoor":band(sc);
+    if(bd!=="indoor"&&hour>=sunsetHour(day)&&!lit) bd="closed";
     return {...s,band:bd,score:+sc.toFixed(2)};});
   map.getSource("courts").setData(toGeoJSON(scores));
   const note=document.getElementById("pnote");
@@ -125,6 +145,33 @@ document.getElementById("when").addEventListener("change", async e=>{
   if(!MODEL){ document.getElementById("pnote").textContent="Forecast model unavailable - showing current conditions."; return; }
   try{ await ensureWx(); recompute(e.target.value); }
   catch(err){ document.getElementById("pnote").textContent="Forecast error: "+err.message; }});
+function havKm(a,b){
+  const R=6371, p1=a[1]*Math.PI/180, p2=b[1]*Math.PI/180,
+        dp=(b[1]-a[1])*Math.PI/180, dl=(b[0]-a[0])*Math.PI/180,
+        x=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+  return 2*R*Math.asin(Math.sqrt(x));}
+document.getElementById("nearme").addEventListener("click", ()=>{
+  const nl=document.getElementById("nearlist");
+  if(!navigator.geolocation){nl.textContent="No geolocation on this device.";return;}
+  nl.textContent="Locating...";
+  navigator.geolocation.getCurrentPosition(pos=>{
+    const me=[pos.coords.longitude,pos.coords.latitude];
+    const feats=map.getSource("courts")._data.features;
+    const near=feats.map(f=>({f,d:havKm(me,f.geometry.coordinates)}))
+      .sort((a,b)=>a.d-b.d).slice(0,5);
+    nl.innerHTML=near.map(({f,d},i)=>{const p=f.properties;
+      return `<div class="row" data-i="${i}"><span class="dot" style="background:${COLORS[p.band]||"#999"}"></span>${p.name} - ${p.band}, ${d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km"}</div>`;}).join("");
+    [...nl.querySelectorAll(".row")].forEach((row,i)=>row.addEventListener("click",()=>{
+      const f=near[i].f, p=f.properties;
+      map.flyTo({center:f.geometry.coordinates,zoom:14});
+      let lines=p.popup_lines||[];
+      if(typeof lines==="string"){try{lines=JSON.parse(lines);}catch(_){lines=[lines];}}
+      if(!Array.isArray(lines)) lines=[];
+      new maplibregl.Popup().setLngLat(f.geometry.coordinates)
+        .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band==="closed"?"closed (dark)":p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span>`)
+        .addTo(map);}));
+    map.flyTo({center:me,zoom:12.5});
+  },()=>{nl.textContent="Location denied - allow it in browser settings to use this.";},{timeout:10000});});
 document.getElementById("now").addEventListener("click", ()=>{
   document.getElementById("when").value="";
   window.__selDay=null;
