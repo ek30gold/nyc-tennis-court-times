@@ -29,6 +29,7 @@ function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
 const map = new maplibregl.Map({container:"map",
   style:"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
   center:[-73.95,40.73], zoom:10.5});
+window.__t={map};
 let DATA=null, MODEL=null, WXP={};
 map.on("load", async () => {
   DATA = await (await fetch("scores.json")).json();
@@ -89,7 +90,8 @@ function recompute(v){
   note.textContent=bits.join(" ");}
 document.getElementById("when").addEventListener("change", async e=>{
   if(!e.target.value) return;
-  await ensureWx(); recompute(e.target.value);});
+  try{ await ensureWx(); recompute(e.target.value); }
+  catch(err){ document.getElementById("pnote").textContent="Forecast error: "+err.message; }});
 document.getElementById("now").addEventListener("click", ()=>{
   document.getElementById("when").value="";
   map.getSource("courts").setData(toGeoJSON(DATA.scores));
