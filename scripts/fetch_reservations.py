@@ -26,8 +26,15 @@ SITES = {
 URL = "https://www.nycgovparks.org/tennisreservation/availability/{}"
 OUT = "data/reservation_density.json"
 
+def tomorrow_nyc():
+    from zoneinfo import ZoneInfo
+    now = datetime.datetime.now(ZoneInfo("America/New_York"))
+    return now.date() + datetime.timedelta(days=1)
+
 def scrape():
     from playwright.sync_api import sync_playwright
+    target = tomorrow_nyc()
+    label = target.strftime("%A, %B ") + str(target.day) + target.strftime(", %Y")
     results = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
@@ -39,15 +46,26 @@ def scrape():
         for name, meta in SITES.items():
             try:
                 page.goto(URL.format(meta["id"]), wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(4000)  # let WAF interstitial clear if it auto-solves
-                text = page.inner_text("body")
-                if "Human Verification" in text or "verify you are a human" in text.lower():
-                    results[name] = {"error": "waf_challenge"}; continue
-                # grid date: look for a heading like "September 14, 2026" or date input value
-                m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", text)
-                grid_date = m.group(1) if m else None
+                # the grid renders server-side; wait for a calendar table, letting any
+                # WAF interstitial auto-clear first
+                page.wait_for_selector("table.calendar", timeout=45000)
+                tables = page.query_selector_all("table.calendar")
+                # each day-grid is preceded by a heading "Monday, September 14, 2026"
+                grid, grid_date = None, None
+                for t in tables:
+                    h = t.evaluate_handle(
+                        "el => { let n = el; for (let i=0;i<6&&n;i++){ n = n.previousElementSibling||n.parentElement;"
+                        " if (n && /20\\d\\d/.test(n.textContent||\"\") && n.textContent.length<200) return n.textContent.trim(); } return \"\"; }")
+                    txt = str(h.json_value())
+                    if label in txt:
+                        grid, grid_date = t, label; break
+                if grid is None and tables:
+                    grid = tables[0]  # earliest bookable day (no same-day bookings -> tomorrow)
+                    grid_date = "first-shown"
+                if grid is None:
+                    results[name] = {"error": "no calendar tables after wait"}; continue
                 booked = reserve = notavail = 0
-                for cell in page.query_selector_all("td"):
+                for cell in grid.query_selector_all("td"):
                     t = (cell.inner_text() or "").strip().lower()
                     if "booked" in t: booked += 1
                     elif "reserve" in t: reserve += 1
