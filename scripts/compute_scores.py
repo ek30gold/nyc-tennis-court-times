@@ -26,7 +26,7 @@ def weather_modifier(current_precip, recent_precip_mm):
     if recent_precip_mm > 1.0: return 1.5      # post-rain reopen surge
     return 1.0
 
-def popup_lines(p, planned, seasons, amenities):
+def popup_lines(p, planned, seasons, amenities, transit, quality):
     lines = []
     surf = ", ".join(p.get("surfaces", [])) or "Surface unknown"
     lines.append(surf + (" - lit for night play" if p.get("lighted") else ""))
@@ -39,6 +39,10 @@ def popup_lines(p, planned, seasons, amenities):
     am = amenities.get(p["park_id"], {})
     if am.get("restroom"): lines.append(f"Restroom ~{am['restroom']['dist_m']} m: {am['restroom']['name']}")
     if am.get("fountain"): lines.append(f"Water ~{am['fountain']['dist_m']} m")
+    tr = transit.get(p["park_id"])
+    if tr: lines.append(f"Subway ~{tr['dist_m']} m: {tr['station']}")
+    qu = quality.get(p["park_id"])
+    if qu: lines.append(f"Park upkeep: {qu['label']} ({qu['pct_acceptable']}% of {qu['inspections']} inspections passed, 2024+)")
     return lines
 
 def band(score):
@@ -75,6 +79,10 @@ def main():
     except FileNotFoundError: pass
     try: seasons = json.load(open("data/seasons.json"))
     except FileNotFoundError: pass
+    try: transit = json.load(open("data/transit.json"))
+    except FileNotFoundError: transit = {}
+    try: quality = json.load(open("data/quality.json"))
+    except FileNotFoundError: quality = {}
     wx = json.load(urllib.request.urlopen(OPEN_METEO))
     current_precip = wx["current"]["precipitation"] or 0
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
@@ -105,7 +113,7 @@ def main():
         s *= res_mod.get(p["park_id"], 1.0)
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
-            "popup_lines": popup_lines(p, planned, seasons, amenities),
+            "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality),
             "band": band(s), "score": round(s, 2)})
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
