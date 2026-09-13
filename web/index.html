@@ -35,7 +35,7 @@ map.on("load", async () => {
     "circle-stroke-width":1,"circle-stroke-color":"#333"}});
   map.on("click","courts",e=>{const p=e.features[0].properties;
     new maplibregl.Popup().setLngLat(e.lngLat)
-      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b>`)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band}</b><br><a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a> &middot; <a href="https://maps.apple.com/?ll=${p.lat},${p.lon}&q=${encodeURIComponent(p.name)}" target="_blank" rel="noopener">Apple Maps</a>`)
       .addTo(map);});
   map.on("mouseenter","courts",()=>map.getCanvas().style.cursor="pointer");
   map.on("mouseleave","courts",()=>map.getCanvas().style.cursor="");
