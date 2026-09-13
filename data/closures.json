@@ -1,0 +1,56 @@
+{
+ "fetched_at": "2026-09-13T10:47:31+00:00",
+ "closed_park_ids": {
+  "B028": [
+   {
+    "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
+    "phase": "construction",
+    "construction_pct": "0.0"
+   }
+  ]
+ },
+ "planned_park_ids": {
+  "Q121": [
+   {
+    "title": "Detective Keith L. Williams Park Track and Field, Tennis Courts and Playground Reconstruction",
+    "phase": "procurement",
+    "construction_pct": "0.0"
+   }
+  ],
+  "B028": [
+   {
+    "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
+    "phase": "design",
+    "construction_pct": "0.0"
+   }
+  ],
+  "X196": [
+   {
+    "title": "Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
+    "phase": "design",
+    "construction_pct": "0.0"
+   }
+  ],
+  "B051": [
+   {
+    "title": "Kelly Park Playground Tennis Courts Reconstruction",
+    "phase": "proposed",
+    "construction_pct": "0.0"
+   }
+  ],
+  "B060": [
+   {
+    "title": "McKinley Park Tennis Pavement Reconstruction",
+    "phase": "design-procurement",
+    "construction_pct": "0.0"
+   }
+  ],
+  "X201": [
+   {
+    "title": "Seton Park Tennis Courts Reconstruction and Pickleball Court Construction",
+    "phase": "proposed",
+    "construction_pct": "0.0"
+   }
+  ]
+ }
+}
