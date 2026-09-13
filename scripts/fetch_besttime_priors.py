@@ -25,7 +25,7 @@ SLUG_TO_PARK = {
     "crotona_park_tennis": "X010",
     "astoria_park_tennis": "Q004",
     "usta_ntc": "Q099",
-    "hudson_river_park_tennis": None,  # NOT in Athletic Facilities dataset - court-layer gap
+    "hudson_river_park_tennis": "SUPP-HRP",  # concession-run; added via data/supplement.geojson
     "inwood_hill_tennis": "M042",
 }
 
