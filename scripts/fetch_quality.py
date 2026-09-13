@@ -13,15 +13,17 @@ def main():
     for row in rows:
         park = row["prop_id"].split("-")[0]
         agg[park][0 if row["overall_condition"] == "A" else 1] += 1
+    keep = {f["properties"]["park_id"] for f in json.load(open("data/courts.geojson"))["features"]}
     out = {}
     for park, (a, u) in agg.items():
+        if park not in keep: continue
         n = a + u
         if n < 3: continue
         pct = a / n
         label = "strong" if pct >= 0.9 else "mixed" if pct >= 0.7 else "poor"
         out[park] = {"label": label, "pct_acceptable": round(pct * 100), "inspections": n}
     json.dump(out, open("data/quality.json", "w"), indent=1)
-    print(f"quality labels for {len(out)} parks from {len(rows)} inspections (2024+)")
+    print(f"quality labels for {len(out)} mapped facilities (from {len(rows)} inspections, 2024+)")
 
 if __name__ == "__main__":
     main()
