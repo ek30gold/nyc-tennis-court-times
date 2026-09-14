@@ -10,7 +10,7 @@
 <div id="map"></div>
 <div class="picker">
 <b>Forecast wait for:</b><br>
-<input type="datetime-local" id="when"> <button id="now">Now</button> <button id="nearme">Near me</button>
+<input type="datetime-local" id="when"> <button id="now">Now</button> <button id="nearme">Near me</button> <button id="orbit">UES orbit</button>
 <div class="note" id="pnote">Showing current conditions. Pick a date + time (NYC time) to forecast.</div>
 <div id="nearlist"></div>
 </div>
@@ -188,6 +188,29 @@ document.getElementById("nearme").addEventListener("click", ()=>{
         .addTo(map);}));
     map.flyTo({center:me,zoom:12.5});
   },()=>{nl.textContent="Location denied - allow it in browser settings to use this.";},{timeout:10000});});
+let ORBIT=null;
+document.getElementById("orbit").addEventListener("click", async ()=>{
+  const nl=document.getElementById("nearlist");
+  if(!ORBIT){ try{ ORBIT=await (await fetch("home_orbit.json")).json(); }catch(e){ nl.textContent="Orbit list unavailable."; return; } }
+  const feats=map.getSource("courts")._data.features;
+  const rank={"walk-on":0,"short":1,"indoor":1,"30-60 min":2,"1h+":3,"closed":4};
+  const rows=ORBIT.parks.map(o=>{
+    const f=feats.find(x=>x.properties.park_id===o.park_id);
+    return f?{o,f,d:havKm(ORBIT.anchor,f.geometry.coordinates)}:null;
+  }).filter(Boolean).sort((a,b)=>(rank[a.f.properties.band]??9)-(rank[b.f.properties.band]??9)||a.d-b.d);
+  nl.innerHTML="<div style='color:#777;margin:2px 0'>Home orbit from "+ORBIT.anchor_label+" - best first:</div>"
+    +rows.map(({f,d,o},i)=>{const p=f.properties;
+      return `<div class="row" data-i="${i}"><span class="dot" style="background:${COLORS[p.band]||"#999"}"></span>${p.name} - ${p.band}, ${d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km"} <span style="color:#999">${o.why}</span></div>`;}).join("");
+  [...nl.querySelectorAll(".row")].forEach((row,i)=>row.addEventListener("click",()=>{
+    const f=rows[i].f, p=f.properties;
+    map.flyTo({center:f.geometry.coordinates,zoom:14});
+    let lines=p.popup_lines||[];
+    if(typeof lines==="string"){try{lines=JSON.parse(lines);}catch(_){lines=[lines];}}
+    if(!Array.isArray(lines)) lines=[];
+    new maplibregl.Popup().setLngLat(f.geometry.coordinates)
+      .setHTML(`<b>${p.name}</b> (${p.court_count} courts)<br>Expected wait: <b>${p.band==="closed"?"closed (dark)":p.band}</b><br><span style="color:#555;font-size:12px">${lines.join("<br>")}</span>`)
+      .addTo(map);}));
+});
 document.getElementById("now").addEventListener("click", ()=>{
   document.getElementById("when").value="";
   window.__selDay=null;
