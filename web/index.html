@@ -33,6 +33,7 @@ function baseline(hour, dow){
   const ep=Math.exp(-(((hour-18)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
   return Math.min(0.25+(dow<5?0.55*ep:0.65*mp),1.0);}
 function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
+function tempMult(c){if(c==null)return 1.0;if(c<4)return 0.55;if(c<10)return 0.8;if(c<16)return 0.9;if(c<29)return 1.0;if(c<35)return 0.95;return 0.8;}
 function nycToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"America/New_York"});}
 function blockWindows(hoursMap){
   const hs=Object.keys(hoursMap||{}).filter(h=>hoursMap[h]>0).map(Number).sort((a,b)=>a-b);
@@ -53,7 +54,7 @@ const map = new maplibregl.Map({container:"map",
   style:"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
   center:[-73.95,40.73], zoom:10.5});
 window.__t={map};
-let DATA=null, MODEL=null, WXP={}, WXSUN={};
+let DATA=null, MODEL=null, WXP={}, WXT={}, WXSUN={};
 function sunsetApprox(day){
   // NOAA approximation, good to ~5 min; fallback when beyond the forecast window
   const dt=new Date(day+"T12:00:00"), N=Math.floor((dt-new Date(dt.getFullYear(),0,0))/864e5);
@@ -99,8 +100,8 @@ function toGeoJSON(scores){return {type:"FeatureCollection",
 async function ensureWx(){
   if (Object.keys(WXP).length) return;
   try{
-    const wx = await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation&daily=sunset&timezone=America%2FNew_York&forecast_days=16")).json();
-    wx.hourly.time.forEach((t,i)=>WXP[t]=wx.hourly.precipitation[i]||0);
+    const wx = await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation,temperature_2m&daily=sunset&timezone=America%2FNew_York&forecast_days=16")).json();
+    wx.hourly.time.forEach((t,i)=>{WXP[t]=wx.hourly.precipitation[i]||0;WXT[t]=wx.hourly.temperature_2m[i];});
     (wx.daily.time||[]).forEach((d,i)=>WXSUN[d]=+(wx.daily.sunset[i].split("T")[1].slice(0,2)));
   }catch(e){}
 }
@@ -109,6 +110,8 @@ function recompute(v){
   const day=v.slice(0,10), hour=+v.slice(11,13);
   window.__selDay=day;
   const dow=new Date(day+"T12:00:00").getDay(); // weekday of that calendar date
+  const hday=((MODEL&&MODEL.holidays)||{})[day];
+  const dowEff=(hday&&hday.kind==="holiday")?5:dow; // holidays behave like Saturdays
   const hk=day+"T"+String(hour).padStart(2,"0")+":00";
   const hasWx=hk in WXP;
   let recent=0;
@@ -122,8 +125,8 @@ function recompute(v){
   const scores=DATA.scores.map(s=>{
     const f=MODEL.facilities[s.park_id]||{mult:MODEL.default_prior};
     let sc;
-    if(f.curve){const raw=(f.curve[String(dow)]||{})[String(hour)]??0; sc=f.mult*(raw/100.0);}
-    else{sc=baseline(hour,dow)*f.mult;}
+    if(f.curve){const raw=(f.curve[String(dowEff)]||{})[String(hour)]??0; sc=f.mult*(raw/100.0);}
+    else{sc=baseline(hour,dowEff)*f.mult;}
     sc*=wm;
     if(useRes&&r.modifiers[s.park_id]) sc*=r.modifiers[s.park_id];
     else if(dayMods[s.park_id]) sc*=dayMods[s.park_id];
@@ -132,13 +135,23 @@ function recompute(v){
     if(blocked&&s.court_count) sc*=1+Math.min(blocked/s.court_count,0.75);
     const win=(MODEL.season_windows||{})[s.park_id];
     const lit=(MODEL.facilities[s.park_id]||{}).lighted;
-    let bd=(win&&inWindow(day,win))?"indoor":band(sc);
+    const indoorSel=!!(win&&inWindow(day,win));
+    if(!indoorSel){
+      if(hasWx&&WXT[hk]!=null) sc*=tempMult(WXT[hk]);
+      if(hday&&hday.kind==="school_closed"&&dow<5&&hour>=9&&hour<=16) sc*=1.2;
+      const dm=(((MODEL.demand||{}).dates||{})[day]||{})[s.park_id];
+      if(dm) sc*=dm;
+    }
+    let bd=indoorSel?"indoor":band(sc);
     if(bd!=="indoor"&&hour>=sunsetHour(day)&&!lit) bd="closed";
     return {...s,band:bd,score:+sc.toFixed(2)};});
   map.getSource("courts").setData(toGeoJSON(scores));
   const note=document.getElementById("pnote");
   let bits=[`Forecast for ${day} ${String(hour).padStart(2,"0")}:00 NYC time.`];
-  bits.push(hasWx?"Weather forecast applied.":"No weather data this far out - priors only.");
+  bits.push(hasWx?"Weather forecast applied (rain + temperature).":"No weather data this far out - priors only.");
+  if(hday) bits.push(hday.name+(hday.kind==="holiday"?" - weekend-level demand assumed.":" - schools closed, daytime demand boosted."));
+  const demOk=(((MODEL.demand||{}).dates||{})[day]);
+  if(demOk) bits.push(day===nycToday()?"Includes today's measured booking demand from reservable courts.":"Includes citywide bookings so far for this date - still filling, treat walk-up demand as a floor.");
   if(useRes&&Object.keys(r.modifiers).length) bits.push("Includes tonight's reservation bookings for this date.");
   else if(Object.keys(dayMods).length) bits.push("Includes reservations booked so far for this date - more will book as it approaches, so treat busy-ness as a floor.");
   else bits.push("Reservation bookings only cover the next ~29 days at reservable sites.");
