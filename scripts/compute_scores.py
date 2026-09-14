@@ -203,7 +203,10 @@ def main():
         sunset_h = int(wx["daily"]["sunset"][0].split("T")[1][:2])
     except (KeyError, IndexError): pass
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
-    now = datetime.datetime.now()
+    from zoneinfo import ZoneInfo
+    now = datetime.datetime.now(ZoneInfo("America/New_York")).replace(tzinfo=None)
+    # NYC local time - the map's "now" bands are NYC-time by definition
+    # (previously naive runner local time: UTC on CI, 4-5h skewed).
     wmod = weather_modifier(current_precip, recent_mm)
     today_iso = now.strftime("%Y-%m-%d")
     hol = holidays.get(today_iso)
