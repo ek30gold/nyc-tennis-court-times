@@ -1,0 +1,47 @@
+{
+ "anchor": [
+  -73.959,
+  40.7794
+ ],
+ "anchor_label": "UES (86th & 2nd)",
+ "updated": "2026-09-14",
+ "priority_note": "Evan's home orbit: walkable or one-stop from the UES. Prioritize these for any future BestTime spend, curve refreshes, and calibration.",
+ "parks": [
+  {
+   "park_id": "M079",
+   "why": "walk - 67th/1st"
+  },
+  {
+   "park_id": "M045",
+   "why": "walk - 77th/FDR"
+  },
+  {
+   "park_id": "M010",
+   "why": "walk - Central Park 93rd St courts"
+  },
+  {
+   "park_id": "SUPP-QO",
+   "why": "walk - 59th under the QB bridge"
+  },
+  {
+   "park_id": "M104",
+   "why": "103rd St footbridge - Randall's Island"
+  },
+  {
+   "park_id": "Q429",
+   "why": "Q60 bridge / ferry - Queensbridge"
+  },
+  {
+   "park_id": "Q218",
+   "why": "N/W or ferry - Dutch Kills"
+  },
+  {
+   "park_id": "Q004",
+   "why": "E 90th ferry one stop - Astoria Park"
+  },
+  {
+   "park_id": "M205",
+   "why": "Q/6 to 125th - East Harlem"
+  }
+ ]
+}
