@@ -26,7 +26,18 @@ def weather_modifier(current_precip, recent_precip_mm):
     if recent_precip_mm > 1.0: return 1.5      # post-rain reopen surge
     return 1.0
 
-def popup_lines(p, planned, seasons, amenities, transit, quality, permits, today):
+def temp_modifier(c):
+    """Temperature demand scaler (estimate): cold kills walk-up demand, extreme
+    heat trims it. Neutral 16-29C. Applied to outdoor courts only."""
+    if c is None: return 1.0
+    if c < 4: return 0.55
+    if c < 10: return 0.8
+    if c < 16: return 0.9
+    if c < 29: return 1.0
+    if c < 35: return 0.95
+    return 0.8
+
+def popup_lines(p, planned, seasons, amenities, transit, quality, permits, today, demand_label=None):
     lines = []
     surf = ", ".join(p.get("surfaces", [])) or "Surface unknown"
     lines.append(surf + (" - lit for night play" if p.get("lighted") else ""))
@@ -47,6 +58,7 @@ def popup_lines(p, planned, seasons, amenities, transit, quality, permits, today
     park_hours = {h: c.get(p["park_id"], 0) for h, c in today_blocks.items()}
     for ws, we, mx in block_windows(park_hours):
         lines.append(f"League play today {ws:02d}:00-{we:02d}:00 (up to {mx} of {p['court_count']} courts)")
+    if demand_label: lines.append(demand_label)
     return lines
 
 def block_windows(blocks_by_hour):
@@ -79,6 +91,51 @@ def band(score):
     if score < 0.65: return "short"
     if score < 1.1: return "30-60 min"
     return "1h+"
+
+RESERVABLE = {"M010", "M071", "X344", "Q001A", "B058"}
+
+def haversine_km(a, b):
+    R = 6371.0
+    p1, p2 = math.radians(a[1]), math.radians(b[1])
+    dp, dl = math.radians(b[1]-a[1]), math.radians(b[0]-a[0])
+    x = math.sin(dp/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2
+    return 2*R*math.asin(math.sqrt(x))
+
+def demand_index(res, courts):
+    """Same-day demand barometer: today's final booked density at the 6
+    reservable sites (no same-day bookings -> final from last night's capture)
+    spills onto walk-up courts. Per date, per walk-up facility: distance-
+    weighted index of nearby reservable density, citywide mean as fallback.
+    mult = 1 + 0.6*(index-0.65), clamped [0.7, 1.35] (calibration pending
+    history archive - transfer strength is an estimate)."""
+    coords = {f["properties"]["park_id"]: (f["geometry"]["coordinates"][0],
+              f["geometry"]["coordinates"][1]) for f in courts["features"]}
+    # per date, per reservable park: mean density across its sites
+    per_date = {}
+    for site in (res.get("sites") or {}).values():
+        for day, dd in (site.get("daily") or {}).items():
+            if dd.get("density") is None: continue
+            for pid in site["park_ids"]:
+                per_date.setdefault(day, {}).setdefault(pid, []).append(dd["density"])
+    dates = {d: {pid: sum(v)/len(v) for pid, v in pids.items()}
+             for d, pids in per_date.items() if len(pids) >= 2}
+    out = {}
+    for day, dens in dates.items():
+        city = sum(dens.values()) / len(dens)
+        row = {}
+        for pid, xy in coords.items():
+            if pid in RESERVABLE: continue
+            near = [(haversine_km(xy, coords[r]), d) for r, d in dens.items()
+                    if r in coords and haversine_km(xy, coords[r]) <= 10]
+            if near:
+                idx = sum(d/(1+dist) for dist, d in near) / sum(1/(1+dist) for dist, _ in near)
+            else:
+                idx = city
+            row[pid] = round(min(max(1 + 0.6*(idx - 0.65), 0.7), 1.35), 3)
+        out[day] = row
+    return {"dates": out,
+            "citywide": {d: round(sum(v.values())/len(v), 3) for d, v in dates.items()},
+            "note": "Walk-up demand multiplier from measured same-day reservable bookings; estimate pending history calibration."}
 
 def main():
     courts = json.load(open("data/courts.geojson"))
@@ -130,6 +187,15 @@ def main():
     except FileNotFoundError: transit = {}
     try: quality = json.load(open("data/quality.json"))
     except FileNotFoundError: quality = {}
+    holidays = {}
+    try: holidays = json.load(open("data/holidays.json")).get("dates", {})
+    except FileNotFoundError: pass
+    demand = {"dates": {}, "citywide": {}}
+    try:
+        res_full = json.load(open("data/reservation_density.json"))
+        if res_full.get("status") == "ok":
+            demand = demand_index(res_full, courts)
+    except FileNotFoundError: pass
     wx = json.load(urllib.request.urlopen(OPEN_METEO))
     current_precip = wx["current"]["precipitation"] or 0
     sunset_h = None
@@ -139,7 +205,14 @@ def main():
     recent_mm = sum(v or 0 for v in wx["hourly"]["precipitation"][-6:])
     now = datetime.datetime.now()
     wmod = weather_modifier(current_precip, recent_mm)
-    base = baseline(now.hour, now.weekday())
+    today_iso = now.strftime("%Y-%m-%d")
+    hol = holidays.get(today_iso)
+    eff_weekday = 5 if (hol and hol["kind"] == "holiday") else now.weekday()
+    base = baseline(now.hour, eff_weekday)
+    cur_temp = wx["current"].get("temperature_2m")
+    tmod = temp_modifier(cur_temp)
+    today_demand = demand["dates"].get(today_iso, {})
+    citywide_today = demand["citywide"].get(today_iso)
     bt = priors.get("besttime_curves", {})
     scores = []
     removed = []
@@ -150,7 +223,7 @@ def main():
                             "reason": closed[p["park_id"]][0]["title"]})
             continue
         btcurve = bt.get(p["park_id"], {}).get("curves", {})
-        dayc = btcurve.get(str(now.weekday())) or btcurve.get(now.weekday())
+        dayc = btcurve.get(str(eff_weekday)) or btcurve.get(eff_weekday)
         if dayc:
             # BestTime curve gives within-venue timing shape; lore multiplier
             # keeps cross-venue scale (45% of Central Parks peak >> 45% of a
@@ -164,6 +237,15 @@ def main():
         s *= res_mod.get(p["park_id"], 1.0)
         s *= supply_mod(permits, p["park_id"], p["court_count"],
                         now.strftime("%Y-%m-%d"), now.hour)
+        win0 = (seasons.get(p["park_id"]) or {}).get("indoor_window")
+        indoor_now = bool(win0 and in_window(now, win0))
+        if not indoor_now:
+            s *= tmod
+            if hol and hol["kind"] == "school_closed" and 9 <= now.hour <= 16:
+                s *= 1.2
+        dem = today_demand.get(p["park_id"])
+        if dem and not indoor_now:
+            s *= dem
         b = band(s)
         if sunset_h is not None and now.hour >= sunset_h and not p.get("lighted"):
             b = "closed"
@@ -171,7 +253,10 @@ def main():
         if win and in_window(now, win): b = "indoor"
         scores.append({"park_id": p["park_id"], "name": p.get("name", p["park_id"]), "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
-            "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality, permits, now.strftime("%Y-%m-%d")),
+            "popup_lines": popup_lines(p, planned, seasons, amenities, transit, quality, permits, now.strftime("%Y-%m-%d"),
+                ("Citywide demand today: %s - reservable courts %d%% booked" %
+                 (("very high" if citywide_today >= 0.9 else "high" if citywide_today >= 0.7 else "normal" if citywide_today >= 0.4 else "low"),
+                  round(100*citywide_today))) if (citywide_today is not None and p["park_id"] not in RESERVABLE) else None),
             "band": b, "score": round(s, 2)})
     # client-side recompute model for the date/time picker
     model = {
@@ -188,7 +273,9 @@ def main():
                            if isinstance(v, dict) and v.get("indoor_window")},
         "permits": {"days": permits.get("days", {}), "fetched_at": permits.get("fetched_at")},
         "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
-                        "modifiers": res_mod, "forecast": res_forecast}}
+                        "modifiers": res_mod, "forecast": res_forecast},
+        "demand": demand,
+        "holidays": holidays}
     json.dump(model, open("web/model.json", "w"))
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
         "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
