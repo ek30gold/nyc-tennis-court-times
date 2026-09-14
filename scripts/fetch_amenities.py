@@ -58,10 +58,14 @@ def main():
             d=hav((lat,lon),p[:2])
             return {"name":p[2],"dist_m":round(d)} if d<=800 else None
         out[pid]={"restroom":nearest(rest),"fountain":nearest(fp)}
+    # Count facility records before adding the string metadata entry below.
+    # Iterating all values after adding `_generated_at` raises TypeError when
+    # the loop tries to index the timestamp as a facility object.
+    got = sum(1 for v in out.values() if v["restroom"] or v["fountain"])
+    facility_count = len(out)
     out["_generated_at"] = _now()   # "_"-prefixed: compute_scores does amenities.get(park_id)
     with open(ROOT / "data/amenities.json","w") as f: json.dump(out,f,indent=1)
-    got=sum(1 for v in out.values() if v["restroom"] or v["fountain"])
-    print(f"amenities for {got}/{len(out)} facilities (restrooms {len(rest)}, fountains {len(fp)})")
+    print(f"amenities for {got}/{facility_count} facilities (restrooms {len(rest)}, fountains {len(fp)})")
 
 if __name__ == "__main__":
     main()
