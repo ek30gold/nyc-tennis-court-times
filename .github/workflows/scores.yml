@@ -1,28 +1,58 @@
 name: refresh-scores
 on:
   schedule:
+    # GitHub drops/queues schedule events heavily on low-activity repos - runs
+    # are observed 1-5h apart, not hourly. web/index.html therefore shows the
+    # data's real age rather than claiming freshness this cron cannot deliver.
     - cron: "7 * * * *"   # top of every hour, ~7 min past to dodge the :00 rush
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  # Delayed runs can overlap. Two runs rebasing and pushing the same generated
+  # files conflict, the job goes red, and nothing retries. A superseded score
+  # refresh is worthless, so drop it rather than queue it.
+  group: refresh-scores
+  cancel-in-progress: true
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: python scripts/fetch_courts.py
+      # Slow-moving inputs (courts, amenities, transit, quality) moved to
+      # data-refresh.yml: re-fetching a 5.6MB GTFS zip and 4 Socrata endpoints
+      # 24x/day for data that changes monthly was 24x/day of chances for a
+      # partial response to shrink courts.geojson, the join root.
       - run: python scripts/fetch_closures.py
-      - run: python scripts/fetch_amenities.py
-      - run: python scripts/fetch_transit.py
-      - run: python scripts/fetch_quality.py
       - run: python scripts/compute_scores.py
       - name: commit scores
         run: |
+          set -euo pipefail
           git config user.name "tennis-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/courts.geojson data/closures.json data/amenities.json data/transit.json data/quality.json web/scores.json web/model.json
-          git diff --cached --quiet || git commit -m "scores $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
-          git push
+          git add data/closures.json web/scores.json web/model.json
+          if git diff --cached --quiet; then
+            echo "nothing staged"; exit 0
+          fi
+          # The old `git diff --cached --quiet ||` guard was dead: generated_at
+          # always differs, so every run manufactured a commit (~24/day), each
+          # triggering a full Pages deploy. Commit only if something other than
+          # a timestamp moved.
+          SUBSTANTIVE=$(git diff --cached -U0 \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -vE '"(_?generated_at|fetched_at|captured_at)"' || true)
+          if [ -z "$SUBSTANTIVE" ]; then
+            echo "only timestamps changed - skipping commit"
+            git reset
+            exit 0
+          fi
+          git commit -m "scores $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed; retrying"; sleep $((i * 5))
+          done
+          exit 1
