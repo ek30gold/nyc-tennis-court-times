@@ -4,6 +4,8 @@
 Verified 2026-09-13 (real browser session):
 - 6 active grids: Central Park=12, Riverside 119=2, Riverside 96 clay=3,
   Mill Pond=4, Alley Pond=7, McCarren=11 (tennisreservation/availability/<id>)
+- Windows differ: Central Park shows a rolling ~29-day window; the other
+  venues show 7 days only (site rule: bookings up to 7 days ahead).
 - Public, server-rendered court x hour table: Booked / Not Available / Reserve
 - nycgovparks.org is behind AWS WAF: plain HTTP gets 405 + human-verification;
   headless Chromium usually passes. If blocked, we record it and exit 0 -
@@ -32,23 +34,33 @@ def tomorrow_nyc():
     return now.date() + datetime.timedelta(days=1)
 
 def parse_all_days(page):
-    """Every table.calendar on the page is one day's grid, preceded by a
-    'Monday, September 14, 2026' heading. Returns {ISO-date: {booked,
-    reservable, not_available, density}} across the whole rolling window."""
+    """Universal grid parser (verified 2026-09-13, agent-side browser):
+    - Central Park: table.calendar per day with a 'Monday, September 14, 2026'
+      heading nearby; rolling ~29-day window.
+    - All other venues: div.tab-pane with an ISO-date id wrapping a
+      table.table-bordered, one tab-pane per day; 7-day booking window only.
+    Returns {ISO-date: {booked, reservable, not_available, density}}."""
     import re
-    tables = page.query_selector_all("table.calendar")
     out = {}
-    for t in tables:
-        h = t.evaluate_handle(
-            "el => { let n = el; for (let i=0;i<6&&n;i++){ n = n.previousElementSibling||n.parentElement;"
-            " if (n && /20\\d\\d/.test(n.textContent||\"\") && n.textContent.length<200) return n.textContent.trim(); } return \"\"; }")
-        txt = str(h.json_value())
-        m = re.search(r"(\w+), (\w+) (\d{1,2}), (\d{4})", txt)
-        if not m:
+    for t in page.query_selector_all("table"):
+        txt = t.inner_text() or ""
+        if "a.m." not in txt or ("Booked" not in txt and "Reserve" not in txt):
             continue
-        try:
-            d = datetime.datetime.strptime(f"{m.group(2)} {m.group(3)} {m.group(4)}", "%B %d %Y").date()
-        except ValueError:
+        iso = None
+        aid = t.evaluate("el => { const a = el.closest('[id^=\"20\"]'); return a ? a.id : ''; }")
+        if re.fullmatch(r"20\d\d-\d\d-\d\d", aid or ""):
+            iso = aid
+        if not iso:
+            h = t.evaluate_handle(
+                "el => { let n = el; for (let i=0;i<6&&n;i++){ n = n.previousElementSibling||n.parentElement;"
+                " if (n && /20\d\d/.test(n.textContent||\"\") && n.textContent.length<200) return n.textContent.trim(); } return \"\"; }")
+            m = re.search(r"(\w+), (\w+) (\d{1,2}), (\d{4})", str(h.json_value()))
+            if m:
+                try:
+                    iso = datetime.datetime.strptime(f"{m.group(2)} {m.group(3)} {m.group(4)}", "%B %d %Y").date().isoformat()
+                except ValueError:
+                    pass
+        if not iso:
             continue
         booked = reserve = notavail = 0
         for cell in t.query_selector_all("td"):
@@ -57,9 +69,11 @@ def parse_all_days(page):
             elif "reserve" in x: reserve += 1
             elif "not available" in x: notavail += 1
         denom = booked + reserve
-        out[d.isoformat()] = {"booked": booked, "reservable": reserve,
-                              "not_available": notavail,
-                              "density": round(booked / denom, 3) if denom else None}
+        rec = {"booked": booked, "reservable": reserve,
+               "not_available": notavail,
+               "density": round(booked / denom, 3) if denom else None}
+        if iso not in out or (booked + reserve + notavail) > sum(out[iso][k] for k in ("booked", "reservable", "not_available")):
+            out[iso] = rec
     return out
 
 def scrape():
