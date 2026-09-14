@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T09:11:12",
+ "generated_at": "2026-09-14T04:32:04",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -28,7 +28,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.19
+   "score": 0.03
   },
   {
    "park_id": "B082",
@@ -45,7 +45,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B047",
@@ -61,7 +61,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.0
   },
   {
    "park_id": "M104",
@@ -77,7 +77,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.26
+   "score": 0.05
   },
   {
    "park_id": "B032",
@@ -94,8 +94,8 @@
     "League play today 15:00-18:00 (up to 2 of 6 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.42
+   "band": "walk-on",
+   "score": 0.08
   },
   {
    "park_id": "X010",
@@ -112,8 +112,8 @@
     "League play today 15:00-18:00 (up to 3 of 20 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.61
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q008",
@@ -129,7 +129,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "Q024",
@@ -145,8 +145,8 @@
     "League play today 08:00-20:00 (up to 1 of 12 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.38
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q004",
@@ -163,8 +163,8 @@
     "League play today 08:00-20:00 (up to 7 of 14 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "30-60 min",
-   "score": 0.96
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M028",
@@ -182,7 +182,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.33
+   "score": 0.0
   },
   {
    "park_id": "R031",
@@ -198,7 +198,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q001A",
@@ -213,7 +213,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19
+   "score": 0.04
   },
   {
    "park_id": "X039",
@@ -229,7 +229,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B129",
@@ -245,7 +245,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B068",
@@ -263,7 +263,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B251",
@@ -278,8 +278,8 @@
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "30-60 min",
-   "score": 0.83
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M010",
@@ -296,8 +296,8 @@
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)",
     "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
-   "band": "1h+",
-   "score": 1.38
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "B057",
@@ -313,8 +313,8 @@
     "League play today 15:00-18:00 (up to 2 of 12 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.39
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "M042",
@@ -332,7 +332,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.33
+   "score": 0.0
   },
   {
    "park_id": "B054",
@@ -350,7 +350,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "X092",
@@ -367,7 +367,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.04
   },
   {
    "park_id": "Q015",
@@ -384,7 +384,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q021",
@@ -401,7 +401,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "X045",
@@ -418,7 +418,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.23
+   "score": 0.05
   },
   {
    "park_id": "B210W",
@@ -436,7 +436,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q131",
@@ -452,7 +452,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q121",
@@ -470,7 +470,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "R022",
@@ -486,7 +486,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q005",
@@ -502,7 +502,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B214",
@@ -520,7 +520,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q371",
@@ -537,7 +537,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "R129",
@@ -552,7 +552,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q102",
@@ -568,8 +568,8 @@
     "League play today 08:00-20:00 (up to 5 of 10 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.36
+   "band": "walk-on",
+   "score": 0.06
   },
   {
    "park_id": "Q448",
@@ -585,7 +585,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "Q300A",
@@ -601,7 +601,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "Q107",
@@ -617,7 +617,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "M144",
@@ -633,8 +633,8 @@
     "League play today 06:00-23:00 (up to 12 of 12 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.52
+   "band": "walk-on",
+   "score": 0.06
   },
   {
    "park_id": "B058",
@@ -649,8 +649,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.82
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "X344",
@@ -667,7 +667,7 @@
     "League play today 15:00-18:00 (up to 4 of 16 courts)"
    ],
    "band": "walk-on",
-   "score": 0.2
+   "score": 0.04
   },
   {
    "park_id": "M071",
@@ -683,8 +683,8 @@
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
     "League play today 06:00-23:00 (up to 8 of 20 courts)"
    ],
-   "band": "short",
-   "score": 0.57
+   "band": "walk-on",
+   "score": 0.1
   },
   {
    "park_id": "M079",
@@ -701,7 +701,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "Q373",
@@ -717,7 +717,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.26
+   "score": 0.05
   },
   {
    "park_id": "X201",
@@ -735,7 +735,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.04
   },
   {
    "park_id": "B166D",
@@ -751,7 +751,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q413",
@@ -768,7 +768,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B294",
@@ -785,7 +785,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q007",
@@ -802,7 +802,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B060",
@@ -820,7 +820,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q298",
@@ -835,7 +835,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.26
+   "score": 0.05
   },
   {
    "park_id": "Q347",
@@ -851,7 +851,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B050",
@@ -868,7 +868,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B346",
@@ -885,7 +885,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "M217",
@@ -902,7 +902,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "X233",
@@ -919,7 +919,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.23
+   "score": 0.05
   },
   {
    "park_id": "M201",
@@ -936,7 +936,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q086",
@@ -953,7 +953,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.2
+   "score": 0.03
   },
   {
    "park_id": "B267",
@@ -970,7 +970,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q014",
@@ -988,7 +988,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "B051",
@@ -1005,7 +1005,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "X044",
@@ -1022,7 +1022,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "M159",
@@ -1040,7 +1040,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.22
+   "score": 0.04
   },
   {
    "park_id": "M204",
@@ -1057,7 +1057,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.25
+   "score": 0.05
   },
   {
    "park_id": "Q429",
@@ -1074,7 +1074,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "M205",
@@ -1091,7 +1091,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.26
+   "score": 0.05
   },
   {
    "park_id": "R015",
@@ -1107,7 +1107,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B025",
@@ -1123,7 +1123,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B007",
@@ -1139,7 +1139,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B407",
@@ -1156,7 +1156,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q460",
@@ -1173,7 +1173,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B244",
@@ -1191,7 +1191,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "B380",
@@ -1208,7 +1208,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "Q051",
@@ -1224,7 +1224,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B217",
@@ -1241,7 +1241,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B163",
@@ -1258,7 +1258,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "R038A",
@@ -1275,7 +1275,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q335",
@@ -1292,7 +1292,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q218",
@@ -1310,7 +1310,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "Q400",
@@ -1326,7 +1326,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "Q092",
@@ -1341,7 +1341,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B358",
@@ -1358,7 +1358,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "X196",
@@ -1376,7 +1376,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.04
   },
   {
    "park_id": "X193",
@@ -1393,7 +1393,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "X104",
@@ -1411,7 +1411,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.04
   },
   {
    "park_id": "M227",
@@ -1428,7 +1428,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "M308",
@@ -1445,7 +1445,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B215",
@@ -1462,7 +1462,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "B372",
@@ -1479,7 +1479,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q369",
@@ -1495,7 +1495,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "Q390",
@@ -1511,7 +1511,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.18
+   "score": 0.03
   },
   {
    "park_id": "B234",
@@ -1527,7 +1527,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.3
+   "score": 0.06
   },
   {
    "park_id": "R153",
@@ -1542,7 +1542,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.24
+   "score": 0.05
   },
   {
    "park_id": "Q099",
@@ -1559,8 +1559,8 @@
     "League play today 15:00-18:00 (up to 3 of 12 courts)",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.49
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "Q084A",
@@ -1575,7 +1575,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.23
+   "score": 0.05
   },
   {
    "park_id": "M353",
@@ -1592,7 +1592,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "M045",
@@ -1609,7 +1609,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "Q502",
@@ -1626,7 +1626,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   },
   {
    "park_id": "SUPP-HRP",
@@ -1642,8 +1642,8 @@
     "Subway ~512 m: Houston St",
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
-   "band": "short",
-   "score": 0.53
+   "band": "walk-on",
+   "score": 0.0
   },
   {
    "park_id": "SUPP-QO",
@@ -1661,7 +1661,7 @@
     "Citywide demand today: normal - reservable courts 61% booked"
    ],
    "band": "walk-on",
-   "score": 0.27
+   "score": 0.05
   }
  ]
 }
