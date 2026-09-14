@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T00:59:32",
+ "generated_at": "2026-09-14T06:05:23",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0
@@ -27,7 +27,7 @@
     "League play today 08:00-20:00 (up to 2 of 10 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B082",
@@ -43,7 +43,7 @@
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B047",
@@ -73,7 +73,7 @@
     "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B032",
@@ -89,8 +89,8 @@
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 2 of 6 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.07
+   "band": "short",
+   "score": 0.35
   },
   {
    "park_id": "X010",
@@ -122,7 +122,7 @@
     "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q024",
@@ -187,7 +187,7 @@
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q001A",
@@ -202,7 +202,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.19
   },
   {
    "park_id": "X039",
@@ -217,7 +217,7 @@
     "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B129",
@@ -232,7 +232,7 @@
     "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B068",
@@ -249,7 +249,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B251",
@@ -281,8 +281,8 @@
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)",
     "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.0
+   "band": "1h+",
+   "score": 1.99
   },
   {
    "park_id": "B057",
@@ -332,7 +332,7 @@
     "League play today 15:00-18:00 (up to 2 of 11 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X092",
@@ -348,7 +348,7 @@
     "League play today 16:00-19:00 (up to 4 of 12 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q015",
@@ -364,7 +364,7 @@
     "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q021",
@@ -380,7 +380,7 @@
     "League play today 15:00-18:00 (up to 4 of 19 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X045",
@@ -396,7 +396,7 @@
     "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B210W",
@@ -413,7 +413,7 @@
     "League play today 15:00-18:00 (up to 1 of 8 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q131",
@@ -428,7 +428,7 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q121",
@@ -445,7 +445,7 @@
     "League play today 15:00-18:00 (up to 1 of 8 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "R022",
@@ -460,7 +460,7 @@
     "Park upkeep: mixed (86% of 29 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q005",
@@ -475,7 +475,7 @@
     "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B214",
@@ -492,7 +492,7 @@
     "League play today 15:00-18:00 (up to 2 of 5 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q371",
@@ -508,7 +508,7 @@
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "R129",
@@ -522,7 +522,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q102",
@@ -538,7 +538,7 @@
     "League play today 08:00-20:00 (up to 5 of 10 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q448",
@@ -553,7 +553,7 @@
     "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q300A",
@@ -568,7 +568,7 @@
     "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q107",
@@ -583,7 +583,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M144",
@@ -598,8 +598,8 @@
     "Park upkeep: strong (94% of 16 inspections passed, 2024+)",
     "League play today 06:00-23:00 (up to 12 of 12 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.05
+   "band": "short",
+   "score": 0.44
   },
   {
    "park_id": "B058",
@@ -614,8 +614,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.0
+   "band": "short",
+   "score": 0.58
   },
   {
    "park_id": "X344",
@@ -632,7 +632,7 @@
     "League play today 15:00-18:00 (up to 4 of 16 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.2
   },
   {
    "park_id": "M071",
@@ -648,8 +648,8 @@
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
     "League play today 06:00-23:00 (up to 8 of 20 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.08
+   "band": "short",
+   "score": 0.57
   },
   {
    "park_id": "M079",
@@ -665,7 +665,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q373",
@@ -680,7 +680,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X201",
@@ -697,7 +697,7 @@
     "League play today 16:00-18:00 (up to 2 of 6 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B166D",
@@ -712,7 +712,7 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q413",
@@ -728,7 +728,7 @@
     "League play today 15:00-19:00 (up to 3 of 6 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B294",
@@ -744,7 +744,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q007",
@@ -760,7 +760,7 @@
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B060",
@@ -777,7 +777,7 @@
     "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q298",
@@ -791,7 +791,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q347",
@@ -806,7 +806,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B050",
@@ -822,7 +822,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B346",
@@ -838,7 +838,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M217",
@@ -854,7 +854,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X233",
@@ -870,7 +870,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M201",
@@ -886,7 +886,7 @@
     "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q086",
@@ -902,7 +902,7 @@
     "League play today 08:00-20:00 (up to 1 of 8 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B267",
@@ -918,7 +918,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q014",
@@ -935,7 +935,7 @@
     "League play today 15:00-19:00 (up to 1 of 3 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B051",
@@ -951,7 +951,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X044",
@@ -967,7 +967,7 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M159",
@@ -984,7 +984,7 @@
     "League play today 15:00-18:00 (up to 3 of 8 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M204",
@@ -1000,7 +1000,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q429",
@@ -1016,7 +1016,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M205",
@@ -1032,7 +1032,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "R015",
@@ -1047,7 +1047,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B025",
@@ -1062,7 +1062,7 @@
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B007",
@@ -1077,7 +1077,7 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B407",
@@ -1093,7 +1093,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q460",
@@ -1109,7 +1109,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B244",
@@ -1126,7 +1126,7 @@
     "League play today 15:00-18:00 (up to 3 of 7 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B380",
@@ -1142,7 +1142,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q051",
@@ -1157,7 +1157,7 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B217",
@@ -1173,7 +1173,7 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B163",
@@ -1189,7 +1189,7 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "R038A",
@@ -1205,7 +1205,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q335",
@@ -1221,7 +1221,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q218",
@@ -1238,7 +1238,7 @@
     "League play today 20:00-22:00 (up to 4 of 4 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q400",
@@ -1253,7 +1253,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q092",
@@ -1267,7 +1267,7 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B358",
@@ -1283,7 +1283,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X196",
@@ -1300,7 +1300,7 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X193",
@@ -1316,7 +1316,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "X104",
@@ -1333,7 +1333,7 @@
     "League play today 15:00-18:00 (up to 3 of 8 courts)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M227",
@@ -1349,7 +1349,7 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M308",
@@ -1365,7 +1365,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B215",
@@ -1381,7 +1381,7 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B372",
@@ -1397,7 +1397,7 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q369",
@@ -1412,7 +1412,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q390",
@@ -1427,7 +1427,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "B234",
@@ -1442,7 +1442,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "R153",
@@ -1456,7 +1456,7 @@
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q099",
@@ -1487,7 +1487,7 @@
     "Water ~47 m"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M353",
@@ -1503,7 +1503,7 @@
     "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "M045",
@@ -1519,7 +1519,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "Q502",
@@ -1535,7 +1535,7 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   },
   {
    "park_id": "SUPP-HRP",
@@ -1550,8 +1550,8 @@
     "Water ~483 m",
     "Subway ~512 m: Houston St"
    ],
-   "band": "walk-on",
-   "score": 0.0
+   "band": "30-60 min",
+   "score": 0.8
   },
   {
    "park_id": "SUPP-QO",
@@ -1568,7 +1568,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "walk-on",
-   "score": 0.05
+   "score": 0.25
   }
  ]
 }
