@@ -1,0 +1,58 @@
+{
+ "source": "NYCPS 2026-27 school year calendar + federal holidays",
+ "note": "kind=holiday -> treat demand like a weekend day; kind=school_closed -> weekday daytime boost 9-16h (kids off school). Estimates, not measured.",
+ "dates": {
+  "2026-09-21": {
+   "name": "Yom Kippur",
+   "kind": "school_closed"
+  },
+  "2026-10-12": {
+   "name": "Italian Heritage/Indigenous Peoples' Day",
+   "kind": "holiday"
+  },
+  "2026-11-03": {
+   "name": "Election Day (remote learning)",
+   "kind": "school_closed"
+  },
+  "2026-11-11": {
+   "name": "Veterans Day",
+   "kind": "holiday"
+  },
+  "2026-11-26": {
+   "name": "Thanksgiving",
+   "kind": "holiday"
+  },
+  "2026-11-27": {
+   "name": "Thanksgiving Recess",
+   "kind": "holiday"
+  },
+  "2026-12-24": {
+   "name": "Winter Recess",
+   "kind": "school_closed"
+  },
+  "2026-12-25": {
+   "name": "Christmas Day",
+   "kind": "holiday"
+  },
+  "2026-12-28": {
+   "name": "Winter Recess",
+   "kind": "school_closed"
+  },
+  "2026-12-29": {
+   "name": "Winter Recess",
+   "kind": "school_closed"
+  },
+  "2026-12-30": {
+   "name": "Winter Recess",
+   "kind": "school_closed"
+  },
+  "2026-12-31": {
+   "name": "Winter Recess",
+   "kind": "school_closed"
+  },
+  "2027-01-01": {
+   "name": "New Year's Day",
+   "kind": "holiday"
+  }
+ }
+}
