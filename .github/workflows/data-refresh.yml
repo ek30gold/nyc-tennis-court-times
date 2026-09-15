@@ -1,0 +1,53 @@
+name: refresh-slow-data
+on:
+  schedule:
+    - cron: "20 9 * * *"   # 05:20 ET (EDT) / 04:20 ET (EST) - UTC cron does not shift with DST
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh-slow-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      # courts.geojson is the join root for the three that follow it, so order
+      # matters. fetch_courts refuses to write on a large unexplained shrink.
+      - run: python scripts/fetch_courts.py
+      - run: python scripts/fetch_amenities.py
+      - run: python scripts/fetch_transit.py
+      - run: python scripts/fetch_quality.py
+      - name: Validate hand-captured permit data still joins
+        # Non-fatal: permits.json is committed by hand and going stale is
+        # expected. Surfacing it beats the old silent 1.0 supply term.
+        continue-on-error: true
+        run: python scripts/fetch_permits.py
+      - name: commit slow data
+        run: |
+          set -euo pipefail
+          git config user.name "tennis-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/courts.geojson data/amenities.json data/transit.json data/quality.json
+          if git diff --cached --quiet; then
+            echo "nothing staged"; exit 0
+          fi
+          SUBSTANTIVE=$(git diff --cached -U0 \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -vE '"(_?generated_at|fetched_at|captured_at)"' || true)
+          if [ -z "$SUBSTANTIVE" ]; then
+            echo "only timestamps changed - skipping commit"
+            git reset
+            exit 0
+          fi
+          git commit -m "slow data $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed; retrying"; sleep $((i * 5))
+          done
+          exit 1
