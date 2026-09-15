@@ -1,0 +1,438 @@
+{
+ "captured_at": "2026-09-15T10:09:43.572Z",
+ "sites": {
+  "alley_pond": {
+   "booked": 1,
+   "daily": {
+    "2026-09-16": {
+     "booked": 1,
+     "density": 0.021,
+     "not_available": 20,
+     "reservable": 47
+    },
+    "2026-09-17": {
+     "booked": 2,
+     "density": 0.042,
+     "not_available": 20,
+     "reservable": 46
+    },
+    "2026-09-18": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 20,
+     "reservable": 48
+    },
+    "2026-09-19": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 20,
+     "reservable": 48
+    },
+    "2026-09-20": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 20,
+     "reservable": 48
+    },
+    "2026-09-21": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 20,
+     "reservable": 48
+    },
+    "2026-09-22": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 20,
+     "reservable": 48
+    }
+   },
+   "density": 0.021,
+   "grid_date": "2026-09-16",
+   "not_available": 20,
+   "park_ids": [
+    "Q001A"
+   ],
+   "reservable": 47
+  },
+  "central_park": {
+   "booked": null,
+   "daily": {
+    "2026-09-17": {
+     "booked": 37,
+     "density": 1,
+     "not_available": 65,
+     "reservable": 0
+    },
+    "2026-09-18": {
+     "booked": 56,
+     "density": 1,
+     "not_available": 46,
+     "reservable": 0
+    },
+    "2026-09-19": {
+     "booked": 72,
+     "density": 1,
+     "not_available": 30,
+     "reservable": 0
+    },
+    "2026-09-20": {
+     "booked": 72,
+     "density": 1,
+     "not_available": 30,
+     "reservable": 0
+    },
+    "2026-09-21": {
+     "booked": 50,
+     "density": 0.877,
+     "not_available": 45,
+     "reservable": 7
+    },
+    "2026-09-22": {
+     "booked": 55,
+     "density": 0.932,
+     "not_available": 43,
+     "reservable": 4
+    },
+    "2026-09-23": {
+     "booked": 40,
+     "density": 0.714,
+     "not_available": 46,
+     "reservable": 16
+    },
+    "2026-09-24": {
+     "booked": 57,
+     "density": 0.966,
+     "not_available": 43,
+     "reservable": 2
+    },
+    "2026-09-25": {
+     "booked": 60,
+     "density": 1,
+     "not_available": 42,
+     "reservable": 0
+    },
+    "2026-09-26": {
+     "booked": 72,
+     "density": 1,
+     "not_available": 30,
+     "reservable": 0
+    },
+    "2026-09-27": {
+     "booked": 72,
+     "density": 1,
+     "not_available": 30,
+     "reservable": 0
+    },
+    "2026-09-28": {
+     "booked": 37,
+     "density": 0.638,
+     "not_available": 44,
+     "reservable": 21
+    },
+    "2026-09-29": {
+     "booked": 39,
+     "density": 0.661,
+     "not_available": 43,
+     "reservable": 20
+    },
+    "2026-09-30": {
+     "booked": 33,
+     "density": 0.569,
+     "not_available": 44,
+     "reservable": 25
+    },
+    "2026-10-01": {
+     "booked": 38,
+     "density": 0.644,
+     "not_available": 43,
+     "reservable": 21
+    },
+    "2026-10-02": {
+     "booked": 50,
+     "density": 0.833,
+     "not_available": 42,
+     "reservable": 10
+    },
+    "2026-10-03": {
+     "booked": 72,
+     "density": 1,
+     "not_available": 30,
+     "reservable": 0
+    },
+    "2026-10-04": {
+     "booked": 66,
+     "density": 1,
+     "not_available": 36,
+     "reservable": 0
+    },
+    "2026-10-05": {
+     "booked": 17,
+     "density": 0.34,
+     "not_available": 52,
+     "reservable": 33
+    },
+    "2026-10-06": {
+     "booked": 20,
+     "density": 0.385,
+     "not_available": 50,
+     "reservable": 32
+    },
+    "2026-10-07": {
+     "booked": 16,
+     "density": 0.32,
+     "not_available": 52,
+     "reservable": 34
+    },
+    "2026-10-08": {
+     "booked": 21,
+     "density": 0.404,
+     "not_available": 50,
+     "reservable": 31
+    },
+    "2026-10-09": {
+     "booked": 33,
+     "density": 0.611,
+     "not_available": 48,
+     "reservable": 21
+    },
+    "2026-10-10": {
+     "booked": 64,
+     "density": 0.97,
+     "not_available": 36,
+     "reservable": 2
+    },
+    "2026-10-11": {
+     "booked": 61,
+     "density": 0.924,
+     "not_available": 36,
+     "reservable": 5
+    },
+    "2026-10-12": {
+     "booked": 19,
+     "density": 0.288,
+     "not_available": 36,
+     "reservable": 47
+    },
+    "2026-10-13": {
+     "booked": 13,
+     "density": 0.241,
+     "not_available": 48,
+     "reservable": 41
+    },
+    "2026-10-14": {
+     "booked": 7,
+     "density": 0.14,
+     "not_available": 52,
+     "reservable": 43
+    }
+   },
+   "density": null,
+   "grid_date": "2026-09-16",
+   "not_available": null,
+   "park_ids": [
+    "M010"
+   ],
+   "reservable": null
+  },
+  "mccarren": {
+   "booked": 20,
+   "daily": {
+    "2026-09-16": {
+     "booked": 20,
+     "density": 0.952,
+     "not_available": 14,
+     "reservable": 1
+    },
+    "2026-09-17": {
+     "booked": 20,
+     "density": 1,
+     "not_available": 14,
+     "reservable": 0
+    },
+    "2026-09-18": {
+     "booked": 20,
+     "density": 1,
+     "not_available": 14,
+     "reservable": 0
+    },
+    "2026-09-19": {
+     "booked": 20,
+     "density": 1,
+     "not_available": 14,
+     "reservable": 0
+    }
+   },
+   "density": 0.952,
+   "grid_date": "2026-09-16",
+   "not_available": 14,
+   "park_ids": [
+    "B058"
+   ],
+   "reservable": 1
+  },
+  "mill_pond": {
+   "booked": 7,
+   "daily": {
+    "2026-09-16": {
+     "booked": 7,
+     "density": 0.194,
+     "not_available": 15,
+     "reservable": 29
+    },
+    "2026-09-17": {
+     "booked": 4,
+     "density": 0.111,
+     "not_available": 15,
+     "reservable": 32
+    },
+    "2026-09-18": {
+     "booked": 5,
+     "density": 0.139,
+     "not_available": 15,
+     "reservable": 31
+    },
+    "2026-09-19": {
+     "booked": 31,
+     "density": 0.861,
+     "not_available": 15,
+     "reservable": 5
+    },
+    "2026-09-20": {
+     "booked": 12,
+     "density": 0.333,
+     "not_available": 15,
+     "reservable": 24
+    },
+    "2026-09-21": {
+     "booked": 2,
+     "density": 0.056,
+     "not_available": 15,
+     "reservable": 34
+    },
+    "2026-09-22": {
+     "booked": 0,
+     "density": 0,
+     "not_available": 15,
+     "reservable": 36
+    }
+   },
+   "density": 0.194,
+   "grid_date": "2026-09-16",
+   "not_available": 15,
+   "park_ids": [
+    "X344"
+   ],
+   "reservable": 29
+  },
+  "riverside_119": {
+   "booked": 14,
+   "daily": {
+    "2026-09-16": {
+     "booked": 14,
+     "density": 0.7,
+     "not_available": 14,
+     "reservable": 6
+    },
+    "2026-09-17": {
+     "booked": 15,
+     "density": 0.75,
+     "not_available": 14,
+     "reservable": 5
+    },
+    "2026-09-18": {
+     "booked": 18,
+     "density": 0.9,
+     "not_available": 14,
+     "reservable": 2
+    },
+    "2026-09-19": {
+     "booked": 16,
+     "density": 1,
+     "not_available": 18,
+     "reservable": 0
+    },
+    "2026-09-20": {
+     "booked": 20,
+     "density": 1,
+     "not_available": 14,
+     "reservable": 0
+    },
+    "2026-09-21": {
+     "booked": 6,
+     "density": 0.3,
+     "not_available": 14,
+     "reservable": 14
+    },
+    "2026-09-22": {
+     "booked": 3,
+     "density": 0.15,
+     "not_available": 14,
+     "reservable": 17
+    }
+   },
+   "density": 0.7,
+   "grid_date": "2026-09-16",
+   "not_available": 14,
+   "park_ids": [
+    "M071"
+   ],
+   "reservable": 6
+  },
+  "riverside_96": {
+   "booked": 24,
+   "daily": {
+    "2026-09-16": {
+     "booked": 24,
+     "density": 1,
+     "not_available": 10,
+     "reservable": 0
+    },
+    "2026-09-17": {
+     "booked": 24,
+     "density": 1,
+     "not_available": 10,
+     "reservable": 0
+    },
+    "2026-09-18": {
+     "booked": 20,
+     "density": 1,
+     "not_available": 14,
+     "reservable": 0
+    },
+    "2026-09-19": {
+     "booked": 12,
+     "density": 1,
+     "not_available": 22,
+     "reservable": 0
+    },
+    "2026-09-20": {
+     "booked": 14,
+     "density": 1,
+     "not_available": 20,
+     "reservable": 0
+    },
+    "2026-09-21": {
+     "booked": 21,
+     "density": 0.875,
+     "not_available": 10,
+     "reservable": 3
+    },
+    "2026-09-22": {
+     "booked": 8,
+     "density": 0.333,
+     "not_available": 10,
+     "reservable": 16
+    }
+   },
+   "density": 1,
+   "grid_date": "2026-09-16",
+   "not_available": 10,
+   "park_ids": [
+    "M071"
+   ],
+   "reservable": 0
+  }
+ },
+ "status": "ok"
+}
