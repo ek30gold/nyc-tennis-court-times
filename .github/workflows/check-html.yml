@@ -1,12 +1,20 @@
 name: check-html
 on:
+  # On main this runs as the deploy gate inside pages.yml (reusable call below),
+  # so it is not duplicated here.
   push:
-    branches: [main]
-    paths: [web/index.html]
+    branches-ignore: [main]
+    paths: [web/index.html, .github/workflows/check-html.yml]
+  pull_request:
+    paths: [web/index.html, .github/workflows/check-html.yml]
+  workflow_call:
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Extract inline script and syntax-check it
@@ -14,9 +22,13 @@ jobs:
           python3 - <<'PY'
           import re, sys
           h = open("web/index.html").read()
-          scripts = re.findall(r"<script>(.*?)</script>", h, re.S)
+          # Check EVERY inline script, not just scripts[0] - a second block
+          # used to ship unchecked.
+          scripts = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", h, re.S)
           if not scripts: sys.exit("no inline <script> found in web/index.html")
-          open("/tmp/inline.js", "w").write(scripts[0])
+          for i, body in enumerate(scripts):
+              open(f"/tmp/inline{i}.js", "w").write(body)
+          print(f"extracted {len(scripts)} inline script block(s)")
           PY
-          node --check /tmp/inline.js
-          echo "inline script parses"
+          for f in /tmp/inline*.js; do node --check "$f" || exit 1; done
+          echo "all inline scripts parse"
