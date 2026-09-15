@@ -1,4 +1,5 @@
 {
+ "_generated_at": "2026-09-14T14:40:56+00:00",
  "B082": {
   "station": "Bay Ridge-95 St",
   "dist_m": 689
@@ -8,8 +9,8 @@
   "dist_m": 512
  },
  "B032": {
-  "station": "Nevins St",
-  "dist_m": 493
+  "station": "Fulton St",
+  "dist_m": 381
  },
  "X010": {
   "station": "174 St",
@@ -24,12 +25,12 @@
   "dist_m": 561
  },
  "B068": {
-  "station": "Parkside Av",
-  "dist_m": 856
+  "station": "Fort Hamilton Pkwy",
+  "dist_m": 478
  },
  "M010": {
-  "station": "103 St",
-  "dist_m": 692
+  "station": "96 St",
+  "dist_m": 288
  },
  "M042": {
   "station": "Inwood-207 St",
@@ -52,8 +53,8 @@
   "dist_m": 507
  },
  "B214": {
-  "station": "Pennsylvania Av",
-  "dist_m": 968
+  "station": "Van Siclen Av",
+  "dist_m": 810
  },
  "Q371": {
   "station": "Beach 60 St",
@@ -68,8 +69,8 @@
   "dist_m": 408
  },
  "M071": {
-  "station": "116 St-Columbia University",
-  "dist_m": 698
+  "station": "Cathedral Pkwy (110 St)",
+  "dist_m": 367
  },
  "M079": {
   "station": "72 St",
@@ -96,8 +97,8 @@
   "dist_m": 560
  },
  "M217": {
-  "station": "138 St-Grand Concourse",
-  "dist_m": 724
+  "station": "135 St",
+  "dist_m": 208
  },
  "X233": {
   "station": "E 149 St",
@@ -115,17 +116,21 @@
   "station": "46 St",
   "dist_m": 466
  },
+ "B051": {
+  "station": "Kings Hwy",
+  "dist_m": 449
+ },
  "X044": {
   "station": "Kingsbridge Rd",
-  "dist_m": 383
+  "dist_m": 272
  },
  "M159": {
   "station": "Harlem-148 St",
   "dist_m": 127
  },
  "M204": {
-  "station": "138 St-Grand Concourse",
-  "dist_m": 849
+  "station": "135 St",
+  "dist_m": 574
  },
  "Q429": {
   "station": "21 St-Queensbridge",
@@ -139,6 +144,10 @@
   "station": "Grand St",
   "dist_m": 578
  },
+ "B007": {
+  "station": "Bay Pkwy",
+  "dist_m": 996
+ },
  "B407": {
   "station": "Lafayette Av",
   "dist_m": 309
@@ -148,8 +157,8 @@
   "dist_m": 903
  },
  "B244": {
-  "station": "Avenue U",
-  "dist_m": 676
+  "station": "Kings Hwy",
+  "dist_m": 347
  },
  "B380": {
   "station": "Grant Av",
@@ -196,24 +205,24 @@
   "dist_m": 535
  },
  "M308": {
-  "station": "Franklin St",
-  "dist_m": 509
+  "station": "Chambers St",
+  "dist_m": 309
  },
  "B215": {
   "station": "Kingston-Throop Avs",
   "dist_m": 420
  },
  "B372": {
-  "station": "Avenue N",
-  "dist_m": 393
+  "station": "Bay Pkwy",
+  "dist_m": 364
  },
  "Q099": {
   "station": "Mets-Willets Point",
   "dist_m": 438
  },
  "M353": {
-  "station": "66 St-Lincoln Center",
-  "dist_m": 950
+  "station": "72 St",
+  "dist_m": 583
  },
  "M045": {
   "station": "72 St",
