@@ -38,6 +38,7 @@ window.addEventListener("error",e=>console.warn("page error:",e.message));
 window.addEventListener("unhandledrejection",e=>console.warn("page rejection:",e.reason));
 const COLORS = {"walk-on":"#2ca02c","short":"#ffd400","30-60 min":"#ff7f0e","1h+":"#d62728","indoor":"#7f7f7f","closed":"#4a4a4a","unknown":"#bbbbbb"};
 const STALE_MIN = 90;               // data older than this gets a visible warning
+const WXWIND={}, WXGUST={};
 const HTML_ESC = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
 function esc(s){return String(s===null||s===undefined?"":s).replace(/[&<>"']/g,c=>HTML_ESC[c]);}
 // band(): non-finite must NOT fall through to the most alarming red band.
@@ -50,8 +51,9 @@ function baseline(hour, wd){
   const ep=Math.exp(-(((hour-18.5)/2.5)**2)), mp=Math.exp(-(((hour-10)/2.5)**2));
   const base=0.25+(wd<5?0.55*ep:0.65*mp);
   return Math.min(base,1.0);}
-function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?1.5:1.0);}
+function wmod(pNow, recent){return pNow>0?0.0:(recent>1.0?0.75:1.0);}
 function tempMult(c){if(c==null)return 1.0;if(c<4)return 0.55;if(c<10)return 0.8;if(c<16)return 0.9;if(c<29)return 1.0;if(c<35)return 0.95;return 0.8;}
+function windMult(speed,gust){const v=Math.max(Number.isFinite(speed)?speed:0,Number.isFinite(gust)?gust:0);return v<20?1.0:v<30?0.85:v<40?0.65:0.45;}
 function nycToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"America/New_York"});}
 function nycHour(){return +new Date().toLocaleString("en-US",{timeZone:"America/New_York",hour12:false,hour:"2-digit"})%24;}
 // Monday=0 .. Sunday=6, matching priors.json curves and the Python baseline.
@@ -275,10 +277,11 @@ map.on("load", async () => {
 async function ensureWx(){
   if (WXSTATE==="ok") return;
   try{
-    const res=await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation,temperature_2m&daily=sunset,sunrise&timezone=America%2FNew_York&forecast_days=16");
+    const res=await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97&hourly=precipitation,temperature_2m,wind_speed_10m,wind_gusts_10m&daily=sunset,sunrise&timezone=America%2FNew_York&forecast_days=16");
     if(!res.ok) throw new Error("HTTP "+res.status);
     const wx=await res.json();
-    wx.hourly.time.forEach((t,i)=>{WXP[t]=wx.hourly.precipitation[i]||0;WXT[t]=wx.hourly.temperature_2m[i];});
+    wx.hourly.time.forEach((t,i)=>{WXP[t]=wx.hourly.precipitation[i]||0;WXT[t]=wx.hourly.temperature_2m[i];
+      WXWIND[t]=(wx.hourly.wind_speed_10m||[])[i];WXGUST[t]=(wx.hourly.wind_gusts_10m||[])[i];});
     ((wx.daily||{}).time||[]).forEach((d,i)=>{
       const ss=(wx.daily.sunset||[])[i], sr=(wx.daily.sunrise||[])[i];
       if(ss) WXSUN[d]=+ss.split("T")[1].slice(0,2);
@@ -292,7 +295,7 @@ async function ensureWx(){
     console.warn("weather fetch failed:",WXERR);}
 }
 function wxNote(day, hasWx){
-  if(hasWx) return "Weather forecast applied (rain + temperature).";
+  if(hasWx) return "Weather forecast applied (rain, recent rain, temperature, and wind).";
   if(WXSTATE==="fail") return "Weather lookup failed ("+WXERR+") - priors only, no rain or temperature applied.";
   if(WXMAXDAY&&day>WXMAXDAY) return "Beyond the 16-day weather forecast horizon - priors only.";
   return "No weather data for that hour - priors only.";}
@@ -313,7 +316,9 @@ function recompute(v){
     return;}
   window.__selDay=day;
   const dow=dowMon0(day);                              // Mon=0 .. Sun=6
-  const hday=((MODEL&&MODEL.holidays)||{})[day];
+  const cal=(MODEL&&MODEL.calendar)||{dates:(MODEL&&MODEL.holidays)||{},ranges:[]};
+  let hday=(cal.dates||{})[day];
+  if(!hday) hday=(cal.ranges||[]).find(r=>r.start<=day&&day<=r.end);
   const dowEff=(hday&&hday.kind==="holiday")?5:dow;    // holidays behave like Saturdays (Mon=0 -> 5 = Sat)
   const hk=day+"T"+String(hour).padStart(2,"0")+":00";
   const hasWx=hk in WXP;
@@ -349,6 +354,7 @@ function recompute(v){
     const indoorSel=!!(win&&inWindow(day,win));
     if(!indoorSel){
       if(hasWx&&WXT[hk]!=null) sc*=tempMult(WXT[hk]);
+      if(hasWx) sc*=windMult(WXWIND[hk],WXGUST[hk]);
       if(hday&&hday.kind==="school_closed"&&dow<5&&hour>=9&&hour<=16) sc*=1.2;
       const dm=(((MODEL.demand||{}).dates||{})[day]||{})[s.park_id];
       if(dm) sc*=dm;

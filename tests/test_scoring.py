@@ -272,6 +272,30 @@ class TestHolidays(unittest.TestCase):
         self.assertAlmostEqual(boost["score"], plain["score"] * 1.2, places=9)
 
 
+class TestFreeSignals(unittest.TestCase):
+    def test_recent_rain_suppresses_not_inflates_demand(self):
+        self.assertEqual(cs.weather_modifier(0.0, 1.1), 0.75)
+
+    def test_wind_ladder(self):
+        self.assertEqual(cs.wind_modifier(None, None), 1.0)
+        self.assertEqual(cs.wind_modifier(10, 19), 1.0)
+        self.assertEqual(cs.wind_modifier(21, 10), 0.85)
+        self.assertEqual(cs.wind_modifier(20, 35), 0.65)
+        self.assertEqual(cs.wind_modifier(40), 0.45)
+
+    def test_calendar_ranges_and_remote_day_exclusion(self):
+        cal = json.load(open(os.path.join(ROOT, "data", "holidays.json")))
+        wd, boost, event = cs.calendar_effect(cal, "2027-02-16", 1, 12)
+        self.assertEqual((wd, boost, event["kind"]), (1, 1.2, "school_closed"))
+        wd, boost, event = cs.calendar_effect(cal, "2026-11-03", 1, 12)
+        self.assertEqual((wd, boost, event), (1, 1.0, None))
+
+    def test_holiday_uses_saturday_curve(self):
+        cal = json.load(open(os.path.join(ROOT, "data", "holidays.json")))
+        wd, boost, event = cs.calendar_effect(cal, "2026-11-26", 3, 10)
+        self.assertEqual((wd, boost, event["kind"]), (5, 1.0, "holiday"))
+
+
 class TestReservationStatus(unittest.TestCase):
     def _res(self, status):
         stamp = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")

@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 
 OPEN_METEO = ("https://api.open-meteo.com/v1/forecast?latitude=40.78&longitude=-73.97"
-              "&current=precipitation,temperature_2m&daily=sunset&timezone=America%2FNew_York"
+              "&current=precipitation,temperature_2m,wind_speed_10m,wind_gusts_10m&daily=sunset&timezone=America%2FNew_York"
               "&past_hours=6&hourly=precipitation")
 WX_TIMEOUT_S = 30
 NYC = ZoneInfo("America/New_York")
@@ -43,7 +43,7 @@ def weather_modifier(current_precip, recent_precip_mm):
     must band outdoor courts "closed", not "walk-on" (a 0.0 score is not an
     invitation to show up)."""
     if current_precip > 0: return 0.0          # courts closed: no wait, no play
-    if recent_precip_mm > 1.0: return 1.5      # post-rain reopen surge (estimate)
+    if recent_precip_mm > 1.0: return 0.75     # recently soaked courts suppress play even after rain stops
     return 1.0
 
 def temp_modifier(c):
@@ -56,6 +56,33 @@ def temp_modifier(c):
     if c < 29: return 1.0
     if c < 35: return 0.95
     return 0.8
+
+def wind_modifier(speed_kmh, gust_kmh=None):
+    """Wind disrupts tennis before it stops other outdoor activity. Use the
+    worse of sustained wind and gusts, degrading gracefully when absent."""
+    vals = [v for v in (speed_kmh, gust_kmh) if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    if not vals: return 1.0
+    w = max(vals)
+    if w < 20: return 1.0
+    if w < 30: return 0.85
+    if w < 40: return 0.65
+    return 0.45
+
+def calendar_effect(calendar, day_iso, weekday, hour):
+    """Return (effective weekday, daytime multiplier, label) from NYCPS dates
+    and date ranges. Full public holidays use Saturday timing; school-only
+    closures keep the real weekday and boost daytime walk-up demand."""
+    event = (calendar.get("dates") or {}).get(day_iso)
+    if not event:
+        for r in calendar.get("ranges") or []:
+            if r.get("start", "") <= day_iso <= r.get("end", ""):
+                event = r
+                break
+    if not event: return weekday, 1.0, None
+    kind = event.get("kind")
+    eff = 5 if kind == "holiday" else weekday
+    boost = 1.2 if kind == "school_closed" and weekday < 5 and 9 <= hour <= 16 else 1.0
+    return eff, boost, event
 
 def load_json(path, default=None, extract=None):
     """Best-effort load of an optional data file. A missing OR malformed file
@@ -271,8 +298,8 @@ def reservation_mods(res, now_utc):
 
 def score_facility(p, now, priors, *, bt=None, wmod=1.0, current_precip=0.0, tmod=1.0,
                    eff_weekday=None, res_mod=None, apply_res=False, permits=None,
-                   seasons=None, hol=None, today_demand=None, demand_sources=None,
-                   sunset_h=None):
+                   seasons=None, hol=None, school_boost=None, today_demand=None, demand_sources=None,
+                   sunset_h=None, windmod=1.0):
     """-> {score, band, coverage, demand_source} for one facility at `now`.
 
     coverage: "curve" (BestTime supplied this hour), "lore" (facility has a
@@ -305,8 +332,10 @@ def score_facility(p, now, priors, *, bt=None, wmod=1.0, current_precip=0.0, tmo
     demand_source = "none"
     if not indoor_now:
         s *= tmod
-        if hol and hol.get("kind") == "school_closed" and 9 <= hour <= 16:
-            s *= 1.2
+        s *= windmod
+        if school_boost is None:
+            school_boost = 1.2 if hol and hol.get("kind") == "school_closed" and now.weekday() < 5 and 9 <= hour <= 16 else 1.0
+        s *= school_boost
         dem = today_demand.get(pid)
         if dem:
             s *= dem
@@ -342,7 +371,7 @@ def main():
     seasons = load_json("data/seasons.json")
     transit = load_json("data/transit.json")
     quality = load_json("data/quality.json")
-    holidays = load_json("data/holidays.json", {}, lambda d: d.get("dates") or {})
+    calendar = load_json("data/holidays.json")
     demand = {"dates": {}, "sources": {}, "citywide": {}}
     # Same freshness gate as res_mod: a stale capture must not keep feeding
     # "today's measured demand" for a month.
@@ -365,13 +394,12 @@ def main():
     # definition, and generated_at carries the offset so clients need not guess.
     wmod = weather_modifier(current_precip, recent_mm)
     today_iso = now.strftime("%Y-%m-%d")
-    hol = holidays.get(today_iso)
-    # Deliberate approximation: public holidays are scored with the Saturday
-    # curve (weekday 5). Sunday curves are not consulted - no data says which
-    # weekend day a given holiday resembles.
-    eff_weekday = 5 if (hol and hol.get("kind") == "holiday") else now.weekday()
+    # Public holidays use Saturday timing; school-only closures retain the
+    # weekday curve and add a daytime youth/family demand term.
+    eff_weekday, school_boost, hol = calendar_effect(calendar, today_iso, now.weekday(), now.hour)
     cur_temp = wx["current"].get("temperature_2m")
     tmod = temp_modifier(cur_temp)
+    windmod = wind_modifier(wx["current"].get("wind_speed_10m"), wx["current"].get("wind_gusts_10m"))
     today_demand = demand["dates"].get(today_iso, {})
     today_demand_src = (demand.get("sources") or {}).get(today_iso, {})
     citywide_today = demand["citywide"].get(today_iso)
@@ -390,8 +418,8 @@ def main():
         r = score_facility(p, now, priors, bt=bt, wmod=wmod, current_precip=current_precip,
                            tmod=tmod, eff_weekday=eff_weekday, res_mod=res_mod,
                            apply_res=apply_res, permits=permits, seasons=seasons, hol=hol,
-                           today_demand=today_demand, demand_sources=today_demand_src,
-                           sunset_h=sunset_h)
+                           school_boost=school_boost, today_demand=today_demand,
+                           demand_sources=today_demand_src, sunset_h=sunset_h, windmod=windmod)
         scores.append({"park_id": p["park_id"], "name": p.get("name") or p["park_id"],
             "lat": feat["geometry"]["coordinates"][1],
             "lon": feat["geometry"]["coordinates"][0], "court_count": p["court_count"],
@@ -418,10 +446,13 @@ def main():
         "reservation": {"applies_to": res_applies_to, "captured_at": res_captured_at,
                         "modifiers": res_mod, "forecast": res_forecast},
         "demand": demand,
-        "holidays": holidays}
+        "calendar": calendar,
+        "holidays": calendar.get("dates", {})}
     json.dump(model, open(ROOT / "web/model.json", "w"))
     json.dump({"generated_at": now.isoformat(timespec="seconds"),
-        "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1)},
+        "weather": {"precip_now": current_precip, "precip_last_6h_mm": round(recent_mm, 1),
+                    "temperature_c": cur_temp, "wind_kmh": wx["current"].get("wind_speed_10m"),
+                    "gust_kmh": wx["current"].get("wind_gusts_10m")},
         "closures": removed,
         "scores": scores}, open(ROOT / "web/scores.json", "w"), indent=1)
     print(f"scored {len(scores)} facilities (weather modifier {wmod}, removed {len(removed)} closed)")
