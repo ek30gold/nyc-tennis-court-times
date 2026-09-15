@@ -1,33 +1,23 @@
 {
- "fetched_at": "2026-09-15T07:37:23+00:00",
- "closed_park_ids": {
+ "fetched_at": "2026-09-15T13:26:33+00:00",
+ "closed_park_ids": {},
+ "planned_park_ids": {
+  "B018": [
+   {
+    "title": "Monroe Cohen Park Path Reconstruction",
+    "phase": "design-procurement",
+    "construction_pct": "0.0"
+   }
+  ],
   "B028": [
+   {
+    "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
+    "phase": "design-procurement",
+    "construction_pct": "0.0"
+   },
    {
     "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
     "phase": "construction",
-    "construction_pct": "0.0"
-   }
-  ]
- },
- "planned_park_ids": {
-  "Q121": [
-   {
-    "title": "Detective Keith L. Williams Park Track and Field, Tennis Courts and Playground Reconstruction",
-    "phase": "procurement",
-    "construction_pct": "0.0"
-   }
-  ],
-  "B028": [
-   {
-    "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
-    "phase": "design",
-    "construction_pct": "0.0"
-   }
-  ],
-  "X196": [
-   {
-    "title": "Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
-    "phase": "design",
     "construction_pct": "0.0"
    }
   ],
@@ -42,6 +32,20 @@
    {
     "title": "McKinley Park Tennis Pavement Reconstruction",
     "phase": "design-procurement",
+    "construction_pct": "0.0"
+   }
+  ],
+  "Q121": [
+   {
+    "title": "Detective Keith L. Williams Park Track and Field, Tennis Courts and Playground Reconstruction",
+    "phase": "procurement",
+    "construction_pct": "0.0"
+   }
+  ],
+  "X196": [
+   {
+    "title": "Haffen Park Courts, Synthetic Turf Field, Playground, Adult Fitness, and Landscape Reconstruction",
+    "phase": "design",
     "construction_pct": "0.0"
    }
   ],
