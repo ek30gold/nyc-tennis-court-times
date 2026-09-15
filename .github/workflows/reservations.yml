@@ -2,25 +2,46 @@ name: fetch-reservations
 on:
   # CI runner IPs are WAF-walled (grid never renders there). Manual-dispatch only;
   # the nightly refresh runs agent-side through the cloud browser instead.
-  # schedule:
-  #   - cron: "30 23 * * *"   # 7:30pm ET - tonight's grids forecast tomorrow
+  #
+  # If this is ever re-enabled: GitHub cron is UTC and does NOT follow DST, so a
+  # fixed expression drifts an hour twice a year. The README's "9pm ET" capture
+  # is 01:00 UTC (EDT) / 02:00 UTC (EST) - i.e. it crosses midnight UTC, so the
+  # day-of-week field must be shifted forward by one if the schedule is ever
+  # restricted to particular days.
+  #   schedule:
+  #     - cron: "0 1 * * *"   # 21:00 ET during EDT; 20:00 ET during EST
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: fetch-reservations
+  cancel-in-progress: false
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: pip install playwright && playwright install --with-deps chromium
+      # Pinned: an unpinned major bump silently broke the scraper, and a broken
+      # scraper used to still exit 0.
+      - run: pip install "playwright~=1.47" && playwright install --with-deps chromium
+      # No continue-on-error: the script now exits non-zero when no site yields
+      # usable data, and leaves the previous good capture on disk untouched.
       - run: python scripts/fetch_reservations.py
       - name: commit density
         run: |
+          set -euo pipefail
           git config user.name "tennis-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/reservation_density.json
-          git diff --cached --quiet || git commit -m "reservations $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
-          git push
+          if git diff --cached --quiet; then
+            echo "capture unchanged"; exit 0
+          fi
+          git commit -m "reservations $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed; retrying"; sleep $((i * 5))
+          done
+          exit 1

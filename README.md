@@ -100,4 +100,4 @@ v1.5 begins with the "Report actual wait" popup link (prefilled GitHub issues); 
 
 ## Architecture
 
-GitHub Actions cron -> Python jobs -> commit `web/scores.json` -> static front-end (MapLibre GL) on any static host. No backend in v1. Note: GitHub Pages on a PRIVATE repo needs a paid GitHub plan; Cloudflare Pages/Vercel free tiers host private-repo static sites fine.
+GitHub Actions cron -> Python jobs -> commit `web/scores.json` -> static front-end (MapLibre GL) on any static host. Two schedules: `refresh-scores` (hourly; closures + scoring) and `refresh-slow-data` (daily; courts, amenities, transit, quality - these change monthly at best). Two schedules: `refresh-scores` (hourly; closures + scoring) and `refresh-slow-data` (daily; courts, amenities, transit, quality - these change monthly at best). No backend in v1. Note: GitHub Pages on a PRIVATE repo needs a paid GitHub plan; Cloudflare Pages/Vercel free tiers host private-repo static sites fine.
