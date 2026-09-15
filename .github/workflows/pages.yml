@@ -1,20 +1,32 @@
 name: deploy-map
 on:
   push:
+    branches: [main]
     paths: [web/**, .github/workflows/pages.yml]
   workflow_dispatch:
 permissions:
+  # Listing any scope sets every unlisted one to none, and actions/checkout
+  # needs contents: read (it only works unauthenticated while the repo is public).
+  contents: read
   pages: write
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Deploys are main-only now, so an in-flight run is a production deploy:
+  # queue behind it rather than cancelling it half-published.
+  cancel-in-progress: false
 jobs:
+  # Gate: the inline map script must parse before it reaches production.
+  # (A SyntaxError used to deploy a blank map with the red check arriving after.)
+  check:
+    uses: ./.github/workflows/check-html.yml
   deploy:
+    needs: check
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
