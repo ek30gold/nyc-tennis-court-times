@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T12:43:59-04:00",
+ "generated_at": "2026-09-16T16:00:04-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 24.8,
-  "wind_kmh": 12.0,
-  "gust_kmh": 15.8
+  "temperature_c": 26.4,
+  "wind_kmh": 9.9,
+  "gust_kmh": 12.2
  },
  "closures": [],
  "scores": [
@@ -24,8 +24,8 @@
     "League play today 08:00-20:00 (up to 2 of 10 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.19,
+   "band": "short",
+   "score": 0.38,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -43,8 +43,8 @@
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -63,8 +63,8 @@
     "League play today 15:00-18:00 (up to 3 of 9 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.55,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -99,8 +99,8 @@
     "Park upkeep: strong (100% of 23 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.24,
+   "band": "short",
+   "score": 0.43,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -119,8 +119,8 @@
     "League play today 15:00-18:00 (up to 2 of 6 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.41,
+   "band": "30-60 min",
+   "score": 1.0,
    "coverage": "lore",
    "demand_source": "near"
   },
@@ -140,7 +140,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "short",
-   "score": 0.39,
+   "score": 0.58,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -158,7 +158,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -176,8 +176,8 @@
     "League play today 08:00-20:00 (up to 4 of 12 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.42,
+   "band": "30-60 min",
+   "score": 0.75,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -197,7 +197,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "30-60 min",
-   "score": 0.75,
+   "score": 0.9,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -216,8 +216,8 @@
     "League play today 16:00-18:00 (up to 4 of 10 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.62,
+   "band": "30-60 min",
+   "score": 0.8,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -234,8 +234,8 @@
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -252,8 +252,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.38,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -270,8 +270,8 @@
     "Park upkeep: strong (93% of 180 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -288,8 +288,8 @@
     "Park upkeep: mixed (89% of 19 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -308,8 +308,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -327,7 +327,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "short",
-   "score": 0.5,
+   "score": 0.55,
    "coverage": "curve",
    "demand_source": "citywide"
   },
@@ -347,7 +347,7 @@
     "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
    "band": "1h+",
-   "score": 1.12,
+   "score": 1.36,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -365,8 +365,8 @@
     "League play today 15:00-18:00 (up to 2 of 12 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.55,
+   "band": "30-60 min",
+   "score": 0.69,
    "coverage": "curve",
    "demand_source": "citywide"
   },
@@ -385,8 +385,8 @@
     "League play today 15:00-18:00 (up to 6 of 9 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.35,
+   "band": "30-60 min",
+   "score": 0.81,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -405,8 +405,8 @@
     "League play today 15:00-18:00 (up to 2 of 11 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.63,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -424,8 +424,8 @@
     "League play today 16:00-19:00 (up to 4 of 12 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.44,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -443,8 +443,8 @@
     "Park upkeep: mixed (85% of 141 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -462,8 +462,8 @@
     "League play today 15:00-18:00 (up to 4 of 19 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.38,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -481,8 +481,8 @@
     "Park upkeep: mixed (89% of 35 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.22,
+   "band": "short",
+   "score": 0.39,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -501,8 +501,8 @@
     "League play today 15:00-18:00 (up to 1 of 8 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.46,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -519,8 +519,8 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -539,8 +539,8 @@
     "League play today 15:00-18:00 (up to 1 of 8 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.36,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -558,8 +558,8 @@
     "League play today 15:00-18:00 (up to 3 of 4 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "30-60 min",
+   "score": 0.72,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -577,7 +577,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -596,8 +596,8 @@
     "League play today 15:00-18:00 (up to 2 of 5 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "30-60 min",
+   "score": 0.75,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -615,8 +615,8 @@
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -632,8 +632,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -651,8 +651,8 @@
     "League play today 08:00-20:00 (up to 7 of 10 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.36,
+   "band": "30-60 min",
+   "score": 0.91,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -670,7 +670,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -688,7 +688,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -706,7 +706,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -725,7 +725,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "closed",
-   "score": 0.51,
+   "score": 0.92,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -743,7 +743,7 @@
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
    "band": "30-60 min",
-   "score": 1.03,
+   "score": 0.92,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -761,8 +761,8 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.2,
+   "band": "short",
+   "score": 0.44,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -780,8 +780,8 @@
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
     "League play today 00:00-24:00 (up to 8 of 20 courts)"
    ],
-   "band": "short",
-   "score": 0.57,
+   "band": "1h+",
+   "score": 1.32,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -799,8 +799,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.47,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -817,8 +817,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.25,
+   "band": "short",
+   "score": 0.45,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -837,8 +837,8 @@
     "League play today 16:00-18:00 (up to 3 of 6 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.49,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -855,8 +855,8 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -874,8 +874,8 @@
     "League play today 15:00-18:00 (up to 3 of 6 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.47,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -893,8 +893,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -912,8 +912,8 @@
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -932,8 +932,8 @@
     "Park upkeep: mixed (80% of 10 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -949,8 +949,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.25,
+   "band": "short",
+   "score": 0.45,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -968,7 +968,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -986,8 +986,8 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1005,8 +1005,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.29,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1024,8 +1024,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.22,
+   "band": "short",
+   "score": 0.39,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1043,8 +1043,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.22,
+   "band": "short",
+   "score": 0.39,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1062,8 +1062,8 @@
     "Park upkeep: mixed (80% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.29,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1081,8 +1081,8 @@
     "League play today 08:00-20:00 (up to 1 of 8 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.2,
+   "band": "short",
+   "score": 0.36,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1100,8 +1100,8 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1120,8 +1120,8 @@
     "League play today 15:00-19:00 (up to 1 of 3 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.62,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1140,8 +1140,8 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1159,8 +1159,8 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.22,
+   "band": "short",
+   "score": 0.4,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1179,8 +1179,8 @@
     "League play today 15:00-19:00 (up to 6 of 8 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.2,
+   "band": "short",
+   "score": 0.64,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1198,8 +1198,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.42,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1217,8 +1217,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.47,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1236,8 +1236,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.25,
+   "band": "short",
+   "score": 0.44,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1254,8 +1254,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1272,8 +1272,8 @@
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1291,8 +1291,8 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1310,8 +1310,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1329,8 +1329,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1349,8 +1349,8 @@
     "League play today 15:00-18:00 (up to 3 of 7 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.59,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1368,8 +1368,8 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1387,7 +1387,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1405,8 +1405,8 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1424,8 +1424,8 @@
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1443,8 +1443,8 @@
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1462,8 +1462,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1481,8 +1481,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.47,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1500,7 +1500,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1517,7 +1517,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1535,8 +1535,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1556,7 +1556,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.33,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1574,8 +1574,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1594,8 +1594,8 @@
     "League play today 15:00-18:00 (up to 3 of 8 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.45,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1613,8 +1613,8 @@
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.29,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1632,8 +1632,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1651,8 +1651,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1670,8 +1670,8 @@
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1689,7 +1689,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1707,7 +1707,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.18,
+   "score": 0.32,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1724,8 +1724,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "short",
+   "score": 0.53,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1741,8 +1741,8 @@
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1761,8 +1761,8 @@
     "League play today 15:00-18:00 (up to 3 of 12 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.18,
+   "band": "short",
+   "score": 0.4,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1778,8 +1778,8 @@
     "Water ~47 m",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.23,
+   "band": "short",
+   "score": 0.41,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1797,8 +1797,8 @@
     "Park upkeep: strong (97% of 35 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.47,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1816,8 +1816,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.46,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1835,8 +1835,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "short",
+   "score": 0.46,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1855,7 +1855,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "30-60 min",
-   "score": 0.7,
+   "score": 0.75,
    "coverage": "curve",
    "demand_source": "near"
   },
@@ -1875,7 +1875,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "indoor",
-   "score": 0.25,
+   "score": 0.45,
    "coverage": "default",
    "demand_source": "none"
   }
