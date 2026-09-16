@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T01:54:15-04:00",
+ "generated_at": "2026-09-16T07:23:04-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 15.3,
-  "wind_kmh": 5.4,
-  "gust_kmh": 10.1
+  "temperature_c": 15.1,
+  "wind_kmh": 6.5,
+  "gust_kmh": 9.0
  },
  "closures": [],
  "scores": [
@@ -25,7 +25,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -44,7 +44,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -64,7 +64,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -82,7 +82,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -100,7 +100,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.22,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -119,8 +119,8 @@
     "League play today 15:00-18:00 (up to 2 of 6 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.07,
+   "band": "short",
+   "score": 0.37,
    "coverage": "lore",
    "demand_source": "near"
   },
@@ -139,9 +139,9 @@
     "League play today 15:00-19:00 (up to 7 of 20 courts)",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.04,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.39,
+   "coverage": "curve",
    "demand_source": "near"
   },
   {
@@ -158,7 +158,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -177,7 +177,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -197,7 +197,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -217,7 +217,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.2,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -235,7 +235,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -253,7 +253,7 @@
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -271,7 +271,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -289,7 +289,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -309,7 +309,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -327,7 +327,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -346,9 +346,9 @@
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)",
     "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.11,
-   "coverage": "lore",
+   "band": "1h+",
+   "score": 1.57,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -366,7 +366,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -386,7 +386,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.2,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -406,7 +406,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -425,7 +425,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -444,7 +444,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -463,7 +463,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -482,7 +482,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.19,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -502,7 +502,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -520,7 +520,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -540,7 +540,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -559,7 +559,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -577,7 +577,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -597,7 +597,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -616,7 +616,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -633,7 +633,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -652,7 +652,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -670,7 +670,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -688,7 +688,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -706,7 +706,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -725,7 +725,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "closed",
-   "score": 0.09,
+   "score": 0.46,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -742,9 +742,9 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.1,
-   "coverage": "lore",
+   "band": "short",
+   "score": 0.51,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -762,7 +762,7 @@
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.18,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -780,8 +780,8 @@
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
     "League play today 00:00-24:00 (up to 8 of 20 courts)"
    ],
-   "band": "walk-on",
-   "score": 0.1,
+   "band": "short",
+   "score": 0.51,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -800,7 +800,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -818,7 +818,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -838,7 +838,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -856,7 +856,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -875,7 +875,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -894,7 +894,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -913,7 +913,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -933,7 +933,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -950,7 +950,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.22,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -968,7 +968,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -987,7 +987,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1006,7 +1006,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.26,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1025,7 +1025,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.2,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1044,7 +1044,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.19,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1063,7 +1063,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.26,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1082,7 +1082,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1101,7 +1101,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1121,7 +1121,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1141,7 +1141,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1160,7 +1160,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.2,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1180,7 +1180,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.18,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1199,7 +1199,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1218,7 +1218,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1237,7 +1237,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.22,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1255,7 +1255,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1273,7 +1273,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1292,7 +1292,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1311,7 +1311,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1330,7 +1330,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1350,7 +1350,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1369,7 +1369,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1387,7 +1387,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1406,7 +1406,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1425,7 +1425,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1444,7 +1444,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1463,7 +1463,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1482,7 +1482,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1500,7 +1500,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1517,7 +1517,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1536,7 +1536,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1556,7 +1556,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1575,7 +1575,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1595,7 +1595,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1614,7 +1614,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.26,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1633,7 +1633,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1652,7 +1652,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1671,7 +1671,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1689,7 +1689,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1707,7 +1707,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1725,7 +1725,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.27,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1742,7 +1742,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.21,
    "coverage": "default",
    "demand_source": "citywide"
   },
@@ -1762,7 +1762,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.03,
+   "score": 0.16,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1779,7 +1779,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.04,
+   "score": 0.2,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1798,7 +1798,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1817,7 +1817,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1836,7 +1836,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.23,
    "coverage": "default",
    "demand_source": "near"
   },
@@ -1854,9 +1854,9 @@
     "Subway ~512 m: Houston St",
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "walk-on",
-   "score": 0.05,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.63,
+   "coverage": "curve",
    "demand_source": "near"
   },
   {
@@ -1875,7 +1875,7 @@
     "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "indoor",
-   "score": 0.05,
+   "score": 0.25,
    "coverage": "default",
    "demand_source": "none"
   }
