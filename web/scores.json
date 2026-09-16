@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T20:09:28-04:00",
+ "generated_at": "2026-09-16T01:54:15-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 18.1,
-  "wind_kmh": 9.2,
-  "gust_kmh": 21.6
+  "temperature_c": 15.3,
+  "wind_kmh": 5.4,
+  "gust_kmh": 10.1
  },
  "closures": [],
  "scores": [
@@ -21,12 +21,13 @@
     "Restroom ~53 m: Crocheron Park Zone 1",
     "Water ~45 m",
     "Park upkeep: mixed (87% of 23 inspections passed, 2024+)",
-    "League play today 08:00-20:00 (up to 1 of 10 courts)"
+    "League play today 08:00-20:00 (up to 2 of 10 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B082",
@@ -40,12 +41,12 @@
     "Water ~121 m",
     "Subway ~689 m: Bay Ridge-95 St",
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)",
-    "League play today 15:00-17:00 (up to 2 of 4 courts)"
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B028",
@@ -59,12 +60,13 @@
     "Restroom ~86 m: Dyker Beach Park Zone 1",
     "Water ~35 m",
     "Park upkeep: poor (63% of 30 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 3 of 9 courts)"
+    "League play today 15:00-18:00 (up to 3 of 9 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B047",
@@ -76,12 +78,13 @@
     "Asphalt - lit for night play",
     "Restroom ~151 m: Lower Highland Playground",
     "Water ~36 m",
-    "Subway ~512 m: Cleveland St"
+    "Subway ~512 m: Cleveland St",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M104",
@@ -93,12 +96,13 @@
     "Clay, Rubber - lit for night play",
     "Restroom ~5 m: Sunken Meadow",
     "Water ~18 m",
-    "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 23 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B032",
@@ -112,12 +116,13 @@
     "Water ~17 m",
     "Subway ~381 m: Fulton St",
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 2 of 6 courts)"
+    "League play today 15:00-18:00 (up to 2 of 6 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.75,
+   "band": "walk-on",
+   "score": 0.07,
    "coverage": "lore",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X010",
@@ -131,12 +136,13 @@
     "Water ~34 m",
     "Subway ~661 m: 174 St",
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)",
-    "League play today 15:00-19:00 (up to 7 of 20 courts)"
+    "League play today 15:00-19:00 (up to 7 of 20 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.51,
-   "coverage": "curve",
-   "demand_source": "none"
+   "band": "walk-on",
+   "score": 0.04,
+   "coverage": "default",
+   "demand_source": "near"
   },
   {
    "park_id": "Q008",
@@ -148,12 +154,13 @@
     "Asphalt - lit for night play",
     "Restroom ~197 m: Brookville Park Playground",
     "Water ~179 m",
-    "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 22 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q024",
@@ -166,12 +173,13 @@
     "Restroom ~514 m: Playground",
     "Water ~44 m",
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)",
-    "League play today 08:00-20:00 (up to 1 of 12 courts)"
+    "League play today 08:00-20:00 (up to 4 of 12 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q004",
@@ -185,12 +193,13 @@
     "Water ~28 m",
     "Subway ~812 m: Astoria Blvd",
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)",
-    "League play today 08:00-20:00 (up to 7 of 14 courts)"
+    "League play today 08:00-20:00 (up to 7 of 14 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M028",
@@ -203,12 +212,14 @@
     "Restroom ~107 m: Fort Washington Park Zone 2A",
     "Water ~48 m",
     "Subway ~561 m: 175 St",
-    "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
+    "Park upkeep: mixed (74% of 34 inspections passed, 2024+)",
+    "League play today 16:00-18:00 (up to 4 of 10 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "R031",
@@ -220,12 +231,13 @@
     "Asphalt",
     "Restroom ~348 m: E.M.T. Christopher J. Prescott Playground",
     "Water ~23 m",
-    "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
+    "Park upkeep: strong (94% of 32 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q001A",
@@ -240,8 +252,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -255,12 +267,13 @@
     "Asphalt",
     "Restroom ~782 m: Pelham South Park Headquarters",
     "Water ~485 m",
-    "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
+    "Park upkeep: strong (93% of 180 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B129",
@@ -272,12 +285,13 @@
     "Asphalt",
     "Restroom ~88 m: Kaiser Park Zone 1",
     "Water ~54 m",
-    "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
+    "Park upkeep: mixed (89% of 19 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B068",
@@ -291,12 +305,13 @@
     "Restroom ~10 m: Prospect Park Indoor Tennis",
     "Water ~11 m",
     "Subway ~478 m: Fort Hamilton Pkwy",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B251",
@@ -308,12 +323,13 @@
     "Asphalt",
     "Restroom ~379 m: Manhattan Beach Zone 2",
     "Water ~34 m",
-    "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
+    "Park upkeep: mixed (89% of 28 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "M010",
@@ -327,10 +343,11 @@
     "Restroom ~55 m: Reservoir (Northwest)",
     "Water ~57 m",
     "Subway ~288 m: 96 St",
-    "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
+    "Park upkeep: strong (97% of 347 inspections passed, 2024+)",
+    "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
-   "band": "closed",
-   "score": 1.35,
+   "band": "walk-on",
+   "score": 0.11,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -345,12 +362,13 @@
     "Restroom ~174 m: Marine Park Zone 1",
     "Water ~37 m",
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 2 of 12 courts)"
+    "League play today 15:00-18:00 (up to 2 of 12 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "M042",
@@ -364,12 +382,13 @@
     "Water ~14 m",
     "Subway ~263 m: Inwood-207 St",
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 5 of 9 courts)"
+    "League play today 15:00-18:00 (up to 6 of 9 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B054",
@@ -383,12 +402,13 @@
     "Water ~24 m",
     "Subway ~320 m: Sutter Av-Rutland Rd",
     "Park upkeep: mixed (84% of 25 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 2 of 11 courts)"
+    "League play today 15:00-18:00 (up to 2 of 11 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X092",
@@ -401,12 +421,13 @@
     "Restroom ~346 m: Major Deegan So. Gas Station",
     "Water ~290 m",
     "Park upkeep: strong (94% of 163 inspections passed, 2024+)",
-    "League play today 16:00-19:00 (up to 4 of 12 courts)"
+    "League play today 16:00-19:00 (up to 4 of 12 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q015",
@@ -419,12 +440,13 @@
     "Restroom ~129 m: Tennis Courts - Forest Parkway",
     "Water ~4 m",
     "Subway ~578 m: Woodhaven Blvd",
-    "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
+    "Park upkeep: mixed (85% of 141 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q021",
@@ -437,12 +459,13 @@
     "Restroom ~46 m: Cunningham Park Indoor Tennis",
     "Water ~30 m",
     "Park upkeep: mixed (84% of 57 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 4 of 19 courts)"
+    "League play today 15:00-18:00 (up to 4 of 19 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X045",
@@ -455,12 +478,13 @@
     "Restroom ~92 m: St Mary's Playground West",
     "Water ~71 m",
     "Subway ~588 m: 3 Av-149 St",
-    "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
+    "Park upkeep: mixed (89% of 35 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B210W",
@@ -474,12 +498,13 @@
     "Water ~59 m",
     "Subway ~507 m: Bay Ridge-95 St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 1 of 8 courts)"
+    "League play today 15:00-18:00 (up to 1 of 8 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q131",
@@ -491,12 +516,13 @@
     "Asphalt",
     "Restroom ~33 m: Virginia Principe Playground",
     "Water ~28 m",
-    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
+    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q121",
@@ -510,12 +536,13 @@
     "Restroom ~37 m: Detective Keith L Williams Park",
     "Water ~34 m",
     "Park upkeep: mixed (83% of 12 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 1 of 8 courts)"
+    "League play today 15:00-18:00 (up to 1 of 8 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "R022",
@@ -527,12 +554,14 @@
     "Asphalt",
     "Restroom ~54 m: Silver Lake Park Playground",
     "Water ~26 m",
-    "Park upkeep: mixed (86% of 29 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 29 inspections passed, 2024+)",
+    "League play today 15:00-18:00 (up to 3 of 4 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q005",
@@ -544,12 +573,13 @@
     "Asphalt",
     "Restroom ~64 m: Baisley Pond Park Zone 4",
     "Water ~115 m",
-    "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 57 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B214",
@@ -563,12 +593,13 @@
     "Water ~22 m",
     "Subway ~810 m: Van Siclen Av",
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 2 of 5 courts)"
+    "League play today 15:00-18:00 (up to 2 of 5 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q371",
@@ -581,12 +612,13 @@
     "Restroom ~593 m: Arverne Library, QPL",
     "Water ~318 m",
     "Subway ~810 m: Beach 60 St",
-    "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
+    "Park upkeep: poor (50% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "R129",
@@ -597,12 +629,13 @@
    "popup_lines": [
     "Hard Top",
     "Water ~72 m",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q102",
@@ -615,12 +648,13 @@
     "Restroom ~64 m: Juniper North Playground Tennis",
     "Water ~50 m",
     "Park upkeep: mixed (86% of 35 inspections passed, 2024+)",
-    "League play today 08:00-20:00 (up to 5 of 10 courts)"
+    "League play today 08:00-20:00 (up to 7 of 10 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q448",
@@ -632,12 +666,13 @@
     "Asphalt",
     "Restroom ~144 m: Nautilus Playground",
     "Water ~21 m",
-    "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
+    "Park upkeep: strong (97% of 37 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q300A",
@@ -649,12 +684,13 @@
     "Asphalt",
     "Restroom ~27 m: Ella Fitzgerald Playground",
     "Water ~18 m",
-    "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
+    "Park upkeep: mixed (87% of 30 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q107",
@@ -666,12 +702,13 @@
     "Asphalt",
     "Restroom ~109 m: Springfield Park",
     "Water ~22 m",
-    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M144",
@@ -684,12 +721,13 @@
     "Restroom ~239 m: Baruch Playground",
     "Water ~46 m",
     "Park upkeep: strong (94% of 16 inspections passed, 2024+)",
-    "League play today 06:00-24:00 (up to 12 of 12 courts)"
+    "League play today 00:00-24:00 (up to 12 of 12 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "closed",
-   "score": 0.94,
+   "score": 0.09,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B058",
@@ -704,9 +742,9 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.46,
-   "coverage": "curve",
+   "band": "walk-on",
+   "score": 0.1,
+   "coverage": "lore",
    "demand_source": "none"
   },
   {
@@ -721,10 +759,10 @@
     "Water ~80 m",
     "Subway ~408 m: Harlem-148 St",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 4 of 16 courts)"
+    "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -740,10 +778,10 @@
     "Water ~20 m",
     "Subway ~367 m: Cathedral Pkwy (110 St)",
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
-    "League play today 06:00-24:00 (up to 5 of 20 courts)"
+    "League play today 00:00-24:00 (up to 8 of 20 courts)"
    ],
-   "band": "closed",
-   "score": 0.95,
+   "band": "walk-on",
+   "score": 0.1,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -758,12 +796,13 @@
     "Restroom ~26 m: St. Catherine's Park",
     "Water ~12 m",
     "Subway ~393 m: 72 St",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q373",
@@ -775,12 +814,13 @@
     "Asphalt",
     "Restroom ~73 m: Helen Marshall Playground",
     "Water ~82 m",
-    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X201",
@@ -794,12 +834,13 @@
     "Restroom ~87 m: Seton Park Playground",
     "Water ~24 m",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
-    "League play today 16:00-18:00 (up to 2 of 6 courts)"
+    "League play today 16:00-18:00 (up to 3 of 6 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B166D",
@@ -811,12 +852,13 @@
     "Asphalt",
     "Restroom ~158 m: McGuire Fields",
     "Water ~31 m",
-    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q413",
@@ -828,12 +870,14 @@
     "Asphalt",
     "Restroom ~58 m: Rochdale Park",
     "Water ~16 m",
-    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
+    "League play today 15:00-18:00 (up to 3 of 6 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B294",
@@ -846,12 +890,13 @@
     "Restroom ~61 m: Jackie Robinson Park Playground",
     "Water ~32 m",
     "Subway ~250 m: Utica Av",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q007",
@@ -864,12 +909,13 @@
     "Restroom ~47 m: Bayswater Playground",
     "Water ~29 m",
     "Subway ~364 m: Beach 36 St",
-    "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
+    "Park upkeep: mixed (70% of 10 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B060",
@@ -883,12 +929,13 @@
     "Restroom ~112 m: McKinley Park Playground",
     "Water ~35 m",
     "Subway ~806 m: 77 St",
-    "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
+    "Park upkeep: mixed (80% of 10 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q298",
@@ -899,12 +946,13 @@
    "popup_lines": [
     "Asphalt",
     "Water ~36 m",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q347",
@@ -916,12 +964,13 @@
     "Asphalt",
     "Restroom ~125 m: Mitchell-Linden Library, QPL",
     "Water ~31 m",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B050",
@@ -934,12 +983,13 @@
     "Restroom ~38 m: Van Voorhees Playground",
     "Water ~24 m",
     "Subway ~839 m: Court St",
-    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B346",
@@ -952,12 +1002,13 @@
     "Restroom ~185 m: McCarren Park Zone 1",
     "Water ~37 m",
     "Subway ~560 m: Nassau Av",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M217",
@@ -970,12 +1021,13 @@
     "Restroom ~48 m: Howard Bennett Playground",
     "Water ~18 m",
     "Subway ~208 m: 135 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X233",
@@ -988,12 +1040,13 @@
     "Restroom ~335 m: Abigail Playground",
     "Water ~71 m",
     "Subway ~259 m: E 149 St",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M201",
@@ -1006,12 +1059,13 @@
     "Restroom ~288 m: Baruch Playground",
     "Water ~44 m",
     "Subway ~912 m: Delancey St-Essex St",
-    "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
+    "Park upkeep: mixed (80% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q086",
@@ -1024,12 +1078,13 @@
     "Restroom ~143 m: Leonardo Ingravallo Playground",
     "Water ~44 m",
     "Park upkeep: mixed (73% of 11 inspections passed, 2024+)",
-    "League play today 08:00-20:00 (up to 1 of 8 courts)"
+    "League play today 08:00-20:00 (up to 1 of 8 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B267",
@@ -1042,12 +1097,13 @@
     "Restroom ~37 m: Winthrop Playground",
     "Water ~15 m",
     "Subway ~352 m: Winthrop St",
-    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q014",
@@ -1061,12 +1117,13 @@
     "Water ~26 m",
     "Subway ~466 m: 46 St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
-    "League play today 15:00-19:00 (up to 1 of 3 courts)"
+    "League play today 15:00-19:00 (up to 1 of 3 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B051",
@@ -1080,12 +1137,13 @@
     "Restroom ~739 m: Kings Highway Library, BPL",
     "Water ~23 m",
     "Subway ~449 m: Kings Hwy",
-    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "X044",
@@ -1099,12 +1157,12 @@
     "Water ~75 m",
     "Subway ~272 m: Kingsbridge Rd",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
-    "League play today 16:00-18:00 (up to 3 of 4 courts)"
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M159",
@@ -1118,12 +1176,13 @@
     "Water ~3 m",
     "Subway ~127 m: Harlem-148 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
-    "League play today 15:00-19:00 (up to 6 of 8 courts)"
+    "League play today 15:00-19:00 (up to 6 of 8 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M204",
@@ -1136,12 +1195,13 @@
     "Restroom ~68 m: Moore Playground",
     "Water ~17 m",
     "Subway ~574 m: 135 St",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q429",
@@ -1154,12 +1214,13 @@
     "Restroom ~46 m: Spirit Playground",
     "Water ~23 m",
     "Subway ~771 m: 21 St-Queensbridge",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M205",
@@ -1172,12 +1233,13 @@
     "Restroom ~97 m: Playground 123",
     "Water ~27 m",
     "Subway ~240 m: 125 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "R015",
@@ -1189,12 +1251,13 @@
     "Asphalt",
     "Restroom ~62 m: Walker Park",
     "Water ~40 m",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B025",
@@ -1206,12 +1269,13 @@
     "Asphalt",
     "Water ~21 m",
     "Subway ~578 m: Grand St",
-    "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
+    "Park upkeep: mixed (75% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B007",
@@ -1224,12 +1288,13 @@
     "Restroom ~22 m: Bensonhurst Indoor Tennis",
     "Water ~34 m",
     "Subway ~996 m: Bay Pkwy",
-    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
+    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B407",
@@ -1242,12 +1307,13 @@
     "Restroom ~346 m: Dean Playground",
     "Water ~41 m",
     "Subway ~309 m: Lafayette Av",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q460",
@@ -1260,12 +1326,13 @@
     "Restroom ~36 m: Broad Channel Library, QPL",
     "Water ~10 m",
     "Subway ~903 m: Broad Channel",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B244",
@@ -1279,12 +1346,13 @@
     "Water ~43 m",
     "Subway ~347 m: Kings Hwy",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 1 of 7 courts)"
+    "League play today 15:00-18:00 (up to 3 of 7 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "B380",
@@ -1297,12 +1365,13 @@
     "Restroom ~68 m: Robert E. Venable Park",
     "Water ~20 m",
     "Subway ~256 m: Grant Av",
-    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q051",
@@ -1314,12 +1383,13 @@
     "Asphalt",
     "Restroom ~179 m: 174 St Playground",
     "Water ~27 m",
-    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B217",
@@ -1332,12 +1402,13 @@
     "Restroom ~348 m: Stockton Playground",
     "Water ~17 m",
     "Subway ~261 m: Myrtle-Willoughby Avs",
-    "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (17% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B163",
@@ -1350,12 +1421,13 @@
     "Restroom ~111 m: Sperandeo Brothers Playground",
     "Water ~27 m",
     "Subway ~364 m: Cleveland St",
-    "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (17% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "R038A",
@@ -1368,12 +1440,13 @@
     "Restroom ~202 m: Midland Playground",
     "Water ~34 m",
     "Subway ~866 m: Jefferson Av",
-    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q335",
@@ -1386,12 +1459,13 @@
     "Restroom ~29 m: Russell Sage Playground",
     "Water ~34 m",
     "Subway ~325 m: 67 Av",
-    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q218",
@@ -1404,12 +1478,13 @@
     "Restroom ~106 m: Dutch Kills Playground",
     "Water ~83 m",
     "Subway ~321 m: 36 Av",
-    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q400",
@@ -1421,12 +1496,13 @@
     "Asphalt",
     "Restroom ~727 m: Horatio Playground",
     "Water ~20 m",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q092",
@@ -1437,12 +1513,13 @@
    "popup_lines": [
     "Asphalt",
     "Water ~30 m",
-    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (50% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B358",
@@ -1455,12 +1532,13 @@
     "Restroom ~360 m: Bartlett Playground",
     "Water ~15 m",
     "Subway ~198 m: Lorimer St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X196",
@@ -1474,12 +1552,13 @@
     "Restroom ~83 m: Haffen Park Playground",
     "Water ~46 m",
     "Subway ~545 m: Baychester Av",
-    "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (92% of 12 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "X193",
@@ -1492,12 +1571,13 @@
     "Restroom ~64 m: Stars & Stripes Playground",
     "Water ~25 m",
     "Subway ~755 m: Baychester Av",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "X104",
@@ -1511,12 +1591,13 @@
     "Water ~35 m",
     "Subway ~364 m: Norwood-205 St",
     "Park upkeep: strong (94% of 18 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 3 of 8 courts)"
+    "League play today 15:00-18:00 (up to 3 of 8 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M227",
@@ -1529,12 +1610,13 @@
     "Restroom ~75 m: Augustus St. Gaudens Playground",
     "Water ~35 m",
     "Subway ~535 m: 3 Av",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M308",
@@ -1547,12 +1629,13 @@
     "Restroom ~71 m: Washington Market Park",
     "Water ~10 m",
     "Subway ~309 m: Chambers St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B215",
@@ -1565,12 +1648,13 @@
     "Restroom ~217 m: Macon Library, BPL",
     "Water ~10 m",
     "Subway ~420 m: Kingston-Throop Avs",
-    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B372",
@@ -1583,12 +1667,13 @@
     "Restroom ~43 m: Friends Field",
     "Water ~26 m",
     "Subway ~364 m: Bay Pkwy",
-    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
+    "Park upkeep: poor (60% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q369",
@@ -1600,12 +1685,13 @@
     "Asphalt",
     "Restroom ~37 m: Louis Pasteur Park",
     "Water ~35 m",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q390",
@@ -1617,12 +1703,13 @@
     "Asphalt",
     "Restroom ~105 m: Clintonville Playground",
     "Water ~56 m",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "B234",
@@ -1634,12 +1721,13 @@
     "Asphalt",
     "Restroom ~56 m: Tilden Playground",
     "Water ~40 m",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "R153",
@@ -1650,12 +1738,13 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~63 m: Charleston Library, NYPL",
-    "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 7 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "citywide"
   },
   {
    "park_id": "Q099",
@@ -1669,12 +1758,13 @@
     "Water ~73 m",
     "Subway ~438 m: Mets-Willets Point",
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)",
-    "League play today 15:00-18:00 (up to 3 of 12 courts)"
+    "League play today 15:00-18:00 (up to 3 of 12 courts)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q084A",
@@ -1685,12 +1775,13 @@
    "popup_lines": [
     "Asphalt",
     "Restroom ~39 m: World's Fair Playground",
-    "Water ~47 m"
+    "Water ~47 m",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.04,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M353",
@@ -1703,12 +1794,13 @@
     "Restroom ~376 m: Classic Playground",
     "Water ~44 m",
     "Subway ~583 m: 72 St",
-    "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
+    "Park upkeep: strong (97% of 35 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "M045",
@@ -1721,12 +1813,13 @@
     "Restroom ~44 m: John Jay Park",
     "Water ~22 m",
     "Subway ~742 m: 72 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "Q502",
@@ -1739,12 +1832,13 @@
     "Restroom ~110 m: Travers Park",
     "Water ~26 m",
     "Subway ~804 m: 82 St-Jackson Hts",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "closed",
-   "score": 0.54,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
-   "demand_source": "none"
+   "demand_source": "near"
   },
   {
    "park_id": "SUPP-HRP",
@@ -1757,12 +1851,13 @@
     "Free, no permit, first-come-first-served, 6:00 AM-1:00 AM. 2 doubles + 1 singles court.",
     "Restroom ~176 m: Hudson River Park Pier 40 - Courtyard Tunnel, Second Floor",
     "Water ~483 m",
-    "Subway ~512 m: Houston St"
+    "Subway ~512 m: Houston St",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
-   "band": "30-60 min",
-   "score": 0.81,
-   "coverage": "curve",
-   "demand_source": "none"
+   "band": "walk-on",
+   "score": 0.05,
+   "coverage": "default",
+   "demand_source": "near"
   },
   {
    "park_id": "SUPP-QO",
@@ -1776,10 +1871,11 @@
     "Season: Parks permit play Apr 14 - Sep 14 (6 of 8 clay courts). Rest of year: Sutton East indoor booking, paid.",
     "Restroom ~52 m: Queensboro Oval Indoor Tennis",
     "Water ~74 m",
-    "Subway ~526 m: Roosevelt Island"
+    "Subway ~526 m: Roosevelt Island",
+    "Citywide demand today: normal - reservable courts 50% booked"
    ],
    "band": "indoor",
-   "score": 0.63,
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   }
