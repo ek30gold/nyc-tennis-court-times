@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T18:51:52-04:00",
+ "generated_at": "2026-09-16T21:17:57-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 22.6,
-  "wind_kmh": 12.0,
-  "gust_kmh": 19.4
+  "temperature_c": 21.4,
+  "wind_kmh": 6.3,
+  "gust_kmh": 17.3
  },
  "closures": [],
  "scores": [
@@ -23,8 +23,8 @@
     "Park upkeep: mixed (87% of 23 inspections passed, 2024+)",
     "League play today 08:00-20:00 (up to 2 of 10 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.86,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -41,8 +41,8 @@
     "Subway ~689 m: Bay Ridge-95 St",
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -60,8 +60,8 @@
     "Park upkeep: poor (63% of 30 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 9 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -77,9 +77,9 @@
     "Water ~36 m",
     "Subway ~512 m: Cleveland St"
    ],
-   "band": "short",
-   "score": 0.35,
-   "coverage": "curve",
+   "band": "walk-on",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -94,8 +94,8 @@
     "Water ~18 m",
     "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -113,8 +113,8 @@
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 2 of 6 courts)"
    ],
-   "band": "30-60 min",
-   "score": 1.09,
+   "band": "closed",
+   "score": 0.07,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -133,7 +133,7 @@
     "League play today 15:00-19:00 (up to 7 of 20 courts)"
    ],
    "band": "short",
-   "score": 0.44,
+   "score": 0.6,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -149,8 +149,8 @@
     "Water ~179 m",
     "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -167,9 +167,9 @@
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)",
     "League play today 08:00-20:00 (up to 4 of 12 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.7,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -186,9 +186,9 @@
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)",
     "League play today 08:00-20:00 (up to 7 of 14 courts)"
    ],
-   "band": "short",
-   "score": 0.48,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -205,9 +205,9 @@
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 4 of 10 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.75,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -222,8 +222,8 @@
     "Water ~23 m",
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -240,8 +240,8 @@
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -257,8 +257,8 @@
     "Water ~485 m",
     "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -274,8 +274,8 @@
     "Water ~54 m",
     "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -293,8 +293,8 @@
     "Subway ~478 m: Fort Hamilton Pkwy",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -310,9 +310,9 @@
     "Water ~34 m",
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.4,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -330,9 +330,9 @@
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)",
     "League play today 15:00-17:00 (up to 2 of 23 courts)"
    ],
-   "band": "1h+",
-   "score": 1.88,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.12,
+   "coverage": "lore",
    "demand_source": "none"
   },
   {
@@ -348,9 +348,9 @@
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 2 of 12 courts)"
    ],
-   "band": "short",
-   "score": 0.6,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -367,9 +367,9 @@
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 6 of 9 courts)"
    ],
-   "band": "short",
-   "score": 0.35,
-   "coverage": "curve",
+   "band": "closed",
+   "score": 0.05,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -386,8 +386,8 @@
     "Park upkeep: mixed (84% of 25 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 2 of 11 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -404,8 +404,8 @@
     "Park upkeep: strong (94% of 163 inspections passed, 2024+)",
     "League play today 16:00-19:00 (up to 4 of 12 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.91,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -422,8 +422,8 @@
     "Subway ~578 m: Woodhaven Blvd",
     "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -440,8 +440,8 @@
     "Park upkeep: mixed (84% of 57 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 4 of 19 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -458,8 +458,8 @@
     "Subway ~588 m: 3 Av-149 St",
     "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -477,8 +477,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 1 of 8 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -494,8 +494,8 @@
     "Water ~28 m",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -513,8 +513,8 @@
     "Park upkeep: mixed (83% of 12 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 1 of 8 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -531,8 +531,8 @@
     "Park upkeep: mixed (86% of 29 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 4 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -548,8 +548,8 @@
     "Water ~115 m",
     "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -567,8 +567,8 @@
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 2 of 5 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -585,8 +585,8 @@
     "Subway ~810 m: Beach 60 St",
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -601,8 +601,8 @@
     "Water ~72 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -619,8 +619,8 @@
     "Park upkeep: mixed (86% of 35 inspections passed, 2024+)",
     "League play today 08:00-20:00 (up to 7 of 10 courts)"
    ],
-   "band": "30-60 min",
-   "score": 1.09,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -636,8 +636,8 @@
     "Water ~21 m",
     "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -653,8 +653,8 @@
     "Water ~18 m",
     "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -670,8 +670,8 @@
     "Water ~22 m",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -689,7 +689,7 @@
     "League play today 00:00-24:00 (up to 12 of 12 courts)"
    ],
    "band": "closed",
-   "score": 1.36,
+   "score": 0.09,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -706,8 +706,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.63,
+   "band": "closed",
+   "score": 0.54,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -725,8 +725,8 @@
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 16 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -744,8 +744,8 @@
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)",
     "League play today 00:00-24:00 (up to 8 of 20 courts)"
    ],
-   "band": "1h+",
-   "score": 1.37,
+   "band": "closed",
+   "score": 0.09,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -762,8 +762,8 @@
     "Subway ~393 m: 72 St",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -779,8 +779,8 @@
     "Water ~82 m",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -798,8 +798,8 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
     "League play today 16:00-18:00 (up to 3 of 6 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -815,8 +815,8 @@
     "Water ~31 m",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -833,8 +833,8 @@
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 6 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -851,8 +851,8 @@
     "Subway ~250 m: Utica Av",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -869,8 +869,8 @@
     "Subway ~364 m: Beach 36 St",
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -888,8 +888,8 @@
     "Subway ~806 m: 77 St",
     "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -904,8 +904,8 @@
     "Water ~36 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -921,8 +921,8 @@
     "Water ~31 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -939,8 +939,8 @@
     "Subway ~839 m: Court St",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -957,8 +957,8 @@
     "Subway ~560 m: Nassau Av",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -975,8 +975,8 @@
     "Subway ~208 m: 135 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -993,8 +993,8 @@
     "Subway ~259 m: E 149 St",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1011,8 +1011,8 @@
     "Subway ~912 m: Delancey St-Essex St",
     "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1029,8 +1029,8 @@
     "Park upkeep: mixed (73% of 11 inspections passed, 2024+)",
     "League play today 08:00-20:00 (up to 1 of 8 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.88,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1047,8 +1047,8 @@
     "Subway ~352 m: Winthrop St",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1066,8 +1066,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "League play today 15:00-19:00 (up to 1 of 3 courts)"
    ],
-   "band": "30-60 min",
-   "score": 1.04,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1085,8 +1085,8 @@
     "Subway ~449 m: Kings Hwy",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1103,8 +1103,8 @@
     "Subway ~272 m: Kingsbridge Rd",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1122,8 +1122,8 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)",
     "League play today 15:00-19:00 (up to 6 of 8 courts)"
    ],
-   "band": "30-60 min",
-   "score": 1.07,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1140,8 +1140,8 @@
     "Subway ~574 m: 135 St",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1158,8 +1158,8 @@
     "Subway ~771 m: 21 St-Queensbridge",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1176,8 +1176,8 @@
     "Subway ~240 m: 125 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1193,8 +1193,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1210,8 +1210,8 @@
     "Subway ~578 m: Grand St",
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1228,8 +1228,8 @@
     "Subway ~996 m: Bay Pkwy",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1246,8 +1246,8 @@
     "Subway ~309 m: Lafayette Av",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1264,8 +1264,8 @@
     "Subway ~903 m: Broad Channel",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1283,8 +1283,8 @@
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 7 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1301,8 +1301,8 @@
     "Subway ~256 m: Grant Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1318,8 +1318,8 @@
     "Water ~27 m",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1336,8 +1336,8 @@
     "Subway ~261 m: Myrtle-Willoughby Avs",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1354,8 +1354,8 @@
     "Subway ~364 m: Cleveland St",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1372,8 +1372,8 @@
     "Subway ~866 m: Jefferson Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1390,8 +1390,8 @@
     "Subway ~325 m: 67 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1408,8 +1408,8 @@
     "Subway ~321 m: 36 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1425,8 +1425,8 @@
     "Water ~20 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1441,8 +1441,8 @@
     "Water ~30 m",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1459,8 +1459,8 @@
     "Subway ~198 m: Lorimer St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1478,8 +1478,8 @@
     "Subway ~545 m: Baychester Av",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1496,8 +1496,8 @@
     "Subway ~755 m: Baychester Av",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1515,8 +1515,8 @@
     "Park upkeep: strong (94% of 18 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 8 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1533,8 +1533,8 @@
     "Subway ~535 m: 3 Av",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1551,8 +1551,8 @@
     "Subway ~309 m: Chambers St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1569,8 +1569,8 @@
     "Subway ~420 m: Kingston-Throop Avs",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1587,8 +1587,8 @@
     "Subway ~364 m: Bay Pkwy",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1604,8 +1604,8 @@
     "Water ~35 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1621,8 +1621,8 @@
     "Water ~56 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1638,8 +1638,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1654,8 +1654,8 @@
     "Restroom ~63 m: Charleston Library, NYPL",
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1673,8 +1673,8 @@
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)",
     "League play today 15:00-18:00 (up to 3 of 12 courts)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1689,8 +1689,8 @@
     "Restroom ~39 m: World's Fair Playground",
     "Water ~47 m"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1707,8 +1707,8 @@
     "Subway ~583 m: 72 St",
     "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1725,8 +1725,8 @@
     "Subway ~742 m: 72 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1743,8 +1743,8 @@
     "Subway ~804 m: 82 St-Jackson Hts",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 0.78,
+   "band": "closed",
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1761,8 +1761,8 @@
     "Water ~483 m",
     "Subway ~512 m: Houston St"
    ],
-   "band": "30-60 min",
-   "score": 0.65,
+   "band": "short",
+   "score": 0.35,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -1781,7 +1781,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "indoor",
-   "score": 0.78,
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   }
