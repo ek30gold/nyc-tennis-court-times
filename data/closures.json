@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-17T13:21:59+00:00",
+ "fetched_at": "2026-09-17T18:08:36+00:00",
  "closed_park_ids": {},
  "planned_park_ids": {
   "B018": [
    {
     "title": "Monroe Cohen Park Path Reconstruction",
-    "phase": "design-procurement",
+    "phase": "construction",
     "construction_pct": "0.0"
    }
   ],
@@ -31,7 +31,7 @@
   "B060": [
    {
     "title": "McKinley Park Tennis Pavement Reconstruction",
-    "phase": "design-procurement",
+    "phase": "construction",
     "construction_pct": "0.0"
    }
   ],
