@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T07:04:25-04:00",
+ "generated_at": "2026-09-18T10:56:07-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 22.4,
-  "wind_kmh": 7.9,
-  "gust_kmh": 23.8
+  "temperature_c": 25.3,
+  "wind_kmh": 15.3,
+  "gust_kmh": 25.9
  },
  "closures": [],
  "scores": [
@@ -77,7 +77,7 @@
    ],
    "band": "walk-on",
    "score": 0.21,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -128,8 +128,8 @@
     "Subway ~661 m: 174 St",
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.34,
+   "band": "short",
+   "score": 0.47,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -162,9 +162,9 @@
     "Water ~44 m",
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.64,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -180,9 +180,9 @@
     "Subway ~812 m: Astoria Blvd",
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.47,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -198,9 +198,9 @@
     "Subway ~561 m: 175 St",
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.38,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -302,9 +302,9 @@
     "Water ~34 m",
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.47,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -321,8 +321,8 @@
     "Subway ~288 m: 96 St",
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
-   "band": "1h+",
-   "score": 1.17,
+   "band": "30-60 min",
+   "score": 1.06,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -338,9 +338,9 @@
     "Water ~37 m",
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.51,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -356,9 +356,9 @@
     "Subway ~263 m: Inwood-207 St",
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
-   "coverage": "default",
+   "band": "short",
+   "score": 0.38,
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -1732,7 +1732,7 @@
     "Subway ~512 m: Houston St"
    ],
    "band": "short",
-   "score": 0.55,
+   "score": 0.51,
    "coverage": "curve",
    "demand_source": "none"
   },
