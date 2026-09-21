@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T20:07:53-04:00",
+ "generated_at": "2026-09-21T02:09:45-04:00",
  "weather": {
   "precip_now": 0,
-  "precip_last_6h_mm": 2.1,
-  "temperature_c": 20.0,
-  "wind_kmh": 5.4,
-  "gust_kmh": 9.7
+  "precip_last_6h_mm": 0.9,
+  "temperature_c": 18.4,
+  "wind_kmh": 11.6,
+  "gust_kmh": 33.8
  },
  "closures": [],
  "scores": [
@@ -22,8 +22,8 @@
     "Water ~45 m",
     "Park upkeep: mixed (87% of 23 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -40,8 +40,8 @@
     "Subway ~689 m: Bay Ridge-95 St",
     "Park upkeep: mixed (85% of 48 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -58,8 +58,8 @@
     "Water ~35 m",
     "Park upkeep: poor (63% of 30 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -76,7 +76,7 @@
     "Subway ~512 m: Cleveland St"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -93,7 +93,7 @@
     "Park upkeep: strong (100% of 23 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -110,8 +110,8 @@
     "Subway ~381 m: Fulton St",
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.26,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -128,9 +128,9 @@
     "Subway ~661 m: 174 St",
     "Park upkeep: strong (98% of 113 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.52,
-   "coverage": "curve",
+   "band": "walk-on",
+   "score": 0.03,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -146,7 +146,7 @@
     "Park upkeep: mixed (86% of 22 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -162,8 +162,8 @@
     "Water ~44 m",
     "Park upkeep: mixed (81% of 59 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -180,8 +180,8 @@
     "Subway ~812 m: Astoria Blvd",
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -198,8 +198,8 @@
     "Subway ~561 m: 175 St",
     "Park upkeep: mixed (74% of 34 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -215,8 +215,8 @@
     "Water ~23 m",
     "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -232,8 +232,8 @@
     "Water ~42 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -249,8 +249,8 @@
     "Water ~485 m",
     "Park upkeep: strong (93% of 180 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -266,8 +266,8 @@
     "Water ~54 m",
     "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -285,8 +285,8 @@
     "Subway ~478 m: Fort Hamilton Pkwy",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -302,8 +302,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (89% of 28 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -321,8 +321,8 @@
     "Subway ~288 m: 96 St",
     "Park upkeep: strong (97% of 347 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.47,
+   "band": "walk-on",
+   "score": 0.08,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -338,8 +338,8 @@
     "Water ~37 m",
     "Park upkeep: mixed (75% of 84 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -356,8 +356,8 @@
     "Subway ~263 m: Inwood-207 St",
     "Park upkeep: mixed (77% of 64 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -375,7 +375,7 @@
     "Park upkeep: mixed (84% of 25 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -391,8 +391,8 @@
     "Water ~290 m",
     "Park upkeep: strong (94% of 163 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -409,8 +409,8 @@
     "Subway ~578 m: Woodhaven Blvd",
     "Park upkeep: mixed (85% of 141 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -427,7 +427,7 @@
     "Park upkeep: mixed (84% of 57 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -444,8 +444,8 @@
     "Subway ~588 m: 3 Av-149 St",
     "Park upkeep: mixed (89% of 35 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -462,8 +462,8 @@
     "Subway ~507 m: Bay Ridge-95 St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -479,8 +479,8 @@
     "Water ~28 m",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -497,8 +497,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (83% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -514,8 +514,8 @@
     "Water ~26 m",
     "Park upkeep: mixed (86% of 29 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -531,8 +531,8 @@
     "Water ~115 m",
     "Park upkeep: mixed (86% of 57 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -549,8 +549,8 @@
     "Subway ~810 m: Van Siclen Av",
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -567,8 +567,8 @@
     "Subway ~810 m: Beach 60 St",
     "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -583,8 +583,8 @@
     "Water ~72 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -600,8 +600,8 @@
     "Water ~50 m",
     "Park upkeep: mixed (86% of 35 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -617,8 +617,8 @@
     "Water ~21 m",
     "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -634,8 +634,8 @@
     "Water ~18 m",
     "Park upkeep: mixed (87% of 30 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -651,8 +651,8 @@
     "Water ~22 m",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -668,8 +668,8 @@
     "Water ~46 m",
     "Park upkeep: strong (94% of 16 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -686,9 +686,9 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (80% of 41 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.47,
-   "coverage": "curve",
+   "band": "walk-on",
+   "score": 0.06,
+   "coverage": "lore",
    "demand_source": "none"
   },
   {
@@ -704,8 +704,8 @@
     "Subway ~408 m: Harlem-148 St",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -722,8 +722,8 @@
     "Subway ~367 m: Cathedral Pkwy (110 St)",
     "Park upkeep: strong (90% of 206 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.3,
+   "band": "walk-on",
+   "score": 0.05,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -740,8 +740,8 @@
     "Subway ~393 m: 72 St",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -757,8 +757,8 @@
     "Water ~82 m",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -775,8 +775,8 @@
     "Water ~24 m",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -792,8 +792,8 @@
     "Water ~31 m",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -809,8 +809,8 @@
     "Water ~16 m",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -827,8 +827,8 @@
     "Subway ~250 m: Utica Av",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -845,8 +845,8 @@
     "Subway ~364 m: Beach 36 St",
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -864,8 +864,8 @@
     "Subway ~806 m: 77 St",
     "Park upkeep: mixed (80% of 10 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -880,8 +880,8 @@
     "Water ~36 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -897,8 +897,8 @@
     "Water ~31 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -915,8 +915,8 @@
     "Subway ~839 m: Court St",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -933,8 +933,8 @@
     "Subway ~560 m: Nassau Av",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -951,8 +951,8 @@
     "Subway ~208 m: 135 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -969,8 +969,8 @@
     "Subway ~259 m: E 149 St",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -987,8 +987,8 @@
     "Subway ~912 m: Delancey St-Essex St",
     "Park upkeep: mixed (80% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1004,8 +1004,8 @@
     "Water ~44 m",
     "Park upkeep: mixed (73% of 11 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1022,8 +1022,8 @@
     "Subway ~352 m: Winthrop St",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1040,8 +1040,8 @@
     "Subway ~466 m: 46 St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1059,8 +1059,8 @@
     "Subway ~449 m: Kings Hwy",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1077,8 +1077,8 @@
     "Subway ~272 m: Kingsbridge Rd",
     "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1095,8 +1095,8 @@
     "Subway ~127 m: Harlem-148 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1113,8 +1113,8 @@
     "Subway ~574 m: 135 St",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1131,8 +1131,8 @@
     "Subway ~771 m: 21 St-Queensbridge",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1149,8 +1149,8 @@
     "Subway ~240 m: 125 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1166,8 +1166,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1183,8 +1183,8 @@
     "Subway ~578 m: Grand St",
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1201,8 +1201,8 @@
     "Subway ~996 m: Bay Pkwy",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1219,8 +1219,8 @@
     "Subway ~309 m: Lafayette Av",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1237,8 +1237,8 @@
     "Subway ~903 m: Broad Channel",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1255,8 +1255,8 @@
     "Subway ~347 m: Kings Hwy",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1273,8 +1273,8 @@
     "Subway ~256 m: Grant Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1290,8 +1290,8 @@
     "Water ~27 m",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1308,8 +1308,8 @@
     "Subway ~261 m: Myrtle-Willoughby Avs",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1326,8 +1326,8 @@
     "Subway ~364 m: Cleveland St",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1344,8 +1344,8 @@
     "Subway ~866 m: Jefferson Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1362,8 +1362,8 @@
     "Subway ~325 m: 67 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1380,8 +1380,8 @@
     "Subway ~321 m: 36 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1397,8 +1397,8 @@
     "Water ~20 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1413,8 +1413,8 @@
     "Water ~30 m",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1431,8 +1431,8 @@
     "Subway ~198 m: Lorimer St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1451,7 +1451,7 @@
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.19,
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1468,8 +1468,8 @@
     "Subway ~755 m: Baychester Av",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1486,8 +1486,8 @@
     "Subway ~364 m: Norwood-205 St",
     "Park upkeep: strong (94% of 18 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1504,8 +1504,8 @@
     "Subway ~535 m: 3 Av",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1522,8 +1522,8 @@
     "Subway ~309 m: Chambers St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1540,8 +1540,8 @@
     "Subway ~420 m: Kingston-Throop Avs",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1558,8 +1558,8 @@
     "Subway ~364 m: Bay Pkwy",
     "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1575,8 +1575,8 @@
     "Water ~35 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1592,8 +1592,8 @@
     "Water ~56 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1609,8 +1609,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1625,8 +1625,8 @@
     "Restroom ~63 m: Charleston Library, NYPL",
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1643,8 +1643,8 @@
     "Subway ~438 m: Mets-Willets Point",
     "Park upkeep: mixed (84% of 190 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1659,8 +1659,8 @@
     "Restroom ~39 m: World's Fair Playground",
     "Water ~47 m"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1677,8 +1677,8 @@
     "Subway ~583 m: 72 St",
     "Park upkeep: strong (97% of 35 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1695,8 +1695,8 @@
     "Subway ~742 m: 72 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1713,8 +1713,8 @@
     "Subway ~804 m: 82 St-Jackson Hts",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
    ],
-   "band": "closed",
-   "score": 0.19,
+   "band": "walk-on",
+   "score": 0.03,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1732,8 +1732,8 @@
     "Subway ~512 m: Houston St"
    ],
    "band": "walk-on",
-   "score": 0.22,
-   "coverage": "curve",
+   "score": 0.03,
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -1751,7 +1751,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "indoor",
-   "score": 0.19,
+   "score": 0.05,
    "coverage": "default",
    "demand_source": "none"
   }
