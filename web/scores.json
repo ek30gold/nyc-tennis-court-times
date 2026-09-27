@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T21:19:00-04:00",
+ "generated_at": "2026-09-27T04:00:25-04:00",
  "weather": {
-  "precip_now": 0.9,
-  "precip_last_6h_mm": 2.5,
-  "temperature_c": 13.2,
-  "wind_kmh": 27.4,
-  "gust_kmh": 52.2
+  "precip_now": 1.4,
+  "precip_last_6h_mm": 10.6,
+  "temperature_c": 14.5,
+  "wind_kmh": 27.2,
+  "gust_kmh": 66.2
  },
  "closures": [],
  "scores": [
@@ -130,7 +130,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -688,7 +688,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "lore",
    "demand_source": "none"
   },
   {
@@ -1733,7 +1733,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
