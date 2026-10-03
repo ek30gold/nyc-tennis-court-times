@@ -1,13 +1,13 @@
 {
  "Q347": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 5
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
  },
  "M010": {
   "label": "strong",
-  "pct_acceptable": 97,
-  "inspections": 347
+  "pct_acceptable": 96,
+  "inspections": 362
  },
  "Q004": {
   "label": "strong",
@@ -26,18 +26,18 @@
  },
  "Q005": {
   "label": "mixed",
-  "pct_acceptable": 86,
-  "inspections": 57
+  "pct_acceptable": 85,
+  "inspections": 61
  },
  "Q012": {
   "label": "mixed",
-  "pct_acceptable": 87,
-  "inspections": 23
+  "pct_acceptable": 88,
+  "inspections": 24
  },
  "M144": {
   "label": "strong",
   "pct_acceptable": 94,
-  "inspections": 16
+  "inspections": 17
  },
  "B244": {
   "label": "poor",
@@ -46,88 +46,88 @@
  },
  "R022": {
   "label": "mixed",
-  "pct_acceptable": 86,
-  "inspections": 29
+  "pct_acceptable": 87,
+  "inspections": 31
  },
  "M104": {
   "label": "strong",
   "pct_acceptable": 100,
-  "inspections": 23
+  "inspections": 24
  },
  "M028": {
   "label": "mixed",
-  "pct_acceptable": 74,
-  "inspections": 34
+  "pct_acceptable": 76,
+  "inspections": 38
  },
  "B058": {
   "label": "mixed",
-  "pct_acceptable": 80,
-  "inspections": 41
+  "pct_acceptable": 81,
+  "inspections": 42
  },
  "Q024": {
   "label": "mixed",
   "pct_acceptable": 81,
-  "inspections": 59
+  "inspections": 63
  },
  "B057": {
   "label": "mixed",
-  "pct_acceptable": 75,
-  "inspections": 84
+  "pct_acceptable": 76,
+  "inspections": 89
  },
  "X092": {
   "label": "strong",
-  "pct_acceptable": 94,
-  "inspections": 163
+  "pct_acceptable": 95,
+  "inspections": 173
  },
  "X010": {
   "label": "strong",
   "pct_acceptable": 98,
-  "inspections": 113
+  "inspections": 114
  },
  "B251": {
   "label": "mixed",
-  "pct_acceptable": 89,
-  "inspections": 28
+  "pct_acceptable": 90,
+  "inspections": 29
  },
  "Q051": {
   "label": "strong",
   "pct_acceptable": 92,
-  "inspections": 12
+  "inspections": 13
  },
  "Q102": {
   "label": "mixed",
   "pct_acceptable": 86,
-  "inspections": 35
+  "inspections": 36
  },
  "R031": {
   "label": "strong",
   "pct_acceptable": 94,
-  "inspections": 32
+  "inspections": 33
  },
  "B028": {
   "label": "poor",
-  "pct_acceptable": 63,
-  "inspections": 30
+  "pct_acceptable": 66,
+  "inspections": 32
  },
  "B166D": {
-  "label": "strong",
-  "pct_acceptable": 92,
-  "inspections": 12
+  "label": "mixed",
+  "pct_acceptable": 85,
+  "inspections": 13
  },
  "Q300A": {
   "label": "mixed",
   "pct_acceptable": 87,
-  "inspections": 30
+  "inspections": 31
  },
  "Q021": {
   "label": "mixed",
-  "pct_acceptable": 84,
-  "inspections": 57
+  "pct_acceptable": 85,
+  "inspections": 60
  },
  "M042": {
   "label": "mixed",
   "pct_acceptable": 77,
-  "inspections": 64
+  "inspections": 65
  },
  "B054": {
   "label": "mixed",
@@ -136,13 +136,13 @@
  },
  "M071": {
   "label": "strong",
-  "pct_acceptable": 90,
-  "inspections": 206
+  "pct_acceptable": 91,
+  "inspections": 213
  },
  "Q099": {
   "label": "mixed",
   "pct_acceptable": 84,
-  "inspections": 190
+  "inspections": 204
  },
  "B215": {
   "label": "poor",
@@ -157,17 +157,17 @@
  "Q015": {
   "label": "mixed",
   "pct_acceptable": 85,
-  "inspections": 141
+  "inspections": 143
  },
  "B007": {
   "label": "mixed",
-  "pct_acceptable": 82,
-  "inspections": 11
+  "pct_acceptable": 75,
+  "inspections": 12
  },
  "X039": {
   "label": "strong",
-  "pct_acceptable": 93,
-  "inspections": 180
+  "pct_acceptable": 94,
+  "inspections": 187
  },
  "M217": {
   "label": "mixed",
@@ -181,8 +181,8 @@
  },
  "X045": {
   "label": "mixed",
-  "pct_acceptable": 89,
-  "inspections": 35
+  "pct_acceptable": 87,
+  "inspections": 38
  },
  "B214": {
   "label": "poor",
@@ -196,28 +196,28 @@
  },
  "B082": {
   "label": "mixed",
-  "pct_acceptable": 85,
-  "inspections": 48
+  "pct_acceptable": 86,
+  "inspections": 49
  },
  "B372": {
   "label": "poor",
   "pct_acceptable": 60,
   "inspections": 5
  },
- "M353": {
-  "label": "strong",
-  "pct_acceptable": 97,
-  "inspections": 35
- },
  "Q369": {
   "label": "mixed",
   "pct_acceptable": 83,
   "inspections": 6
  },
+ "M353": {
+  "label": "strong",
+  "pct_acceptable": 97,
+  "inspections": 37
+ },
  "B294": {
   "label": "strong",
   "pct_acceptable": 100,
-  "inspections": 5
+  "inspections": 6
  },
  "X104": {
   "label": "strong",
@@ -239,6 +239,11 @@
   "pct_acceptable": 92,
   "inspections": 12
  },
+ "Q429": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
  "Q373": {
   "label": "poor",
   "pct_acceptable": 67,
@@ -246,13 +251,8 @@
  },
  "B060": {
   "label": "mixed",
-  "pct_acceptable": 80,
-  "inspections": 10
- },
- "Q429": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 5
+  "pct_acceptable": 75,
+  "inspections": 12
  },
  "Q460": {
   "label": "strong",
@@ -281,52 +281,77 @@
  },
  "Q121": {
   "label": "mixed",
-  "pct_acceptable": 83,
+  "pct_acceptable": 85,
+  "inspections": 13
+ },
+ "X044": {
+  "label": "strong",
+  "pct_acceptable": 100,
   "inspections": 12
  },
- "Q371": {
-  "label": "poor",
-  "pct_acceptable": 50,
-  "inspections": 12
- },
- "Q086": {
-  "label": "mixed",
-  "pct_acceptable": 73,
-  "inspections": 11
- },
- "Q008": {
-  "label": "mixed",
-  "pct_acceptable": 86,
-  "inspections": 22
- },
- "M159": {
-  "label": "mixed",
-  "pct_acceptable": 83,
-  "inspections": 6
- },
- "Q335": {
+ "B050": {
   "label": "poor",
   "pct_acceptable": 67,
   "inspections": 6
+ },
+ "Q008": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 23
+ },
+ "Q390": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 6
+ },
+ "Q502": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 5
+ },
+ "R153": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 7
+ },
+ "B025": {
+  "label": "mixed",
+  "pct_acceptable": 75,
+  "inspections": 12
  },
  "B129": {
   "label": "mixed",
   "pct_acceptable": 89,
   "inspections": 19
  },
- "B050": {
-  "label": "poor",
-  "pct_acceptable": 60,
-  "inspections": 5
- },
- "Q413": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 12
- },
- "B210W": {
+ "Q218": {
   "label": "poor",
   "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "Q086": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 12
+ },
+ "Q014": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "M205": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "M159": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "M227": {
+  "label": "strong",
+  "pct_acceptable": 100,
   "inspections": 6
  },
  "Q131": {
@@ -339,80 +364,10 @@
   "pct_acceptable": 17,
   "inspections": 6
  },
- "Q107": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 12
- },
- "Q014": {
-  "label": "poor",
-  "pct_acceptable": 67,
-  "inspections": 6
- },
- "X044": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 12
- },
- "Q390": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 5
- },
- "Q092": {
-  "label": "poor",
-  "pct_acceptable": 50,
-  "inspections": 6
- },
- "B025": {
-  "label": "mixed",
-  "pct_acceptable": 75,
-  "inspections": 12
- },
- "Q502": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 5
- },
- "M201": {
-  "label": "mixed",
-  "pct_acceptable": 80,
-  "inspections": 5
- },
- "M227": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 6
- },
- "B068": {
-  "label": "mixed",
-  "pct_acceptable": 83,
-  "inspections": 6
- },
- "M045": {
-  "label": "mixed",
-  "pct_acceptable": 83,
-  "inspections": 6
- },
- "R153": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 7
- },
- "Q218": {
-  "label": "poor",
-  "pct_acceptable": 67,
-  "inspections": 6
- },
- "M205": {
-  "label": "mixed",
-  "pct_acceptable": 83,
-  "inspections": 6
- },
  "X233": {
   "label": "strong",
   "pct_acceptable": 100,
-  "inspections": 5
+  "inspections": 6
  },
  "B217": {
   "label": "poor",
@@ -439,9 +394,59 @@
   "pct_acceptable": 83,
   "inspections": 6
  },
+ "Q335": {
+  "label": "poor",
+  "pct_acceptable": 67,
+  "inspections": 6
+ },
+ "M045": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "Q371": {
+  "label": "poor",
+  "pct_acceptable": 46,
+  "inspections": 13
+ },
+ "Q107": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 13
+ },
+ "Q413": {
+  "label": "strong",
+  "pct_acceptable": 100,
+  "inspections": 14
+ },
  "B051": {
   "label": "poor",
   "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "B210W": {
+  "label": "poor",
+  "pct_acceptable": 57,
+  "inspections": 7
+ },
+ "Q092": {
+  "label": "poor",
+  "pct_acceptable": 50,
+  "inspections": 6
+ },
+ "M201": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "B068": {
+  "label": "mixed",
+  "pct_acceptable": 83,
+  "inspections": 6
+ },
+ "B234": {
+  "label": "strong",
+  "pct_acceptable": 100,
   "inspections": 6
  },
  "R038A": {
@@ -459,20 +464,15 @@
   "pct_acceptable": 83,
   "inspections": 6
  },
- "B234": {
-  "label": "strong",
-  "pct_acceptable": 100,
-  "inspections": 5
- },
  "Q001A": {
   "label": "strong",
   "pct_acceptable": 100,
-  "inspections": 5
+  "inspections": 6
  },
  "B267": {
   "label": "poor",
   "pct_acceptable": 60,
   "inspections": 5
  },
- "_generated_at": "2026-09-16T14:14:58+00:00"
+ "_generated_at": "2026-10-03T14:19:51+00:00"
 }
