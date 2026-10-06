@@ -1,16 +1,16 @@
 {
- "fetched_at": "2026-10-06T10:05:42+00:00",
+ "fetched_at": "2026-10-06T16:43:30+00:00",
  "closed_park_ids": {},
  "planned_park_ids": {
   "B028": [
    {
     "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
-    "phase": "construction",
+    "phase": "design-procurement",
     "construction_pct": "0.0"
    },
    {
     "title": "Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
-    "phase": "design-procurement",
+    "phase": "construction",
     "construction_pct": "0.0"
    }
   ],
