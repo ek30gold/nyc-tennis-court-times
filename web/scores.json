@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-11T16:10:26-04:00",
+ "generated_at": "2026-10-11T20:26:18-04:00",
  "weather": {
-  "precip_now": 0.3,
-  "precip_last_6h_mm": 8.6,
-  "temperature_c": 16.4,
-  "wind_kmh": 20.2,
-  "gust_kmh": 51.8
+  "precip_now": 0.4,
+  "precip_last_6h_mm": 17.3,
+  "temperature_c": 14.8,
+  "wind_kmh": 20.5,
+  "gust_kmh": 42.8
  },
  "closures": [],
  "scores": [
@@ -77,7 +77,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -164,7 +164,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -182,7 +182,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -200,7 +200,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -304,7 +304,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -323,7 +323,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "lore",
    "demand_source": "none"
   },
   {
@@ -340,7 +340,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
@@ -358,7 +358,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "curve",
+   "coverage": "default",
    "demand_source": "none"
   },
   {
