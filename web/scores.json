@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-23T00:34:16-04:00",
+ "generated_at": "2026-10-23T05:55:55-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 12.3,
-  "wind_kmh": 17.0,
-  "gust_kmh": 35.6
+  "temperature_c": 8.6,
+  "wind_kmh": 12.5,
+  "gust_kmh": 30.2
  },
  "closures": [],
  "scores": [
@@ -723,7 +723,7 @@
     "Park upkeep: strong (91% of 213 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.05,
+   "score": 0.04,
    "coverage": "lore",
    "demand_source": "none"
   },
