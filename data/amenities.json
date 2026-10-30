@@ -389,7 +389,7 @@
  "X344": {
   "restroom": {
    "name": "Mill Pond Indoor Tennis",
-   "dist_m": 16
+   "dist_m": 87
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -467,10 +467,7 @@
   }
  },
  "Q007": {
-  "restroom": {
-   "name": "Bayswater Playground",
-   "dist_m": 47
-  },
+  "restroom": null,
   "fountain": {
    "name": "Drinking fountain",
    "dist_m": 29
@@ -495,8 +492,8 @@
  },
  "Q347": {
   "restroom": {
-   "name": "Mitchell-Linden Library, QPL",
-   "dist_m": 125
+   "name": "Colden Playground",
+   "dist_m": 29
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -585,8 +582,8 @@
  },
  "B051": {
   "restroom": {
-   "name": "Kings Highway Library, BPL",
-   "dist_m": 739
+   "name": "Kelly Park Playground",
+   "dist_m": 107
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -654,7 +651,10 @@
   }
  },
  "B025": {
-  "restroom": null,
+  "restroom": {
+   "name": "Carnegie Playground",
+   "dist_m": 77
+  },
   "fountain": {
    "name": "Drinking fountain",
    "dist_m": 21
@@ -702,8 +702,8 @@
  },
  "B380": {
   "restroom": {
-   "name": "Robert E. Venable Park",
-   "dist_m": 68
+   "name": "Cypress Hills Playground",
+   "dist_m": 639
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -879,8 +879,8 @@
  },
  "Q390": {
   "restroom": {
-   "name": "Clintonville Playground",
-   "dist_m": 105
+   "name": "Whitestone Library, QPL",
+   "dist_m": 615
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -926,8 +926,8 @@
  },
  "M353": {
   "restroom": {
-   "name": "Classic Playground",
-   "dist_m": 376
+   "name": "North Riverside Blvd and Slopes",
+   "dist_m": 105
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -946,8 +946,8 @@
  },
  "Q502": {
   "restroom": {
-   "name": "Travers Park",
-   "dist_m": 110
+   "name": "Jackson Heights Library, QPL",
+   "dist_m": 502
   },
   "fountain": {
    "name": "Drinking fountain",
@@ -974,5 +974,5 @@
    "dist_m": 74
   }
  },
- "_generated_at": "2026-10-03T14:19:49+00:00"
+ "_generated_at": "2026-10-30T15:58:36+00:00"
 }
