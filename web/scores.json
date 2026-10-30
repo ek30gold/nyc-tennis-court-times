@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-30T09:59:14-04:00",
+ "generated_at": "2026-10-30T15:10:08-04:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 17.6,
-  "wind_kmh": 12.1,
-  "gust_kmh": 26.6
+  "temperature_c": 19.9,
+  "wind_kmh": 24.0,
+  "gust_kmh": 36.7
  },
  "closures": [],
  "scores": [
@@ -76,7 +76,7 @@
     "Subway ~512 m: Cleveland St"
    ],
    "band": "walk-on",
-   "score": 0.17,
+   "score": 0.2,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -129,7 +129,7 @@
     "Park upkeep: strong (98% of 114 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.38,
+   "score": 0.39,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -163,7 +163,7 @@
     "Park upkeep: mixed (81% of 63 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.55,
+   "score": 0.52,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -181,7 +181,7 @@
     "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.51,
+   "score": 0.49,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -199,7 +199,7 @@
     "Park upkeep: mixed (76% of 38 inspections passed, 2024+)"
    ],
    "band": "walk-on",
-   "score": 0.34,
+   "score": 0.23,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -286,7 +286,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "indoor",
-   "score": 0.25,
+   "score": 0.33,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -302,8 +302,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (90% of 29 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.42,
+   "band": "30-60 min",
+   "score": 0.65,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -321,8 +321,8 @@
     "Subway ~288 m: 96 St",
     "Park upkeep: strong (96% of 362 inspections passed, 2024+)"
    ],
-   "band": "30-60 min",
-   "score": 1.06,
+   "band": "1h+",
+   "score": 1.46,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -339,7 +339,7 @@
     "Park upkeep: mixed (76% of 89 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.38,
+   "score": 0.62,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -356,8 +356,8 @@
     "Subway ~263 m: Inwood-207 St",
     "Park upkeep: mixed (77% of 65 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.42,
+   "band": "walk-on",
+   "score": 0.33,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -687,7 +687,7 @@
     "Park upkeep: mixed (81% of 42 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.61,
+   "score": 0.59,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -699,7 +699,7 @@
    "court_count": 16,
    "popup_lines": [
     "Concrete",
-    "Restroom ~16 m: Mill Pond Indoor Tennis",
+    "Restroom ~87 m: Mill Pond Indoor Tennis",
     "Water ~80 m",
     "Subway ~408 m: Harlem-148 St",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
@@ -840,7 +840,6 @@
    "court_count": 6,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~47 m: Bayswater Playground",
     "Water ~29 m",
     "Subway ~364 m: Beach 36 St",
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
@@ -893,7 +892,7 @@
    "court_count": 1,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~125 m: Mitchell-Linden Library, QPL",
+    "Restroom ~29 m: Colden Playground",
     "Water ~31 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
@@ -1054,7 +1053,7 @@
    "popup_lines": [
     "Asphalt",
     "Planned work: Kelly Park Playground Tennis Courts Reconstruction",
-    "Restroom ~739 m: Kings Highway Library, BPL",
+    "Restroom ~107 m: Kelly Park Playground",
     "Water ~23 m",
     "Subway ~449 m: Kings Hwy",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
@@ -1179,6 +1178,7 @@
    "court_count": 2,
    "popup_lines": [
     "Asphalt",
+    "Restroom ~77 m: Carnegie Playground",
     "Water ~21 m",
     "Subway ~578 m: Grand St",
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
@@ -1268,7 +1268,7 @@
    "court_count": 1,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~68 m: Robert E. Venable Park",
+    "Restroom ~639 m: Cypress Hills Playground",
     "Water ~20 m",
     "Subway ~256 m: Grant Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
@@ -1588,7 +1588,7 @@
    "court_count": 2,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~105 m: Clintonville Playground",
+    "Restroom ~615 m: Whitestone Library, QPL",
     "Water ~56 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
@@ -1672,7 +1672,7 @@
    "court_count": 1,
    "popup_lines": [
     "Natural",
-    "Restroom ~376 m: Classic Playground",
+    "Restroom ~105 m: North Riverside Blvd and Slopes",
     "Water ~44 m",
     "Subway ~583 m: 72 St",
     "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
@@ -1708,7 +1708,7 @@
    "court_count": 2,
    "popup_lines": [
     "Asphalt",
-    "Restroom ~110 m: Travers Park",
+    "Restroom ~502 m: Jackson Heights Library, QPL",
     "Water ~26 m",
     "Subway ~804 m: 82 St-Jackson Hts",
     "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
@@ -1732,7 +1732,7 @@
     "Subway ~512 m: Houston St"
    ],
    "band": "short",
-   "score": 0.51,
+   "score": 0.45,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -1751,7 +1751,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "indoor",
-   "score": 0.25,
+   "score": 0.33,
    "coverage": "default",
    "demand_source": "none"
   }
