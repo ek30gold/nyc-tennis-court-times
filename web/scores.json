@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-02T10:34:27-05:00",
+ "generated_at": "2026-11-02T18:25:08-05:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 16.0,
-  "wind_kmh": 10.0,
-  "gust_kmh": 22.3
+  "temperature_c": 14.1,
+  "wind_kmh": 9.4,
+  "gust_kmh": 21.6
  },
  "closures": [],
  "scores": [
@@ -20,10 +20,10 @@
     "Pickleball courts on site too",
     "Restroom ~53 m: Crocheron Park Zone 1",
     "Water ~45 m",
-    "Park upkeep: mixed (88% of 24 inspections passed, 2024+)"
+    "Park upkeep: mixed (88% of 25 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -38,10 +38,10 @@
     "Restroom ~109 m: Shore Road Park Zone 4",
     "Water ~121 m",
     "Subway ~689 m: Bay Ridge-95 St",
-    "Park upkeep: mixed (86% of 49 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 50 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -56,10 +56,10 @@
     "Planned work: Dyker Beach Park Path, Tennis, Handball and Multipurpose Play Area Reconstruction",
     "Restroom ~86 m: Dyker Beach Park Zone 1",
     "Water ~35 m",
-    "Park upkeep: poor (66% of 32 inspections passed, 2024+)"
+    "Park upkeep: poor (65% of 34 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -75,8 +75,8 @@
     "Water ~36 m",
     "Subway ~512 m: Cleveland St"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.46,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -92,8 +92,8 @@
     "Water ~18 m",
     "Park upkeep: strong (100% of 24 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -108,10 +108,10 @@
     "Restroom ~199 m: Fort Greene Park Zone 3",
     "Water ~17 m",
     "Subway ~381 m: Fulton St",
-    "Park upkeep: strong (94% of 32 inspections passed, 2024+)"
+    "Park upkeep: strong (94% of 34 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.3,
+   "band": "closed",
+   "score": 0.83,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -126,10 +126,10 @@
     "Restroom ~47 m: Crotona Tennis House & Courts",
     "Water ~34 m",
     "Subway ~661 m: 174 St",
-    "Park upkeep: strong (98% of 114 inspections passed, 2024+)"
+    "Park upkeep: strong (98% of 118 inspections passed, 2024+)"
    ],
    "band": "short",
-   "score": 0.51,
+   "score": 0.61,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -145,8 +145,8 @@
     "Water ~179 m",
     "Park upkeep: mixed (83% of 23 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -160,10 +160,10 @@
     "Asphalt, Hard Top",
     "Restroom ~514 m: Playground",
     "Water ~44 m",
-    "Park upkeep: mixed (81% of 63 inspections passed, 2024+)"
+    "Park upkeep: mixed (80% of 66 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.55,
+   "band": "closed",
+   "score": 0.54,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -178,10 +178,10 @@
     "Restroom ~77 m: Astoria Park Zone 1",
     "Water ~28 m",
     "Subway ~812 m: Astoria Blvd",
-    "Park upkeep: strong (91% of 22 inspections passed, 2024+)"
+    "Park upkeep: strong (91% of 23 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.59,
+   "band": "closed",
+   "score": 0.34,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -196,10 +196,10 @@
     "Restroom ~107 m: Fort Washington Park Zone 2A",
     "Water ~48 m",
     "Subway ~561 m: 175 St",
-    "Park upkeep: mixed (76% of 38 inspections passed, 2024+)"
+    "Park upkeep: mixed (78% of 40 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.38,
+   "band": "closed",
+   "score": 0.77,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -215,8 +215,8 @@
     "Water ~23 m",
     "Park upkeep: strong (94% of 33 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -232,8 +232,8 @@
     "Water ~42 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -247,10 +247,10 @@
     "Asphalt",
     "Restroom ~782 m: Pelham South Park Headquarters",
     "Water ~485 m",
-    "Park upkeep: strong (94% of 187 inspections passed, 2024+)"
+    "Park upkeep: strong (94% of 192 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -264,10 +264,10 @@
     "Asphalt",
     "Restroom ~88 m: Kaiser Park Zone 1",
     "Water ~54 m",
-    "Park upkeep: mixed (89% of 19 inspections passed, 2024+)"
+    "Park upkeep: mixed (85% of 20 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -286,7 +286,7 @@
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
    "band": "indoor",
-   "score": 0.25,
+   "score": 0.78,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -300,10 +300,10 @@
     "Asphalt",
     "Restroom ~379 m: Manhattan Beach Zone 2",
     "Water ~34 m",
-    "Park upkeep: mixed (90% of 29 inspections passed, 2024+)"
+    "Park upkeep: strong (90% of 30 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.51,
+   "band": "closed",
+   "score": 0.5,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -319,10 +319,10 @@
     "Restroom ~55 m: Reservoir (Northwest)",
     "Water ~57 m",
     "Subway ~288 m: 96 St",
-    "Park upkeep: strong (96% of 362 inspections passed, 2024+)"
+    "Park upkeep: strong (96% of 370 inspections passed, 2024+)"
    ],
    "band": "indoor",
-   "score": 0.62,
+   "score": 1.5,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -336,10 +336,10 @@
     "Asphalt",
     "Restroom ~174 m: Marine Park Zone 1",
     "Water ~37 m",
-    "Park upkeep: mixed (76% of 89 inspections passed, 2024+)"
+    "Park upkeep: mixed (76% of 96 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.38,
+   "band": "closed",
+   "score": 0.65,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -354,10 +354,10 @@
     "Restroom ~52 m: Inwood Hill Park Zone 1",
     "Water ~14 m",
     "Subway ~263 m: Inwood-207 St",
-    "Park upkeep: mixed (77% of 65 inspections passed, 2024+)"
+    "Park upkeep: mixed (77% of 69 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.26,
+   "band": "closed",
+   "score": 0.65,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -372,10 +372,10 @@
     "Restroom ~206 m: Lincoln Terrace Park / Arthur S. Somers Playground",
     "Water ~24 m",
     "Subway ~320 m: Sutter Av-Rutland Rd",
-    "Park upkeep: mixed (84% of 25 inspections passed, 2024+)"
+    "Park upkeep: mixed (85% of 26 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -389,10 +389,10 @@
     "Asphalt",
     "Restroom ~346 m: Major Deegan So. Gas Station",
     "Water ~290 m",
-    "Park upkeep: strong (95% of 173 inspections passed, 2024+)"
+    "Park upkeep: strong (94% of 178 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -407,10 +407,10 @@
     "Restroom ~129 m: Tennis Courts - Forest Parkway",
     "Water ~4 m",
     "Subway ~578 m: Woodhaven Blvd",
-    "Park upkeep: mixed (85% of 143 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 151 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -424,10 +424,10 @@
     "Asphalt - lit for night play",
     "Restroom ~46 m: Cunningham Park Indoor Tennis",
     "Water ~30 m",
-    "Park upkeep: mixed (85% of 60 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 64 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -444,8 +444,8 @@
     "Subway ~588 m: 3 Av-149 St",
     "Park upkeep: mixed (87% of 38 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -462,8 +462,8 @@
     "Subway ~507 m: Bay Ridge-95 St",
     "Park upkeep: poor (57% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -477,10 +477,10 @@
     "Asphalt",
     "Restroom ~33 m: Virginia Principe Playground",
     "Water ~28 m",
-    "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
+    "Park upkeep: mixed (83% of 12 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -497,8 +497,8 @@
     "Water ~34 m",
     "Park upkeep: mixed (85% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -512,10 +512,10 @@
     "Asphalt",
     "Restroom ~54 m: Silver Lake Park Playground",
     "Water ~26 m",
-    "Park upkeep: mixed (87% of 31 inspections passed, 2024+)"
+    "Park upkeep: mixed (85% of 34 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -531,8 +531,8 @@
     "Water ~115 m",
     "Park upkeep: mixed (85% of 61 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -547,10 +547,10 @@
     "Restroom ~56 m: Linden Park",
     "Water ~22 m",
     "Subway ~810 m: Van Siclen Av",
-    "Park upkeep: poor (50% of 12 inspections passed, 2024+)"
+    "Park upkeep: poor (46% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -567,8 +567,8 @@
     "Subway ~810 m: Beach 60 St",
     "Park upkeep: poor (46% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -581,10 +581,10 @@
    "popup_lines": [
     "Hard Top",
     "Water ~72 m",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -598,10 +598,10 @@
     "Asphalt",
     "Restroom ~64 m: Juniper North Playground Tennis",
     "Water ~50 m",
-    "Park upkeep: mixed (86% of 36 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 37 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -615,10 +615,10 @@
     "Asphalt",
     "Restroom ~144 m: Nautilus Playground",
     "Water ~21 m",
-    "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
+    "Park upkeep: strong (95% of 38 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -632,10 +632,10 @@
     "Asphalt",
     "Restroom ~27 m: Ella Fitzgerald Playground",
     "Water ~18 m",
-    "Park upkeep: mixed (87% of 31 inspections passed, 2024+)"
+    "Park upkeep: mixed (82% of 33 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -651,8 +651,8 @@
     "Water ~22 m",
     "Park upkeep: strong (100% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -668,8 +668,8 @@
     "Water ~46 m",
     "Park upkeep: strong (94% of 17 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -686,8 +686,8 @@
     "Subway ~427 m: Nassau Av",
     "Park upkeep: mixed (81% of 42 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.54,
+   "band": "closed",
+   "score": 0.62,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -704,8 +704,8 @@
     "Subway ~408 m: Harlem-148 St",
     "Park upkeep: mixed (82% of 11 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -720,10 +720,10 @@
     "Restroom ~214 m: Hudson Beach Volleyball Courts & Caf\u00e9",
     "Water ~20 m",
     "Subway ~367 m: Cathedral Pkwy (110 St)",
-    "Park upkeep: strong (91% of 213 inspections passed, 2024+)"
+    "Park upkeep: strong (91% of 223 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.34,
+   "band": "closed",
+   "score": 0.95,
    "coverage": "lore",
    "demand_source": "none"
   },
@@ -738,10 +738,10 @@
     "Restroom ~26 m: St. Catherine's Park",
     "Water ~12 m",
     "Subway ~393 m: 72 St",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -757,8 +757,8 @@
     "Water ~82 m",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -773,10 +773,10 @@
     "Planned work: Seton Park Tennis Courts Reconstruction and Pickleball Court Construction",
     "Restroom ~87 m: Seton Park Playground",
     "Water ~24 m",
-    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -792,8 +792,8 @@
     "Water ~31 m",
     "Park upkeep: mixed (85% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -809,8 +809,8 @@
     "Water ~16 m",
     "Park upkeep: strong (100% of 14 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -827,8 +827,8 @@
     "Subway ~250 m: Utica Av",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -844,8 +844,8 @@
     "Subway ~364 m: Beach 36 St",
     "Park upkeep: mixed (70% of 10 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -863,8 +863,8 @@
     "Subway ~806 m: 77 St",
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -877,10 +877,10 @@
    "popup_lines": [
     "Asphalt",
     "Water ~36 m",
-    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -896,8 +896,8 @@
     "Water ~31 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -914,8 +914,8 @@
     "Subway ~839 m: Court St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -930,10 +930,10 @@
     "Restroom ~185 m: McCarren Park Zone 1",
     "Water ~37 m",
     "Subway ~560 m: Nassau Av",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -950,8 +950,8 @@
     "Subway ~208 m: 135 St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -968,8 +968,8 @@
     "Subway ~259 m: E 149 St",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -986,8 +986,8 @@
     "Subway ~912 m: Delancey St-Essex St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1001,10 +1001,10 @@
     "Asphalt",
     "Restroom ~143 m: Leonardo Ingravallo Playground",
     "Water ~44 m",
-    "Park upkeep: poor (67% of 12 inspections passed, 2024+)"
+    "Park upkeep: poor (69% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1019,10 +1019,10 @@
     "Restroom ~37 m: Winthrop Playground",
     "Water ~15 m",
     "Subway ~352 m: Winthrop St",
-    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1039,8 +1039,8 @@
     "Subway ~466 m: 46 St",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1056,10 +1056,10 @@
     "Restroom ~107 m: Kelly Park Playground",
     "Water ~23 m",
     "Subway ~449 m: Kings Hwy",
-    "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
+    "Park upkeep: poor (43% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1074,10 +1074,10 @@
     "Restroom ~85 m: St. James Park",
     "Water ~75 m",
     "Subway ~272 m: Kingsbridge Rd",
-    "Park upkeep: strong (100% of 12 inspections passed, 2024+)"
+    "Park upkeep: strong (92% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1092,10 +1092,10 @@
     "Restroom ~65 m: Frederick Johnson Playground",
     "Water ~3 m",
     "Subway ~127 m: Harlem-148 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1112,8 +1112,8 @@
     "Subway ~574 m: 135 St",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1130,8 +1130,8 @@
     "Subway ~771 m: 21 St-Queensbridge",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1146,10 +1146,10 @@
     "Restroom ~97 m: Playground 123",
     "Water ~27 m",
     "Subway ~240 m: 125 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1165,8 +1165,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1181,10 +1181,10 @@
     "Restroom ~77 m: Carnegie Playground",
     "Water ~21 m",
     "Subway ~578 m: Grand St",
-    "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
+    "Park upkeep: mixed (77% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1201,8 +1201,8 @@
     "Subway ~996 m: Bay Pkwy",
     "Park upkeep: mixed (75% of 12 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1219,8 +1219,8 @@
     "Subway ~309 m: Lafayette Av",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1237,8 +1237,8 @@
     "Subway ~903 m: Broad Channel",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1253,10 +1253,10 @@
     "Restroom ~118 m: McDonald Playground",
     "Water ~43 m",
     "Subway ~347 m: Kings Hwy",
-    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (71% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1273,8 +1273,8 @@
     "Subway ~256 m: Grant Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1290,8 +1290,8 @@
     "Water ~27 m",
     "Park upkeep: strong (92% of 13 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1308,8 +1308,8 @@
     "Subway ~261 m: Myrtle-Willoughby Avs",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1326,8 +1326,8 @@
     "Subway ~364 m: Cleveland St",
     "Park upkeep: poor (17% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1344,8 +1344,8 @@
     "Subway ~866 m: Jefferson Av",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1362,8 +1362,8 @@
     "Subway ~325 m: 67 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1380,8 +1380,8 @@
     "Subway ~321 m: 36 Av",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1397,8 +1397,8 @@
     "Water ~20 m",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1413,8 +1413,8 @@
     "Water ~30 m",
     "Park upkeep: poor (50% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1431,8 +1431,8 @@
     "Subway ~198 m: Lorimer St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1450,8 +1450,8 @@
     "Subway ~545 m: Baychester Av",
     "Park upkeep: strong (92% of 12 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "short",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1466,10 +1466,10 @@
     "Restroom ~64 m: Stars & Stripes Playground",
     "Water ~25 m",
     "Subway ~755 m: Baychester Av",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1484,10 +1484,10 @@
     "Restroom ~159 m: Williamsbridge Oval",
     "Water ~35 m",
     "Subway ~364 m: Norwood-205 St",
-    "Park upkeep: strong (94% of 18 inspections passed, 2024+)"
+    "Park upkeep: strong (95% of 19 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1504,8 +1504,8 @@
     "Subway ~535 m: 3 Av",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1522,8 +1522,8 @@
     "Subway ~309 m: Chambers St",
     "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1540,8 +1540,8 @@
     "Subway ~420 m: Kingston-Throop Avs",
     "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1556,10 +1556,10 @@
     "Restroom ~43 m: Friends Field",
     "Water ~26 m",
     "Subway ~364 m: Bay Pkwy",
-    "Park upkeep: poor (60% of 5 inspections passed, 2024+)"
+    "Park upkeep: poor (67% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1573,10 +1573,10 @@
     "Asphalt",
     "Restroom ~37 m: Louis Pasteur Park",
     "Water ~35 m",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (71% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1592,8 +1592,8 @@
     "Water ~56 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1609,8 +1609,8 @@
     "Water ~40 m",
     "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1625,8 +1625,8 @@
     "Restroom ~63 m: Charleston Library, NYPL",
     "Park upkeep: strong (100% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1641,10 +1641,10 @@
     "Restroom ~101 m: Passerelle",
     "Water ~73 m",
     "Subway ~438 m: Mets-Willets Point",
-    "Park upkeep: mixed (84% of 204 inspections passed, 2024+)"
+    "Park upkeep: mixed (84% of 207 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1659,8 +1659,8 @@
     "Restroom ~39 m: World's Fair Playground",
     "Water ~47 m"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1675,10 +1675,10 @@
     "Restroom ~105 m: North Riverside Blvd and Slopes",
     "Water ~44 m",
     "Subway ~583 m: 72 St",
-    "Park upkeep: strong (97% of 37 inspections passed, 2024+)"
+    "Park upkeep: strong (97% of 39 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1693,10 +1693,10 @@
     "Restroom ~44 m: John Jay Park",
     "Water ~22 m",
     "Subway ~742 m: 72 St",
-    "Park upkeep: mixed (83% of 6 inspections passed, 2024+)"
+    "Park upkeep: mixed (86% of 7 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1711,10 +1711,10 @@
     "Restroom ~502 m: Jackson Heights Library, QPL",
     "Water ~26 m",
     "Subway ~804 m: 82 St-Jackson Hts",
-    "Park upkeep: strong (100% of 5 inspections passed, 2024+)"
+    "Park upkeep: strong (100% of 6 inspections passed, 2024+)"
    ],
-   "band": "walk-on",
-   "score": 0.21,
+   "band": "closed",
+   "score": 0.6,
    "coverage": "default",
    "demand_source": "none"
   },
@@ -1732,7 +1732,7 @@
     "Subway ~512 m: Houston St"
    ],
    "band": "short",
-   "score": 0.42,
+   "score": 0.38,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -1751,7 +1751,7 @@
     "Subway ~526 m: Roosevelt Island"
    ],
    "band": "indoor",
-   "score": 0.25,
+   "score": 0.78,
    "coverage": "default",
    "demand_source": "none"
   }
