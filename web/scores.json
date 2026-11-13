@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-13T02:47:35-05:00",
+ "generated_at": "2026-11-13T11:07:54-05:00",
  "weather": {
-  "precip_now": 0.3,
-  "precip_last_6h_mm": 6.2,
-  "temperature_c": 7.0,
-  "wind_kmh": 17.1,
-  "gust_kmh": 40.7
+  "precip_now": 0.2,
+  "precip_last_6h_mm": 4.9,
+  "temperature_c": 3.2,
+  "wind_kmh": 18.1,
+  "gust_kmh": 33.1
  },
  "closures": [],
  "scores": [
@@ -77,7 +77,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -130,7 +130,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -164,7 +164,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -182,7 +182,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -200,7 +200,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -304,7 +304,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -323,7 +323,7 @@
    ],
    "band": "indoor",
    "score": 0.0,
-   "coverage": "lore",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -340,7 +340,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -358,7 +358,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -688,7 +688,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "lore",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
@@ -1733,7 +1733,7 @@
    ],
    "band": "closed",
    "score": 0.0,
-   "coverage": "default",
+   "coverage": "curve",
    "demand_source": "none"
   },
   {
