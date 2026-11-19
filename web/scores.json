@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-18T16:19:39-05:00",
+ "generated_at": "2026-11-19T16:22:53-05:00",
  "weather": {
   "precip_now": 0,
   "precip_last_6h_mm": 0,
-  "temperature_c": 16.1,
-  "wind_kmh": 8.2,
-  "gust_kmh": 16.6
+  "temperature_c": 16.0,
+  "wind_kmh": 8.0,
+  "gust_kmh": 12.6
  },
  "closures": [],
  "scores": [
@@ -75,8 +75,8 @@
     "Water ~36 m",
     "Subway ~512 m: Cleveland St"
    ],
-   "band": "walk-on",
-   "score": 0.25,
+   "band": "short",
+   "score": 0.35,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -128,8 +128,8 @@
     "Subway ~661 m: 174 St",
     "Park upkeep: strong (98% of 118 inspections passed, 2024+)"
    ],
-   "band": "short",
-   "score": 0.5,
+   "band": "30-60 min",
+   "score": 0.65,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -163,7 +163,7 @@
     "Park upkeep: mixed (80% of 66 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.8,
+   "score": 0.7,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -199,7 +199,7 @@
     "Park upkeep: mixed (78% of 40 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.65,
+   "score": 0.75,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -303,7 +303,7 @@
     "Park upkeep: strong (90% of 30 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.6,
+   "score": 0.35,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -322,7 +322,7 @@
     "Park upkeep: strong (96% of 370 inspections passed, 2024+)"
    ],
    "band": "indoor",
-   "score": 1.25,
+   "score": 1.5,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -339,7 +339,7 @@
     "Park upkeep: mixed (76% of 96 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.65,
+   "score": 0.8,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -357,7 +357,7 @@
     "Park upkeep: mixed (77% of 69 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.55,
+   "score": 0.4,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -687,7 +687,7 @@
     "Park upkeep: mixed (81% of 42 inspections passed, 2024+)"
    ],
    "band": "closed",
-   "score": 0.72,
+   "score": 0.81,
    "coverage": "curve",
    "demand_source": "none"
   },
@@ -1731,8 +1731,8 @@
     "Water ~483 m",
     "Subway ~512 m: Houston St"
    ],
-   "band": "30-60 min",
-   "score": 0.65,
+   "band": "short",
+   "score": 0.55,
    "coverage": "curve",
    "demand_source": "none"
   },
