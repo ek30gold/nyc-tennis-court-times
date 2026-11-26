@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-26T09:58:16-05:00",
+ "generated_at": "2026-11-26T18:43:10-05:00",
  "weather": {
   "precip_now": 0.3,
-  "precip_last_6h_mm": 0,
-  "temperature_c": 6.5,
-  "wind_kmh": 33.1,
-  "gust_kmh": 67.7
+  "precip_last_6h_mm": 11.6,
+  "temperature_c": 7.2,
+  "wind_kmh": 40.8,
+  "gust_kmh": 88.6
  },
  "closures": [],
  "scores": [
